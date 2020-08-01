@@ -3,11 +3,11 @@
 VAR fish_trust = 0
 VAR tank_plan = 0
 
--> FishConversation
+
 
 === FishConversation ===
 
-As you approach the tank, the fish gather close to the glass, excitedly watching your progress. There seems to be one member of each fish species you've ever seen, and many more you don't recognise. They school forming a kaleidoscopic show of colours and patterns, and chatter in one voice made of hundreds.
+As you approach the tank, the fish gather close to the glass, excitedly watching your progress. There seems to be one member of each fish species you've ever seen, and many more you don't recognise. They swim together forming a kaleidoscopic show of colours and patterns, chattering in one voice made of hundreds.
 "Who are you? Welcome! How did you get out? No one has ever escaped before!"
 * "The octopus seems to escape all the time." 
     
@@ -80,11 +80,15 @@ The fish turn back around, they seem to trust you again.
 "You say that there's a way out of this room, if we can leave our tank?"
     * {tank_plan > 1} "Did you say you had a plan for getting out of this tank?" you ask.
         Their reply is cautious. "We think so. The plan is a little complicated though..."
+        //needs to go somewhere
+        -> DONE
     * "Yes, but first we should deal with this mantis shrimp.["] Where is he?"
         "He hides in the back left corner of the tank. It is too dangerous to go there though. Fish disappear every night."
         "That's terrible. I think that with my thick shell I'll be okay though. I'll talk to him."
-        ->Mantis_Shrimp
+        //->Mantis_Shrimp
+        -> DONE
     * "I'll need to go and talk to the octopus first, I'll be back soon"
-    ->ReturnToTank
+    //->ReturnToTank
+    -> DONE
 
 ->END

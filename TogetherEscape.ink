@@ -50,6 +50,6 @@
  -  "The tank is down there, good luck."
     
 *   [Follow the way the Octopus points]
-        -> END //put the next chapter link here. 
+       -> FishConversation 
     
 -> END
