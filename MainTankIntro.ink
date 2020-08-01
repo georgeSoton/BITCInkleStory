@@ -16,6 +16,7 @@ As you approach the tank, the fish gather close to the glass, excitedly watching
     "The octopus lifted the lid off my tank," you reply. "He was very kind."
     
 - "Who is the octopus? We know everyone in this room, except newcomers like you. Were you caught together?"
+You turn around to point out your new friend who had so nicely shown you a way out. He is no longer in the room. You are confused why he left, but choose to carry on the conversation.
 
 * "You must have seen him.["] Slimy fella, too many legs, he can climb anything and hop between the tanks." The fish stare blankly at you, not recognising the creature you're describing.
     "Maybe he can't get into this tank. It's difficult to get in here, but we think there's a way out!" 
@@ -28,14 +29,14 @@ As you approach the tank, the fish gather close to the glass, excitedly watching
     "Your previous tank, where was it? Melbourne? Sydney? Where did you live before this?"
      "This is my first time in a tank. Yesterday I was in the ocean". You feel wistful as you think of your home.
     
-    "The Ocean!? An outsider!"
+    "The Ocean!? Shouldn't you still be in quarantine?!" This shout came from a worried looking puffer fish. // TODO name fish?
     -> MistrustfulFish
 
 // You must gain the trust of the fish or your only option will be to leave on your own
 = MistrustfulFish 
 
 {!The shoal suddenly flickers and the fish turn away from you, but you can still hear them. "Shush! We shouldn't tell strangers! Can we trust turtles? Fish have to stick together!!"}
-{fish_trust > 2: -> EscapePlan}
+{fish_trust > 2: -> EnterTank}
 The fish seem mistrustful of you.
 
     
@@ -71,24 +72,32 @@ The fish seem mistrustful of you.
             ~ fish_trust +=1
             -> MistrustfulFish
     
-    * "How rude! I come all this way to talk to you and you don't trust me?"
+    * Turn away and leave.[] Why should you go out of your way to help mean fish like these?
+        "How rude! I come all this way to talk to you and you don't trust me?"
         You turn away from the tank and propel yourself towards the drain, ready to head back to sea.
-        -> END
-    
-= EscapePlan
-The fish turn back around, they seem to trust you again.
-"You say that there's a way out of this room, if we can leave our tank?"
-    * {tank_plan > 1} "Did you say you had a plan for getting out of this tank?" you ask.
-        Their reply is cautious. "We think so. The plan is a little complicated though..."
-        //needs to go somewhere
-        -> DONE
-    * "Yes, but first we should deal with this mantis shrimp.["] Where is he?"
-        "He hides in the back left corner of the tank. It is too dangerous to go there though. Fish disappear every night."
-        "That's terrible. I think that with my thick shell I'll be okay though. I'll talk to him."
-        //->Mantis_Shrimp
-        -> DONE
-    * "I'll need to go and talk to the octopus first, I'll be back soon"
-    //->ReturnToTank
-    -> DONE
+        -> lonely_escape
 
-->END
+= EnterTank
+The group of fish have visibly calmed, they seem to trust you again.
+// TODO name / describe fish better
+An older fish comes forward out of the crowd. "You said that there's a way out of this room, if we can leave our tank?"
+
+* "Yes, see this grate?["] It leads to the ocean! My friend the octopus can help us open it when we escape.
+
+// TODO another option?
+
+- The fish all look at each other with some excitement. This may be more hope than they have felt in years.
+"You should come in the tank, I feel we have much to discuss"
+
+* "Can't we keep talking through the glass?"
+    "It's too risky, if the captor comes through here he'll see you!"
+    The mention of the captor made the other fish tense. He was clearly not well liked. The older fish continued talking regardless.
+
+* "How can I get in?"
+
+- "There is an automated feeder on the side of the tank. We've worked out how to open it, but we can't leave through it yet because it's dry outside."
+You make your way towards the feeder, and follow the fish's instructions to clamber past the gate and into the tank.
+
+// TODO replace with puzzle?
+
+-> END
