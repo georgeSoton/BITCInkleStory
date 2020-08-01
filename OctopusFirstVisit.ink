@@ -25,11 +25,11 @@ As you shake your head, you see your fellow turtle do the same. ->Reflection
 -> ANoise
 
 = ANoise
-A noise reaches you from the other side of the tank.
+You hear a noise from the other side of the tank.
 * [Investigate]
-    You pad over to the origin of the noise -> InvestigateNoise
+    You swim over to the origin of the noise -> InvestigateNoise
 * [Hide]
-    You recede inside your shell. -> HideFromNoise
+    You hide inside your shell. -> HideFromNoise
     
 = InvestigateNoise
     In the corner of the tank, the noise is loudest. It's a scraping sound, and it's coming from the lid!
@@ -57,7 +57,7 @@ A noise reaches you from the other side of the tank.
     -> OctopusAppears
 
 =OctopusAppears
-    Before you is an octopus, leaning in to the tank.
+    Before you is an octopus, leaning into the tank.
     
     He looks <>
     
@@ -138,7 +138,7 @@ A noise reaches you from the other side of the tank.
             He scoffs.
             "It's their crown jewel. It's monitored far more closely than these little enclosures. All sorts of systems are in place to keep you there."
             * * * "Whoa, that does sound scary. We'd better be quick."
-                "Exactly little friend. I'm glad you're sensible.
+                "Exactly, I'm glad you're sensible.
             * * * "What kinds of systems?"
                 "I don't know them all - I don't go in the main tank. But they have fracture monitoring on the glass, sensors above the tank to check if creatures break out, that sort of thing. It's maximum security.
                 * * * * "I see."
