@@ -28,4 +28,11 @@ Once more you awaken in the holding tank, alone, despite the reflectory illusion
     "its okay little friend, we all get scared sometimes. bravery like yours will help in the big blue sea"
  * "The fish are so nice, how come you've never spoken to them"
     The octopus is caught of guard
+    "well, if I spoke to them they'd constantly be asking me for help and I couldnt oblige, id feel such guilt no to them that I cant risk speaking to them at all. Besides, it is not wise to get too attached to anyone in the main tank, fish are going missing you know"
+    
+-"Back to the task at hand little friend, time is of the essense." The octopus says impatiently"
+"Your escape is at hand"
+ * "We cant leave the others behind. They are people like you and me"
+ * "I dont want to leave, I want to stay here like you, we can be friends forever"
+ * "of course, I cant wait to get out of here"
 -> END
