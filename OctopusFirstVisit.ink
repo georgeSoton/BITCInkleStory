@@ -70,7 +70,7 @@ A noise reaches you from the other side of the tank.
     * [At ease]
         The octopus laughs.
         "You're not wrong, little friend. I don't carry many burdens. But you? You've been trapped. You must be glad I came."
-    - * What are you doing here?
+    - * "What are you doing here?"
         The octopus seems surprised to be asked. He takes a moment.
         "I'm here to free you, of course! To see a turtle trapped like this, I couldn't abide it. So I've come to let you go."
     -
@@ -121,12 +121,12 @@ A noise reaches you from the other side of the tank.
         "Ah I wondered if you'd ask, little friend."
         He shakes his head.
         "But I have been here a long time, and I don't think I could go back to the outside. No, your freedom is enough." -> FirstOctoQuestions
-    * "Have you freed other creatures before me?" -> FirstOctoQuestions
+    * "Have you freed other creatures before me?"
         He pauses to think.
         "I have. But it's been such a long time, I can hardly even rememeber them."
         He laughs.
         "They seemed so important at the time, too. It's funny what you forget."
-        
+         -> FirstOctoQuestions
     * "Do we have have to leave now?["] This is all very new to me, I'd like to soak it in before I go."
         He raises his octo-eyebrows.
         "There aren't many who want to sightsee in their prison."
