@@ -1,10 +1,8 @@
 VAR octopusplural = "octopi"
 VAR turtletype = ""
 
-INCLUDE TogetherEscape.ink
-INCLUDE LonelyEscape.ink
 
-=== OctopusFirstVisit ===
+=== OctopusFirstVisit === 
 = Entry
 * [Open your eyes]
     As you open your eyes, you see the oceans around you.

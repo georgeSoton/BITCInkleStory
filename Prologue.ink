@@ -1,6 +1,3 @@
-INCLUDE OctopusFirstVisit.ink
-
--> Prologue
 
 === Prologue
 = PrologueStarts
@@ -74,6 +71,8 @@ After a last attempt, your body betrays you. In the dark of the box, your eyes c
 
 
 -> OctopusFirstVisit
+
+-> END
 
 
 
