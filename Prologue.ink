@@ -1,3 +1,5 @@
+INCLUDE OctopusFirstVisit.ink
+
 -> Prologue
 
 === Prologue
@@ -68,5 +70,12 @@ You look up at the square of light from the outside world
 
 = PassedOut
 \ 
-After a last attempt, your body betrays you. In the dark of the box, your eyes close.
-->END
+After a last attempt, your body betrays you. In the dark of the box, your eyes close.  # passout
+
+
+-> OctopusFirstVisit
+
+
+
+
+

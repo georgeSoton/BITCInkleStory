@@ -1,4 +1,5 @@
--> together_escape
+INCLUDE MainTankIntro.ink
+
 === together_escape
 // I've added branch names incase we actually want to make this branch off
 
