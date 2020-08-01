@@ -36,7 +36,7 @@
     The Octopus looks at you curiously.
     "If you are sure you can convince everyone."
 -
-*   "I am!" you declare enthusiastically. 
+*   ["I am"!] "I am!" you declare enthusiastically. 
     -> exit_tank_stage_left
     
 = exit_tank_stage_left
