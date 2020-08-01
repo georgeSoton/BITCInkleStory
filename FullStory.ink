@@ -172,11 +172,75 @@ The octopus leads you to the drain on the ground below.
 As you get closer you see further down the corridor a huge tank filled with beautiful and varied sea life, all swimming around a central artificial coral reef. 
 * "Is that the main tank?"
 - "Yes, now do you see why we must leave quickly."
-* Nod 
-    -> END
+* [Nod] 
+    -> lonely_escape
     
-* Suggest saving them 
-    -> END
+* [Suggest saving them] 
+    -> together_escape
+=== together_escape
+// I've added branch names incase we actually want to make this branch off
+
+"We can't leave the others behind! This is no life to live!"
+
+"They are only fish. They cannot break out like you, they need water to breathe."
+
+*   "We can find a way!"
+    "You are so innocent little turtle friend."
+*   [Surely you are clever enough to come up with something?] "Surely you are clever enough to come up with something?"
+    "Oh of course, but there are dangers here that you do not understand."
+- -> innocence
     
+= innocence
+
+*   "What do you mean?"
+    "Fish keep mysteriously disappearing, I would not like to see you .... become a snack."
+    -> mantis_snacks
+    
+= mantis_snacks 
+    
+*   "Do you know who it is?"
+    "... I .... have no clue. However, there is a rumour that the mantis shrimp in the corner of the tank has not been the friendliest in his past."
+*   "Do you know what is causing this?"
+    "Not what, but there could be a who."
+    "The mantis shrimp has, let's say, a suspicious aura about him."
+- -> mantis_bad
+    
+= mantis_bad
+
+*   "I could investigate the mantis shrimp."
+    The Octopus looks at you with a smile. 
+    "If you are brave enough."
+*   "I'm sure if we get everyone on board, the mantis shrimp cannot hurt us all."
+    The Octopus looks at you curiously.
+    "If you are sure you can convince everyone."
+-
+*   ["I am!"] "I am!" you declare enthusiastically. 
+    -> exit_tank_stage_left
+    
+= exit_tank_stage_left
+
+    The Octopus pauses briefly and then stares at you. 
+
+    "I think you are making a mistake, but I will help you as I like your determination. It's adorable."
+    
+    The Octopus grins widely then points down the hallway.
+    
+ -  "The tank is down there, good luck."
+    
+*   [Follow the way the Octopus points]
+        -> END //put the next chapter link here. 
+    
+=== lonely_escape
+= swirling_drain
+The water rushes around you, pulling you down into the darkness, where you're suddenly plunged into the sea. It's cold but it's freedom.
+* [Turn back]
+    The aquarium looms over the pier. It's so much bigger than you ever thought possible.
+    Your mind wanders to the people you left behind.
+    You turn and leave.
+    -> END
+* [Keep swimming]
+    You swim deeper into the ocean.
+    -> END
+-> END
     
 ->END
