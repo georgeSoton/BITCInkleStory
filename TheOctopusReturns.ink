@@ -49,7 +49,7 @@ Once more you awaken in the holding tank, alone, despite the reflectory illusion
  * "Of course, I cant wait to get out of here"
     The octopus smiles
     "follow me little one" hes says swimming towards the lid, his tentacles curling in a satisfied but almost menacing manner
-    You follow
+    You follow ->TheEscapePlanAlone
  -> DONE
  
  =TheEscapePlanGroup
@@ -75,8 +75,8 @@ Once more you awaken in the holding tank, alone, despite the reflectory illusion
     "If you open the lid, the we can climb to the top of the tank and throw our fishy friends into the drain and on to freedom" 
   *"we climb through the filter"
     "The water filter leads to the drain, if we unscrew the pump, we can simply climb through into the drain"
--The octopus looks impressed but oddly absent
- "That could work, he says forlornly. Though you are the one who has to get everyone onside. "if anyone refuses to go we could be discovered"
+  -The octopus looks impressed but oddly absent
+   "That could work, he says forlornly. Though you are the one who has to get everyone onside. "if anyone refuses to go we could be discovered"
  
  "Are you sure its worth the risk"
  *"Of course, we can get everyone out, I know we can best friend"
@@ -85,4 +85,7 @@ Once more you awaken in the holding tank, alone, despite the reflectory illusion
  *"no you are right, its to risky, saving myself is better than saving no one. I wish you could come with me though" -> TheEscapePlanAlone
  
 =TheEscapePlanAlone
+ The octopus has a look of pure bliss and satisfaction
+ "Im so glad you've come to the reasonable position little friend, you are going to have so much fun in the ocean"
+ "you are small enough to fit through the drain. I have preemptively opened both the lid to this tank and the drain cover" all you need to do is follow the current.
 -> END

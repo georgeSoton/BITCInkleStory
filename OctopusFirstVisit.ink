@@ -1,7 +1,9 @@
 VAR octopusplural = "octopi"
 VAR turtletype = ""
 
--> OctopusFirstVisit
+INCLUDE TogetherEscape.ink
+INCLUDE LonelyEscape.ink
+
 === OctopusFirstVisit ===
 = Entry
 * [Open your eyes]
@@ -173,10 +175,10 @@ As you get closer you see further down the corridor a huge tank filled with beau
 * "Is that the main tank?"
 - "Yes, now do you see why we must leave quickly."
 * Nod 
-    -> END
+    -> lonely_escape
     
 * Suggest saving them 
-    -> END
+    -> together_escape
     
     
 ->END
