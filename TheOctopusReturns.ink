@@ -70,9 +70,12 @@ Once more you awaken in the holding tank, alone, despite the reflectory illusion
     The octopus looks confused "But wont you just break your skulls, the glass is harder than you are"
     ** ["We can all slam a rock into the same point"]
         "We can all slam a rock into the same point and eventually a crack will form"
-        
+    ** "You're right thats a bad idea"
+        -> TheEscapePlanGroup
   *"we throw them out the tank"
-    "If you open the lid, the we can climb to the top of the tank and throw our fishy friends into the drain and on to freedom" 
+    "If you open the lid, the we can climb to the top of the tank and jump into the drain and on to freedom"
+        The octopus smirks
+        "How will they jump we make sure they land in the drain, if they hit the ground they'll die"
   *"we climb through the filter"
     "The water filter leads to the drain, if we unscrew the pump, we can simply climb through into the drain"
   -The octopus looks impressed but oddly absent
