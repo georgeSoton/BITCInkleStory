@@ -25,13 +25,14 @@ You turn around to point out your new friend who had so nicely shown you a way o
     
 * "I only arrived yesterday, he seems to have been here much longer."   #player
     "Which aquarium were you transferred from?" the fish ask excitedly  #shoal.
-    You are confused. "Aquarium?"   #player
+    **You are confused. "Aquarium?"   #player
     "Your previous tank, where was it? Melbourne? Sydney? Where did you live before this?"  #shoal
-     "This is my first time in a tank. Yesterday I was in the ocean".   #player
+     ***"This is my first time in a tank. Yesterday I was in the ocean".   #player
      You feel wistful as you think of your home.
     
     "The Ocean!? Shouldn't you still be in quarantine?!" #pufferfish
-    This shout came from a worried looking puffer fish. 
+    This shout came from a worried looking puffer fish.
+    ****["..."]
     -> MistrustfulFish
 
 // You must gain the trust of the fish or your only option will be to leave on your own
