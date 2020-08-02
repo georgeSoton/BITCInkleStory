@@ -34,9 +34,28 @@ He rolls his beady eyes at you. "Of course you want to escape, I mean do you wan
 "<>
 - This plan of yours to free the whole tank, it's brave, you've got heart...but it's risky, my friend. I'd hate to see you get hurt."
 * "How risky?"
+    "Rather, little one. And the large tank really isn't so bad, you're not letting anyone down if you just want to go...nobody would blame you." he says softly.
+    You stop and think for a moment. Is the aquarium so bad? Aren't they happy over there, it's their home...right? And you miss the ocean so deeply, like a physical ache. You realise it has a name, you're homesick.
+    * "I just want to go home."
+        "Of course you do, it's okay. The whole ocean is out there waiting for you, it's your home. And this is their home. That's just how it is."
+        ** [Agree]
+            They seem happy enough here, and if the plan fails then some of them might not make it...
+            "Let's go" you tell the octopus.
+            "As you wish" he replies, and guides you out of your tank and towards your escape.
+            ->DONE
+        ** [Disagree]
+            "This isn't home, this is a cage!" you cry out. As homesick as you may feel, you know that all sea creatures have a longing for the ocean, you don't want to leave them behind.
+            -> hard_sell
+    * "I can't just leave them trapped here."
+    -> hard_sell
+    
 * "I don't care, I'm going to save my friends!"
+->hard_sell
+
+
+=hard_sell
 He sighs, and starts to play the the gravel at the bottom of your tank absent-mindedly.
--"Oh, little one, if any stage of this little escape goes wrong we'll all be goners. I didn't tell you this before because I didn't want to scare you, but...well I've been here a long time, and I've seen a lot of people come and go."
+  Oh, little one, if any stage of this little escape goes wrong we'll all be goners. I didn't tell you this before because I didn't want to scare you, but...well I've been here a long time, and I've seen a lot of people come and go."
     * ...
 "Let's just say, you're not the first to try to escape, and I'd hate for things to end up as...messily...as they have done before..."
 ** ["Messily?"] "M-messily? W-w-what do you mean?"
@@ -46,5 +65,5 @@ You feel a cold chill as the weight of his words settle on you.
 * ...
 - "You could kill them, you know?"
 * ...
-- 
+->DONE
     
