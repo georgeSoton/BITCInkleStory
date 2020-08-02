@@ -4,9 +4,9 @@ VAR turtletype = ""
 
 === OctopusFirstVisit === 
 = Entry
-* [Open your eyes]
+* [Open your eyes] #left:Turtle
     As you open your eyes, you see the oceans around you.
-- There are rocks and plants. And another turtle!
+- There are rocks and plants. And another turtle! #right:Turtle
 * [Swim towards the rocks] You head for the rocks <> # player # action
 * [Swim towards the plants] You head for the plants <> # player # action
 * [Swim towards the turtle]  You head for the turtle <> # player # action
@@ -20,7 +20,7 @@ As you shake your head, you see your fellow turtle do the same. ->Reflection
     Perhaps. Or? -> Reflection
 * It's my reflection... # player # action
 
-- With a heavy heart, you realise that you've woken up trapped. Locked in a glass box not much bigger than yourself.
+- With a heavy heart, you realise that you've woken up trapped. Locked in a glass box not much bigger than yourself. #right:Turtle
 
 -> ANoise
 
@@ -59,27 +59,27 @@ You hear a noise from the other side of the tank.
     -> OctopusAppears
 
 =OctopusAppears
-    Before you is an octopus, leaning into the tank.
+    Before you is an Octopus, leaning into the tank. #right:Octopus #track:acousticguitar //TODO, check this track name
     
     He looks <>
     
     * [Scared] "You look scared." # player
-        The octopus grins.
-        "Me? No, little friend. If anything you should be the one afraid, having an uninvited guest barge into your tank. But you needn't worry; I've come to help."
+        The Octopus grins.
+        "Me? No, little friend. If anything you should be the one afraid, having an uninvited guest barge into your tank. But you needn't worry; I've come to help." #octopus
     * [Hungry] "You look hungry." # player
-        The octopus laughs.
-        "Well perhaps a little. But it's not like I can eat you, little friend. With a shell like that, I wouldn't stand a chance."
+        The Octopus laughs.
+        "Well perhaps a little. But it's not like I can eat you, little friend. With a shell like that, I wouldn't stand a chance." #octopus
     * [At ease]
-        The octopus laughs.
-        "You're not wrong, little friend. I don't carry many burdens. But you? You've been trapped. You must be glad I came."
+        The Octopus laughs.
+        "You're not wrong, little friend. I don't carry many burdens. But you? You've been trapped. You must be glad I came." #octopus
     - * "What are you doing here?" # player
-        The octopus seems surprised to be asked. He takes a moment.
-        "I'm here to free you, of course! To see a turtle trapped like this, I couldn't abide it. So I've come to let you go."
+        The Octopus seems surprised to be asked. He takes a moment.
+        "I'm here to free you, of course! To see a turtle trapped like this, I couldn't abide it. So I've come to let you go." #octopus
     -
     * "Wow, thanks!"[], you exclaim. # player
         
     * "You're freeing me because I'm a turtle?"[], you ask. # player
-        "Such a majestic creature, it would be wrong to have you bumping up against glass all your days.", he replies.
+        "Such a majestic creature, it would be wrong to have you bumping up against glass all your days.", he replies. #octopus
         * * "But how did you know I was a turtle?"[], you ask. "You only saw me once you opened the tank." # player
             The octopus seems irritated.
             "A lot of questions for someone who has just been gifted their freedom. I wouldn't want to have to leave you here."
