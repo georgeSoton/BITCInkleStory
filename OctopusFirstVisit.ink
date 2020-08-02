@@ -59,7 +59,7 @@ You hear a noise from the other side of the tank.
     -> OctopusAppears
 
 =OctopusAppears
-    Before you is an Octopus, leaning into the tank. #right:Octopus #track:acousticguitar //TODO, check this track name
+    Before you is an Octopus, leaning into the tank. #right:Octopus #track:KindaGuitarAcouLoop.mp3
     
     He looks <>
     
