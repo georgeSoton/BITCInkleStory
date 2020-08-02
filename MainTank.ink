@@ -104,7 +104,7 @@ Diving into the cool waters of the main tank, the scope of the amount of life in
 -> tank_exit
 
 === fish_options
-
+#right:
 Which fish would you like to approach?
 
     +[Speak with the Pufferfish]
