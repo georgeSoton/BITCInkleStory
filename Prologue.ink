@@ -7,10 +7,10 @@ The sun is shining.
 There is ocean all around you.
  * I like the ocean! # player # action
  * That seems bad. # player # action
-    It's fine, you're a turtle. #left:turtle
+    It's fine, you're a turtle. 
     * * Oh, neat. # player # action
-        Yeah, this is a turtle story.
--
+        
+- Yeah, this is a turtle story. #left:turtle
 -> PrologueSwim
 
 =PrologueSwim
