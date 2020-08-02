@@ -37,7 +37,7 @@ Diving into the cool waters of the main tank, the scope of the amount of life in
 
     -- ->questions
 
-= questions
+=== questions
 {"Are there any questions I can help you with?" he asks kindly. | "Anything else I can tell you about?" | He smiles and awaits your next question | "Any more questions?"}
 
 *["The plan?"]
@@ -101,7 +101,7 @@ Diving into the cool waters of the main tank, the scope of the amount of life in
 
 -> tank_exit
 
-= fish_options
+=== fish_options
 
 Which fish would you like to approach?
 
@@ -109,7 +109,7 @@ Which fish would you like to approach?
     -> talk_to_pufferfish
 
     +[Speak with the Goby at the base of the tank]
-    -> talk_to_goby
+    -> talk_to_gobi
 
     +[Speak with the old Wrasse]
     -> talk_to_old_ones
