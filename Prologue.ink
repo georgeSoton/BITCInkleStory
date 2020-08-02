@@ -1,6 +1,7 @@
 
 === Prologue
 = PrologueStarts
+# scene: OceanStart
 The sun is shining. #track: TrackLoops/KindaBassLoop
  * I like the sun! # player # action
 -

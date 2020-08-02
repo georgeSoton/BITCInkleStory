@@ -4,6 +4,7 @@ VAR turtletype = ""
 
 === OctopusFirstVisit === 
 = Entry
+# scene: HoldingTank
 * [Open your eyes] #left:Turtle #track:TrackLoops/KindaHarp
     As you open your eyes, you see the oceans around you.
 - There are rocks and plants. And another turtle! #right:Turtle

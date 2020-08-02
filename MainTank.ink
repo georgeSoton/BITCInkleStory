@@ -3,6 +3,7 @@ VAR friends_with_puffer = false
 VAR convinced_goby = false
 VAR convinced_old_fish = false
 VAR convinced_young_fish = false
+VAR young_fish = 0
 
 === into_the_main_tank ===
 
@@ -125,6 +126,9 @@ Which fish would you like to approach?
     
     +[Speak with the Parrotfish]
     -> questions
+    
+    +[No one]
+    -> tank_exit
 
 
 

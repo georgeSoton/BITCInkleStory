@@ -20,7 +20,7 @@ You amuse yourself by playing hide-and-seek with your reflection.
     #right:turtle
     #left:turtle
     
--    h_and_s = h_and_s + 1
+-   ~ h_and_s = h_and_s + 1
 {h_and_s >2:
     ->octopus_returns
    - else:
