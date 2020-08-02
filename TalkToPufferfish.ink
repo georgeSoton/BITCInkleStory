@@ -3,8 +3,12 @@
 
 // You approach the pufferfish cave / home / ?
 // They hide behind a rock, refuse to see you. They could get infected!
+=== talk_to_pufferfish
 
-As you come towards the pufferfish 
+
+As you come towards the pufferfish // TODO
+
+-> pufferfish_converse_loop
 
 = pufferfish_converse_loop
 
@@ -64,3 +68,9 @@ As you come towards the pufferfish
         But the mantis shrimp! We can't leave him alone in here once we all go! You should go talk to him. Tell him I sent you, that should convince him to listen at least."
         
         -> END  // GOTO mantis shrimp
+
+* [Turn away]
+
+    You don't have time for a hysterical pufferfish, you head back to talk to the more sane fish in this tank.
+    
+    -> END // TODO goto tank hub
