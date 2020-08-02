@@ -72,7 +72,7 @@ You hear a noise from the other side of the tank.
         The Octopus laughs.
         "Well perhaps a little. But it's not like I can eat you, little friend. With a shell like that, I wouldn't stand a chance."    #octopus
     * [At ease] "You look a lot calmer than I feel."    #player
-        The octopus laughs.
+        The Octopus laughs.
         "You're not wrong, little friend. I don't carry many burdens. But you? You've been trapped. You must be glad I came." #octopus
     - * "What are you doing here?" #player
         The Octopus seems surprised to be asked. He takes a moment.
@@ -80,28 +80,28 @@ You hear a noise from the other side of the tank.
     -
     * "Wow, thanks!"[], you exclaim. # player
         
-    * "You're freeing me because I'm a turtle?"[], you ask. # player
-        "Such a majestic creature, it would be wrong to have you bumping up against glass all your days.", he replies.    #octopus
-        * * "But how did you know I was a turtle?"[], you ask. "You only saw me once you opened the tank." # player
-            The octopus seems irritated.
+    * "You're freeing me because I'm a turtle?"[] you ask. # player
+        "Such a majestic creature, it would be wrong to have you bumping up against glass all your days," he replies.    #octopus
+        * * "We are very majestic[."]," you agree, proudly nodding your head. # player
+            "Yes, indeed."  #octopus
+        * * "But how did you know I was a turtle?"[] you ask. "You only saw me once you opened the tank." # player
+            The Octopus seems irritated.
             "A lot of questions for someone who has just been gifted their freedom. I wouldn't want to have to leave you here."   #octopus
             You decide against further probing.
-        * * "We are very majestic."[], you agree, proudly nodding your head. # player
-            "Yes, indeed."  #octopus
-    * "Where are we?"[], you ask. # player
+    * "Where are we?"[] you ask. # player
         "An aquarium, if you've ever heard of such a thing. Hundreds, maybe thousands of creatures like you, packed into little boxes so that they can be oggled at."    #octopus
         
         He gestures grandly with one of his tentacles.
         
         "It's no life - but consider yourself one of the lucky ones! I can free you, and you have the land legs to make it back to the sea. The others would give anything for that chance."  #octopus
-        * * "That is lucky."[], you say, nodding. "I'm glad you found me." # player
-            The octopus nods, sagely.
+        * * "That is lucky,"[] you agree. "I'm glad you found me." # player
+            The Octopus nods, sagely.
             "Your freedom will be thanks enough."   #octopus
         * * "Like me? You mean like us?" # player
             The Octopus is confused. 
             "Excuse me?"   #octopus
             "You said thousands of creatures like me. But you're trapped as well, aren't you? Creatures like us."    #player
-            "Ah well of course." he replies, a little nervous. "But as you can see I'm freer than most. Hard to keep us octopi locked away you know!"  #octopus
+            "Ah well of course," he replies, a little nervous. "But as you can see I'm freer than most. Hard to keep us octopi locked away you know!"  #octopus
             * * *  [Say nothing]
             * * * "You know 'octopi' is the wrong plural, right? It's a popular misconception." # player
                 "I really don't think it ma-"   #octopus
@@ -113,12 +113,12 @@ You hear a noise from the other side of the tank.
                     "The case for your freedom grows stronger by the moment."   #octopus
                     ~ octopusplural = "octopuses"
             
-    - The octopus gestures beyond the tank, to the ground below.
+    - The Octopus gestures beyond the tank, to the ground below.
     "There is a drain in the floor here. It case of spillages or water changes in the tanks, it drains straight to the coast. It's latched shut, but we {octopusplural} are awfully dextrous. You'll be free again."    #octopus
     * "I have some questions first." # player
-        "That's fine, little friend.", the Octopus replies. "But let's be quick. Time is of the essence."    #octopus
+        "That's fine, little friend," the Octopus replies. "But let's be quick. Time is of the essence."    #octopus
         -> FirstOctoQuestions
-    * "I'm ready, let's go!"[], you say, brimming with excitement. # player
+    * "I'm ready, let's go!"[] you say, brimming with excitement. # player
         -> FirstExit
 
 =FirstOctoQuestions
@@ -139,7 +139,7 @@ You hear a noise from the other side of the tank.
         * * "I see. Time is of the essence." # player
             "Exactly."  #octopus
             -> FirstOctoQuestions
-        * * "Why can't I escape from the main tank too?"[], you ask. # player
+        * * "Why can't I escape from the main tank too?"[] you ask. # player
             He scoffs.
             "It's their crown jewel. It's monitored far more closely than these little enclosures. All sorts of systems are in place to keep you there."   #octopus
             * * * "Whoa, that does sound scary. We'd better be quick." # player
@@ -149,7 +149,7 @@ You hear a noise from the other side of the tank.
                 * * * * "I see." # player
                     "It's no good there, little friend." He shakes his head.    #octopus
                 * * * * "I bet I could break out. I've already broken out of this tank. I'm an escape turtle!" # player
-                    The octopus rolls his eyes.
+                    The Octopus rolls his eyes.
                     "You are not an escape turtle, little friend. I broke you out of here. You are a lucky turtle."  #octopus
                     * * * * * He's wrong, I'm an escape turtle. # player # action
                         ~ turtletype = "escape"
