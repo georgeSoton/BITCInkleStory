@@ -9,4 +9,5 @@ INCLUDE TalkToGobi.ink
 INCLUDE TalkToYoungOnes.ink
 INCLUDE TalkToOldOnes.ink
 
+
 -> Prologue
