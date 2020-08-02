@@ -6,18 +6,18 @@ It's time.
 * [Go to the hatch]
     You swim up to the hatch and suddenly you're freefalling. It's terrifying but exhilerating, and you know you're on your way to the ocean.
     You hit the floor and come skidding to a halt on the wet floor, sliding towards the closed hatch.
-    **...
+    **Closed?
     That's weird, it should be open by now, the fish won't last long out here on the aquarium floor...
     You look around for the octopus, maybe he just got the timing wrong, but there's time to put this right. 
     -> confront_octopus
 * [Encourage the other fish through]
     You wave the fish through one after the other (TODO insert specific information about friends, some conditional on earlier conversations)
     They fall quite spectacularly to the floor, but there's enough water pooled on the floor now for them to land on, and they slide towards the closed hatch.
-    **...
+    **Closed?
         That's weird, it should be open by now, the fish won't last long out there on the aquarium floor...
     You look around for the octopus, maybe he just got the timing wrong, but there's time to put this right.
     *** [Leave the tank]
-    He's clearly not here in the main tank, and most of the fish are out on the aquarium floor now so you rush to the hatch to try to find him. 
+    He's clearly not here in the main tank, and most of the fish are out on the aquarium floor now so you rush to the hatch to try to find him. You throw yourself through the open hatch, grateful for the pooling water on the floor.
     -> confront_octopus
     
 = confront_octopus
@@ -92,7 +92,10 @@ The mantis shrimp looks at it for a moment, deep in thought. Every second you st
 *[...]
 -"Stand back, little one." he tells you. You want to remind him he's much smaller than you are, but you bite your tongue. There are bigger fish to save right now.
 *[Move away]
-You move back away from the hatch and watch the mantis with baited breath. 
+*[Stay put]
+    "Unbelievable, get out of my way."
+    He sends you a warning shot with his arms.
+-You move back away from the hatch and watch the mantis with baited breath. 
 *[...]
 - BANG
 This time you keep your eyes on the shrimp no matter what, and see his almighty arms shoot out and blow the drain cover right off. You feel thankful he held back when he hit you with those arms.
@@ -100,7 +103,18 @@ This time you keep your eyes on the shrimp no matter what, and see his almighty 
 -> lonely_escape
 * [Push your friends to safety]
 You rush around the room, flapping your flippers, pushing your friends to safety.
--> together_escape
--> DONE
+-> final_escape
 
+= final_escape
+You take one last look around the room. This is it, they're all safe now, and it's time to go home.
+*[...]
+- The octopus is curled up in the corner. Colour is slowly returning to his skin, and he seems to be coming around. Part of you pities this lonely creature, but you remember if it weren't for your tough outer shell you'd have been a midnight snack too, and you hurry to the drain before he can spot you.
+*[Jump in]
+-The water rushes around you, pulling you into the darkness, until you're suddenly plunged into the ocean. When you come to a stand still, you take a look around you, and see all your friends celebrating. Even the mantis shrimp looks happy for once. You breathe a deep sigh of relief, and do a little twirl in the open water.
+* [Go to the surface and look back]
+ You can't help but take a peek at the prison you found yourself in, and quickly peer out of the water at the shoreline. The aquarium looms over the ocean, it's so much larger than you'd ever imagined.
+ After a moment staring at that monstous place, you turn and swim back to your friends.
+* [Keep swimming]
+- Together, you keep swimming into the depths, revelling in the open space. It feels so good to have your freedom back, and even better being able to share it.
+->DONE
 
