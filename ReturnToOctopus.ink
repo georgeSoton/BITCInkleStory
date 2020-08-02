@@ -1,3 +1,5 @@
+
+=== return_to_octopus
 //TODO add condition on {im}patiently depending on turtle personality
 You sit patiently in the quarantine tank, waiting for the octopus to return.
 (Time passes, add extra detail here)
@@ -64,6 +66,23 @@ You feel a cold chill as the weight of his words settle on you.
 - "It's tragic really, I try not to think about it, but I'll never be able to forget their little faces, suffocating on the dry aquarium floor. There's so much that could go wrong."
 * ...
 - "You could kill them, you know?"
-* ...
+* [Leave without them]
+    "You're right..." you tell the octopus, "They're better off here, in the aquarium, and I'm better off out there."
+    The octopus nods along with you.
+    "Of course, if that's what you want" he says, guiding you out of the tank towards your escape.
+    ->DONE
+* [Escape together]
+    "No!" the thought of leaving them all behind in this prison scares you more than the alternative. They're your friends!
+    The octopus stares you down, is he...angry?
+    **...
+    "You're risking it all over a few pesky fish?!"
+    He spits venomously, leering further into your tank. He sees a flash of fear across your face and instantly withdraws, and sighs.
+    "I'm sorry, kiddo, I'm just scared for you. I only want what's best for you."
+    *** "Maybe you're right[."], you've been around so much longer than I have, if you think it's too risky you're probably right...let's go."
+    "If that's what you want, little one, then let's go" he says softly, and guides you out of your tank towards your escape.
+    ->DONE
+    *** "It will be okay[."], I promise I'll be careful. I know you're scared for me, but I have to do this. I have to save them.
+    The octopus looks at you for a moment. He looks defeated.
+    "Well, if you insist, then I'll do whatever I can to help you. You don't have to do this alone."
 ->DONE
     
