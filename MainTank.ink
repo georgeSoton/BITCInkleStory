@@ -1,4 +1,5 @@
 VAR visit_mantis = false
+VAR young_fish = 0
 
 === into_the_main_tank ===
 
