@@ -1,7 +1,5 @@
 VAR visit_mantis = false
 
-->into_the_main_tank
-
 === into_the_main_tank ===
 
 Diving into the cool waters of the main tank, the scope of the amount of life inside the aquarium becomes apparent for the first time.
