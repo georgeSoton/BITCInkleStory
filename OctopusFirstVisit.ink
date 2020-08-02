@@ -4,7 +4,7 @@ VAR turtletype = ""
 
 === OctopusFirstVisit === 
 = Entry
-* [Open your eyes] #left:Turtle
+* [Open your eyes] #left:Turtle #track:TrackLoops/KindaHarp
     As you open your eyes, you see the oceans around you.
 - There are rocks and plants. And another turtle! #right:Turtle
 * [Swim towards the rocks] You head for the rocks <> # player # action
@@ -59,7 +59,7 @@ You hear a noise from the other side of the tank.
     -> OctopusAppears
 
 =OctopusAppears
-    Before you is an Octopus, leaning into the tank. #right:Octopus #track:KindaGuitarAcouLoop.mp3
+    Before you is an Octopus, leaning into the tank. #right:Octopus #track:TrackLoops/KindaGuitarAcouLoop
     
     He looks <>
     

@@ -1,7 +1,7 @@
 
 === Prologue
 = PrologueStarts
-The sun is shining. #track:justbass.mp3
+The sun is shining. #track: TrackLoops/KindaBassLoop
  * I like the sun! # player # action
 -
 There is ocean all around you.
