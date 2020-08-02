@@ -9,7 +9,7 @@ Diving into the cool waters of the main tank, the scope of the amount of life in
 ->main_tank_explore
 
 =main_tank_explore
-
+#right:
 {You see many different species swimming around. Many eye you suspiciously and yet the warmth of the community brightens your heart.|The tank is large, but it seems crowded with fish.| The small patch of coral in the centre of the tank reminds you of home.|The fish seem to hang out in groups, chattering as they swim in circles around the tank. -> inside_tank_intro} 
 
 +[Swim forward] # player # action
@@ -21,6 +21,7 @@ Diving into the cool waters of the main tank, the scope of the amount of life in
 = inside_tank_intro
 {!The parrotfish swims over to join you.}
 //{fish_trust > 2: -> fish_options}
+#right:parrotfish
 *"Thank you[."] for letting me into your tank - it's much nicer than the little quarantine tank I was in. This place is lovely, but it is too small for so many fish." #player
 
 "We get by okay, but I definitely think that this community would be better off in the wild, where we belong. You might need to help me convince some of these fish, though," he says. #parrotfish
@@ -95,6 +96,7 @@ Diving into the cool waters of the main tank, the scope of the amount of life in
     "Can I talk to the other fish? It would be very helpful if we can get everyone on board with the escape plan." #player
     
     "Yes, of course. I've been trying for a long time, but maybe people can be convinced by a fresh face. This tank is yours too now, you can do whatever you would like, brother." #parrotfish
+    #right:
     -> fish_options
     
 * ["That's all"] #player
@@ -123,10 +125,12 @@ Which fish would you like to approach?
 
 
 === tank_exit
-*"I don't feel like I belong here."
+#right:parrotfish
+*["I don't feel like I belong here."]
     "Thank you for your kindness, but you're right - I should be in quarantine. You have a good thing going here, I wouldn't want to interrupt that." #player
     "Are you sure, brother? You said before that sea creatures should stick together and I think you were right." #parrotfish
     **"Yes, I'm sure." #player
+    #right:
         You leave with a heavy heart. It is for their own good.
         -> lonely_escape
     **["No, you're right."] #player
@@ -140,6 +144,7 @@ Which fish would you like to approach?
 =leave_tank
     "Brother Parrotfish, thank you for your hospitality. I have to return to my tank now to confer with the octopus, so that we are ready to remove the grate when your tank is flooded. I'll come back tomorrow!" #player
     "Safe travels, friend. We'll be here when you return - it's not like we can go anywhere without you!" #parrotfish
+    #right:
     You take another look around the artificial reef and wave goodbye to your new friends. The thought of escape is even more exciting now you are helping these lovely creatures! 
     You swim up to the hatch and clamber out and into the corridor.
 
