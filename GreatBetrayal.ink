@@ -45,7 +45,7 @@ The octopus is up on the wall near the hatch, looking down at the chaos.
         ->working_it_out
         * ["The missing fish!"] "The fish going missing.... that's YOU?!" #player
         The octopus slaps two of his tentacles together in a slow meaningless rhythm. You have no idea what he's doing but it feels like he's mocking you.
-        "The owners of this place are so dumb. A fish goes missing here or there and they don't even notice. And even if they notice anything, they don't have a damn clue it's me. They don't even know I can get out."
+        "The Captor is so dumb. A fish goes missing here or there and they don't even notice. And even if they notice anything, they don't have a damn clue it's me. They don't even know I can get out."
         He sighs, smug to have finally told someone his great master plan.
         "Now one or two fish, here and there, has been perfect. But all the fish go missing in a single night? That'll mean new safety precautions, maybe even cameras. How am I supposed to live the high life then? No, this is much better."
         ** "You're a monster!"
@@ -75,7 +75,7 @@ The octopus towers over the mantis shrimp, you shudder to think of what's coming
 "You won't get away with this, murderous scum!"
 The mantis shrimp raises slightly on his hindlegs, you've seen this before and you know what's coming, and something tells you he won't pull any punches this time...
 *[...]
-- BANG # thepunch
+- BANG # octopunch
 You must have blinked and missed it, the octopus is reeling, and has turned a pale shade of off white.
 * "You did it!" # player
     The mantis shrimp turns to you, "We don't have much time, we need to save them." # mantis
@@ -100,9 +100,9 @@ The mantis shrimp looks at it for a moment, deep in thought. Every second you st
 - BANG
 This time you keep your eyes on the shrimp no matter what, and see his almighty arms shoot out and blow the drain cover right off. You feel thankful he held back when he hit you with those arms.
 * [Jump down the drain, alone]
--> lonely_escape
+    -> lonely_escape
 * [Push your friends to safety]
-You rush around the room, flapping your flippers, pushing your friends to safety.
+    You rush around the room, flapping your flippers, pushing your friends to safety.
 -> final_escape
 
 = final_escape

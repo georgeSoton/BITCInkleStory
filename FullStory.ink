@@ -9,5 +9,7 @@ INCLUDE TalkToGobi.ink
 INCLUDE TalkToYoungOnes.ink
 INCLUDE TalkToOldOnes.ink
 INCLUDE GreatBetrayal.ink
+INCLUDE ReturnToOctopus.ink
+INCLUDE Mantis.ink
 
 -> Prologue

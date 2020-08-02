@@ -1,4 +1,3 @@
--> convince_mantis
 === convince_mantis ===
 = approach
 You approach the old mantis shrimp's cave tentatively. As you approach the entrance you hear the rustle of movement inside.
