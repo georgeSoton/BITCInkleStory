@@ -21,10 +21,10 @@ The octopus looks skeptical.
 * "The main tank is amazing[!"], why didn't you tell me?!"
 "Sure, I guess it's got it's own charm..."
 He pauses for a moment.
-**...
+...
 "But it's nothing compared to the ocean, I'm sure you're dying to get back. I was just trying to help."
-    ***"I guess you're right[..."], I'm glad we'll all be escaping soon. I miss the ocean so much."
-    ***[Talk about the fish you met] "Exactly! Some of those  fish have never even seen the ocean before, can you believe it?! Poor things, I can't wait to show them all how beautiful it is!"
+    **"I guess you're right[..."], I'm glad we'll all be escaping soon. I miss the ocean so much."
+    **[Talk about the fish you met] "Exactly! Some of those  fish have never even seen the ocean before, can you believe it?! Poor things, I can't wait to show them all how beautiful it is!"
     
 
 - He tilts his head a little to the side as though in deep thought, and then asks, "Are you sure you want to do this?"
@@ -36,17 +36,17 @@ He rolls his beady eyes at you. "Of course you want to escape, I mean do you wan
 * "How risky?"
     "Rather, little one. And the large tank really isn't so bad, you're not letting anyone down if you just want to go...nobody would blame you." he says softly.
     You stop and think for a moment. Is the aquarium so bad? Aren't they happy over there, it's their home...right? And you miss the ocean so deeply, like a physical ache. You realise it has a name, you're homesick.
-    * "I just want to go home."
+    ** "I just want to go home."
         "Of course you do, it's okay. The whole ocean is out there waiting for you, it's your home. And this is their home. That's just how it is."
-        ** [Agree]
+        *** [Agree]
             They seem happy enough here, and if the plan fails then some of them might not make it...
             "Let's go" you tell the octopus.
             "As you wish" he replies, and guides you out of your tank and towards your escape.
             ->DONE
-        ** [Disagree]
+        *** [Disagree]
             "This isn't home, this is a cage!" you cry out. As homesick as you may feel, you know that all sea creatures have a longing for the ocean, you don't want to leave them behind.
             -> hard_sell
-    * "I can't just leave them trapped here."
+    ** "I can't just leave them trapped here."
     -> hard_sell
     
 * "I don't care, I'm going to save my friends!"
