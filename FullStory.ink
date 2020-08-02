@@ -8,8 +8,11 @@ INCLUDE TalkToPufferfish.ink
 INCLUDE TalkToGobi.ink
 INCLUDE TalkToYoungOnes.ink
 INCLUDE TalkToOldOnes.ink
-INCLUDE GreatBetrayal.ink
 INCLUDE ReturnToOctopus.ink
+INCLUDE MainTankTakeTwo.ink
 INCLUDE Mantis.ink
+INCLUDE GreatBetrayal.ink
+
+
 
 -> Prologue

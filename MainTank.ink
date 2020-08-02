@@ -122,6 +122,9 @@ Which fish would you like to approach?
     
     +[Speak with the Parrotfish]
     -> questions
+    
+    +[No one]
+    -> tank_exit
 
 
 
