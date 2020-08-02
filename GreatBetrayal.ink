@@ -1,14 +1,15 @@
-->great_betrayal
+VAR convinced_mantis = true
 ===great_betrayal
 It's working! You can't believe it, but everything has come together, the outlet is blocked, the water is rising, and the feeding hatch is open.
-Everyone's ready to go, braced for freedom. Well, nearly everyone, but not everyone was ready to be saved.
+Everyone's ready to go, {convinced_mantis: even the mantis shrimp, who's come out of his cave. Most of the fish give him a wide berth, but he pays them no mind.| Well, nearly everyone, but not everyone was ready to be saved.}
 It's time.
 * [Go to the hatch]
     You swim up to the hatch and suddenly you're freefalling. It's terrifying but exhilerating, and you know you're on your way to the ocean.
     You hit the floor and come skidding to a halt on the wet floor, sliding towards the closed hatch.
     **...
     That's weird, it should be open by now, the fish won't last long out here on the aquarium floor...
-    You look around for the octopus, maybe he just got the timing wrong, but there's time to put this right. -> confront_octopus
+    You look around for the octopus, maybe he just got the timing wrong, but there's time to put this right. 
+    -> confront_octopus
 * [Encourage the other fish through]
     You wave the fish through one after the other (TODO insert specific information about friends, some conditional on earlier conversations)
     They fall quite spectacularly to the floor, but there's enough water pooled on the floor now for them to land on, and they slide towards the closed hatch.
@@ -16,7 +17,8 @@ It's time.
         That's weird, it should be open by now, the fish won't last long out there on the aquarium floor...
     You look around for the octopus, maybe he just got the timing wrong, but there's time to put this right.
     *** [Leave the tank]
-    He's clearly not here in the main tank, and most of the fish are out on the aquarium floor now so you rush to the hatch to try to find him. -> confront_octopus
+    He's clearly not here in the main tank, and most of the fish are out on the aquarium floor now so you rush to the hatch to try to find him. 
+    -> confront_octopus
     
 = confront_octopus
 "Sorry, my little friend, I really wasn't sure you'd pull this off, but I can't let you get away with it." #octopus
@@ -31,7 +33,7 @@ The octopus is up on the wall near the hatch, looking down at the chaos.
     **"It's so obvious." #player
         He laughs, "You smart cookie you, it's just a shame you're too late to save your precious friends now."
         You look around at the fish flopping about on the aquarium floor. Your friends are gasping for breath. You can't believe this is happening, they trusted you.
-        -> all_the_fish_die
+        -> all_the_fish_die 
     ** "Umm..." #player
     He laughs, "Not as smart as you look, huh? Why would I want anything to change in this place? I can come and go as I wish, and have all the midnight snacks I could ask for" #octopus
         At that, he starts looking around at the fish flopping about wildly on the aquarium floor.
@@ -54,5 +56,51 @@ The octopus is up on the wall near the hatch, looking down at the chaos.
         -> all_the_fish_die
         
 = all_the_fish_die
-    You can't watch. You didn't know them long, but you feel like you knew them well. There's nothing you can do now.
+    You can't watch. You didn't know them long, but you feel like you knew them well. There's nothing you can do now. 
+        {convinced_mantis: -> mantis_saves_us |->END}
     -> END
+    
+= mantis_saves_us
+*[...]
+- "Not so fast!" #mantisentry #mantis
+*[...]
+- You turn and look. You can hardly believe what you're seeing. The mantis shrimp steps forward.
+"Get your spineless slimy behind down here, and face me like a vertebrate!"
+*[...]
+- The octopus slides his way down the wall to the floor, chuckling as he goes.
+"And what are you going to do about it, little guy?"
+The octopus towers over the mantis shrimp, you shudder to think of what's coming next, but can't bring yourself to look away.
+*[...]
+- The mantis shrimp saunters up, clicking his mantibles together menaciningly.
+"You won't get away with this, murderous scum!"
+The mantis shrimp raises slightly on his hindlegs, you've seen this before and you know what's coming, and something tells you he won't pull any punches this time...
+*[...]
+- BANG # thepunch
+You must have blinked and missed it, the octopus is reeling, and has turned a pale shade of off white.
+* "You did it!" # player
+    The mantis shrimp turns to you, "We don't have much time, we need to save them." # mantis
+   
+* "Quick, the fish!!!" #player
+- You look around at the chaos you've accidentally unleashed, and your friends still struggling for breath in the shallow water on the floor.
+"But I can't open the hatch, it's so...fiddly" you tell the mantis shrimp, gesturing with your flippers. #player
+You feel helpless. 
+"Show me this hatch I've heard so much about" he tells you. #mantis
+* [Rush to the hatch]
+-You glide across the floor as fast as your flippers will push you, until you reach the hatch.
+"Here! It's got a fancy handle to open it."
+The mantis shrimp looks at it for a moment, deep in thought. Every second you stand there you know your friends are suffering because of you, but you don't dare interrupt his thoughts.
+*[...]
+-"Stand back, little one." he tells you. You want to remind him he's much smaller than you are, but you bite your tongue. There are bigger fish to save right now.
+*[Move away]
+You move back away from the hatch and watch the mantis with baited breath. 
+*[...]
+- BANG
+This time you keep your eyes on the shrimp no matter what, and see his almighty arms shoot out and blow the drain cover right off. You feel thankful he held back when he hit you with those arms.
+* [Jump down the drain, alone]
+-> lonely_escape
+* [Push your friends to safety]
+You rush around the room, flapping your flippers, pushing your friends to safety.
+-> together_escape
+-> DONE
+
+

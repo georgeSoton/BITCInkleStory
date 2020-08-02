@@ -8,6 +8,7 @@ INCLUDE TalkToPufferfish.ink
 INCLUDE TalkToGobi.ink
 INCLUDE TalkToYoungOnes.ink
 INCLUDE TalkToOldOnes.ink
+INCLUDE GreatBetrayal.ink
 
-
+-> great_betrayal
 -> Prologue

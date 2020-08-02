@@ -1,5 +1,3 @@
--> lonely_escape
-
 === lonely_escape
 = approach_the_drain
 "Well this is it", the octopus tells you, gesturing at the drain. "I can open it, and you'll be free to return home."
