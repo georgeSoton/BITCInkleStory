@@ -3,8 +3,6 @@
 VAR fish_trust = 0
 VAR tank_plan = 0
 
-
-
 === FishConversation ===
 
 As you approach the tank, the fish gather close to the glass, excitedly watching your progress. There seems to be one member of each fish species you've ever seen, and many more you don't recognise. They swim together forming a kaleidoscopic show of colours and patterns, chattering in one voice made of hundreds.
@@ -29,7 +27,7 @@ You turn around to point out your new friend who had so nicely shown you a way o
     "Your previous tank, where was it? Melbourne? Sydney? Where did you live before this?"
      "This is my first time in a tank. Yesterday I was in the ocean". You feel wistful as you think of your home.
     
-    "The Ocean!? Shouldn't you still be in quarantine?!" This shout came from a worried looking puffer fish. // TODO name fish?
+    "The Ocean!? Shouldn't you still be in quarantine?!" This shout came from a worried looking puffer fish. 
     -> MistrustfulFish
 
 // You must gain the trust of the fish or your only option will be to leave on your own
@@ -40,10 +38,9 @@ You turn around to point out your new friend who had so nicely shown you a way o
 The fish seem mistrustful of you.
 
     
-    * "Are none of you from the ocean?["] I have seen many fish who look just like you out on the reef!"
-        "Really? Fish who look like us? Like me? No, we all look different. A fish like me? Our families, out in the ocean? It can't be true." The shoal comes alive with chatter, the fish jostling and debating.
-        "It's true," you say. "Clownfish, your family live in the anemonaes, you all have different stripe patterns. But Yellow Tang, you all look the same! I used to have a friend who looked identical to you."
-        
+    * "Are none of you from the ocean?["] I have seen many fish who look just like you out on the reef."
+      "A few fish in this tank are from the reef. But all they can talk about is how great the sea is. Most of us were born here."
+      "The ocean is great!" you reply. "All your families are out there - clownfish, you all live in the anemonaes, and there is so much room for everyone to swim."
         A few of the fish are excited, and turn back to face you.
         ~ fish_trust +=1
         -> MistrustfulFish
@@ -57,7 +54,6 @@ The fish seem mistrustful of you.
             The shoal seems to pause for a moment, indecisive.
             "So if we can leave the tank, we can escape to the ocean?"
             *** [Nod]
-            
         --
         ~ fish_trust +=1
         -> MistrustfulFish
@@ -79,10 +75,9 @@ The fish seem mistrustful of you.
 
 = EnterTank
 The group of fish have visibly calmed, they seem to trust you again.
-// TODO name / describe fish better
 An older fish comes forward out of the crowd. "You said that there's a way out of this room, if we can leave our tank?"
 
-* "Yes, see this grate?["] It leads to the ocean! My friend the octopus can help us open it when we escape.
+* "Yes, see this grate?["] It leads to the ocean! My friend the octopus can help us open it when we escape."
 
 // TODO another option?
 
