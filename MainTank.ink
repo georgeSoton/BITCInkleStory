@@ -2,11 +2,13 @@
 
 Diving into the cool waters of the main tank, the scope of the amount of life inside the aquarium becomes apparent for the first time.
 
-// TODO name / describe this fish better
-// Same fish as previous section
-You see many schools of different species swim around as you make your way towards [FISH_NAME_1]. Many eye you suspiciously and yet the warmth of the community brightens your heart.
+"Welcome to the tank!" the fish who you spoke to before greets you.  "You should now be able to hide if the captor comes through, despite you not having stayed in your quarantine tank for long enough."
 
-"Welcome to the tank! You should now be able to hide if the captor comes through, despite you not having stayed in your quarantine tank for long enough."
+* Look around #player #action
+
+You see many different species swim around as you make your way towards [FISH_NAME_1]. Many eye you suspiciously and yet the warmth of the community brightens your heart.
+
+
 
 -> inside_tank_intro
 
