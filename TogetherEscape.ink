@@ -2,54 +2,56 @@
 === together_escape
 // I've added branch names incase we actually want to make this branch off
 
-"We can't leave the others behind! This is no life to live!"
+"We can't leave the others behind! This is no life to live!" #player
 
-"They are only fish. They cannot break out like you, they need water to breathe."
+"They are only fish. They cannot break out like you, they need water to breathe." #octpous
 
-*   "We can find a way!"
-    "You are so innocent little turtle friend."
-*   [Surely you are clever enough to come up with something?] "Surely you are clever enough to come up with something?"
-    "Oh of course, but there are dangers here that you do not understand."
+*   "We can find a way!"    #player
+    "You are so innocent little turtle friend." #octopus
+*   ["Surely you are clever enough to come up with something?"] "Surely you are clever enough to come up with something?"  #player
+    "Oh of course, but there are dangers here that you do not understand."  #octopus
 - -> innocence
     
 = innocence
 
-*   "What do you mean?"
-    "Fish keep mysteriously disappearing, I would not like to see you .... become a snack."
+*   "What do you mean?" #player
+    "Fish keep mysteriously disappearing, I would not like to see you .... become a snack."  #octopus
     -> mantis_snacks
     
 = mantis_snacks 
     
-*   "Do you know who it is?"
-    "... I .... have no clue. However, there is a rumour that the mantis shrimp in the corner of the tank has not been the friendliest in his past."
-*   "Do you know what is causing this?"
-    "Not what, but there could be a who."
-    "The mantis shrimp has, let's say, a suspicious aura about him."
+You pale in shock.
+*   "A snack!? Do you think fish aer being eaten by someone?" # player
+    "... I .... have no clue. However, there is a rumour that the mantis shrimp in the corner of the tank has not been the friendliest in his past." #octopus
+*   "Do you know what is causing these disappearances?" #player
+    "Not what, but there could be a who."   #octopus
+    "The mantis shrimp has, let's say, a suspicious aura about him."    #octopus
 - -> mantis_bad
     
 = mantis_bad
 
-*   "I could investigate the mantis shrimp."
+*   "I could investigate the mantis shrimp."    #player
     The Octopus looks at you with a smile. 
-    "If you are brave enough."
-*   "I'm sure if we get everyone on board, the mantis shrimp cannot hurt us all."
+    "If you are brave enough."  #octopus
+*   "I'm sure if we get everyone on board, the mantis shrimp cannot hurt us all."   #player
     The Octopus looks at you curiously.
-    "If you are sure you can convince everyone."
+    "If you are sure you can convince everyone."    #octopus
 -
-*   ["I am"!] "I am!" you declare enthusiastically. 
+*   ["I am"!] "I am!" you declare enthusiastically. #player
     -> exit_tank_stage_left
     
 = exit_tank_stage_left
 
     The Octopus pauses briefly and then stares at you. 
 
-    "I think you are making a mistake, but I will help you as I like your determination. It's adorable."
+    "I think you are making a mistake, but I will help you as I like your determination. It's adorable." #octopus
     
     The Octopus grins widely then points down the hallway.
     
- -  "The tank is down there, good luck."
+ -  "The tank is down there, good luck."    #player
     
-*   [Follow the way the Octopus points]
+*   [Follow the way the Octopus points] #player #action
+    #right:
        -> FishConversation 
     
 -> END
