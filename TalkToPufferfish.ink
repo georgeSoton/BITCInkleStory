@@ -4,18 +4,19 @@
 // You approach the pufferfish cave / home / ?
 // They hide behind a rock, refuse to see you. They could get infected!
 === talk_to_pufferfish
+-> talk_to_pufferfish_start
+=talk_to_pufferfish_start
 #scene: MainTank
 #right:PufferDeflated
 #left: turtle
--> talk_to_pufferfish_start
-=talk_to_pufferfish_start
+#track:KindaHarp
 As you near the Pufferfish, she ducks behind a rock, eyeing you warily.
 
 -> pufferfish_converse_loop
 
 = pufferfish_converse_loop
 
-* Approach the pufferfish #player #action
+* Approach the Pufferfish #player #action
     "Hey! Get away from me, germ bag!" #Pufferfish
     The Pufferfish looks panicked, takes a deep breath ...
     * * Uh-oh

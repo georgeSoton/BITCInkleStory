@@ -1,9 +1,12 @@
 // File for the Gobi interaction.
 // This should be reachable from MainTank.ink
 === talk_to_goby
+-> talk_to_goby_start
+=talk_to_goby_start
 #scene: MainTank
-#left: player
+#left: turtle
 #right:goby
+#track:KindaHarp
 The Goby fish digs himself down into the sand a little more{! when he sees you come near. He doesn't seem to like strangers}.
 *"Hi there!" [] You greet him with warmth. #player
     "H.. hello? Who are you?"   #goby
@@ -14,8 +17,6 @@ The Goby fish digs himself down into the sand a little more{! when he sees you c
     
    "Oh, okay... I'm not sure about this." #goby
     -> goby_loop
-    
-    // TODO options
     
     * [Dig yourself a place to sit nearby] #player #action
 
@@ -51,9 +52,9 @@ The Goby fish digs himself down into the sand a little more{! when he sees you c
     
     "Well I like you goby so I think they will like you too. Besides, it will be nice for you to have a more professional digger than me with you!"   #player
     
-    You can see goby relaxing more and he swims towards you. 
+    You can see Goby relaxing more and he swims towards you. 
     
-    "Don't worry turtle, if you want I can teach you how to dig like me."   #goby
+    "Don't worry Turtle, if you want I can teach you how to dig like me."   #goby
     
     -> escape_plan_goby
     
@@ -67,7 +68,7 @@ The Goby fish digs himself down into the sand a little more{! when he sees you c
     
     "Okay then, I like digging because it's the only place I feel safe. No one ever finds me when I dig down here"  #goby
 
-    "I can't wait to show you the places you can go in the ocean goby. It's beautiful with so many more places for hiding and digging."   #player
+    "I can't wait to show you the places you can go in the ocean. It's beautiful with so many more places for hiding and digging."   #player
     -> escape_plan_goby
     
 = escape_plan_goby
@@ -76,17 +77,17 @@ The Goby fish digs himself down into the sand a little more{! when he sees you c
 
     "I'm not sure that you'd need me. What about the bigger and stronger fish?" #goby
 
-    **"Of course I need you goby!"  #player
+    **"Of course we need you!"  #player
     
-    Goby gazes up from his small freshly dug hole, he is worried but interested.
+    The Goby gazes up from his small freshly dug hole, he is worried but interested.
     
     -- "Well if you need me... okay, what's the plan?"  #goby
     
-    **"I need you to dig lot's of the aquariam floor into a big pile so the other fish can use it to jam the outlet at the bottom of the tank."
-        "If it's lot's of digging you need, I am sure I can manage." #goby
+    **"I need you to dig["] lots of the aquariam floor into a big pile so the other fish can use it to jam the outlet at the bottom of the tank."
+        "If it's lots of digging you need, I am sure I can manage." #goby
     -- "I knew you could do it." #player
     
-    **You swim back to the others, leaving an excited goby digging his little heart out. #player #action  
+    **You swim back to the others, leaving an excited Goby digging his little heart out. #player #action  
     ~ convinced_goby = true
     -> fish_options
         

@@ -2,6 +2,7 @@
 === together_escape
 // I've added branch names incase we actually want to make this branch off
 
+= start
 "We can't leave the others behind! This is no life to live!" #player
 
 "They are only fish. They cannot break out like you, they need water to breathe." #octpous
@@ -21,21 +22,23 @@
 = mantis_snacks 
     
 You pale in shock.
-*   "A snack!? Do you think fish aer being eaten by someone?" # player
-    "... I .... have no clue. However, there is a rumour that the mantis shrimp in the corner of the tank has not been the friendliest in his past." #octopus
+*   "A snack!? Do you think fish are being eaten by someone?" # player
+    "... I .... have no clue. However, there is a rumour that the Mantis Shrimp in the corner of the tank has not been the friendliest in his past." #octopus
 *   "Do you know what is causing these disappearances?" #player
     "Not what, but there could be a who."   #octopus
-    "The mantis shrimp has, let's say, a suspicious aura about him."    #octopus
+    "The Mantis Shrimp has, let's say, a suspicious aura about him."    #octopus
 - -> mantis_bad
     
 = mantis_bad
 
-*   "I could investigate the mantis shrimp."    #player
+*   "I could investigate the Mantis Shrimp."    #player
     The Octopus looks at you with a smile. 
-    "If you are brave enough."  #octopus
+    "If you are brave enough."#octopus
+    ~turtletype="Brave"
 *   "I'm sure if we get everyone on board, the mantis shrimp cannot hurt us all."   #player
     The Octopus looks at you curiously.
     "If you are sure you can convince everyone."    #octopus
+    ~turtletype="Optimistic"
 -
 *   ["I am"!] "I am!" you declare enthusiastically. #player
     -> exit_tank_stage_left

@@ -3,6 +3,7 @@ VAR h_and_s = 0
 
 === return_to_octopus
 #scene: HoldingTank
+#track:KindaBassLoop
 //TODO add condition on {im}patiently depending on turtle personality
 You sit patiently in the quarantine tank, waiting for the Octopus to return.
 //(Time passes, add extra detail here)
@@ -29,7 +30,7 @@ You amuse yourself by playing hide-and-seek with your reflection.
 }
     
 =octopus_returns
-Finally, you hear the sound of the Octopus sliding open the hatch above your head.
+Finally, you hear the sound of the Octopus sliding open the hatch above your head. #track:KindaGuitarAcouLoop
 * [Wait]   #player #action
 You wait.
 #right:octopus
@@ -47,7 +48,7 @@ The Octopus looks skeptical.
     His features are hard to read, but you can tell he's surprised.
     ** "So when do we make our great escape?"   #player
 * "The main tank is amazing[!"], why didn't you tell me?!"  #player
-"Sure, I guess it's got it's own charm..."  #octopus
+"Sure, I guess it's got its own charm..."  #octopus
 He pauses for a moment.
 ...
 "But it's nothing compared to the ocean, I'm sure you're dying to get back. I was just trying to help."    #octopus
@@ -86,7 +87,7 @@ He rolls his beady eyes at you. "Of course you want to escape, I mean do you wan
 
 =hard_sell
 He sighs, and starts to play the the gravel at the bottom of your tank absent-mindedly.
-  "Oh, little one, if any stage of this little escape goes wrong we'll all be goners. I didn't tell you this before because I didn't want to scare you, but...well I've been here a long time, and I've seen a lot of people come and go."    #octopus
+  "Oh, little one, if any stage of this little escape goes wrong we'll all be goners. I didn't tell you this before because I didn't want to scare you, but...well I've been here a long time, and I've seen a lot of sea creatures come and go."    #octopus
     * ...
 "Let's just say, you're not the first to try to escape, and I'd hate for things to end up as...messily...as they have done before..." #octopus
 ** ["Messily?"] "M-messily? W-w-what do you mean?"  #player

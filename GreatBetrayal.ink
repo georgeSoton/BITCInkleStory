@@ -3,6 +3,7 @@ VAR convinced_mantis = false
 #scene: AquariumFloor
 #left:turtle
 #right:
+#track: KindaHarp
 It's working! You can't believe it, but everything has come together, the outlet is blocked, the water is rising, and the feeding hatch is open.
 Everyone's ready to go, {convinced_mantis: even the Mantis Shrimp, who's come out of his cave. Most of the fish give him a wide berth, but he pays them no mind.| Well, nearly everyone, but not everyone was ready to be saved.}
 It's time.
@@ -20,12 +21,13 @@ It's time.
         That's weird, it should be open by now, the fish won't last long out there on the aquarium floor...
     You look around for the Octopus, maybe he just got the timing wrong, but there's time to put this right.
     *** [Leave the tank]
-    He's clearly not here in the main tank, and most of the fish are out on the aquarium floor now so you rush to the hatch to try to find him. You throw yourself through the open feeding hatch, grateful for the pooling water on the floor.
+    He's clearly not here in the main tank, and most of the fish are out on the aquarium floor so you rush to the hatch to try to find him. You throw yourself through the open feeding hatch, grateful for the pooling water on the floor.
     -> confront_octopus
     
 = confront_octopus
 "Sorry, my little friend, I really wasn't sure you'd pull this off, but I can't let you get away with it." #octopus
 #right:octopus
+#track:KindaGuitarElecLoop
 The Octopus is up on the wall near the hatch, looking down at the chaos.
 *"What are you doing?! Open the hatch!" #player
     The Octopus laughs.
@@ -80,7 +82,7 @@ The Octopus towers over the Mantis Shrimp, you shudder to think of what's coming
 "You won't get away with this, murderous scum!" #mantis
 The Mantis Shrimp raises slightly on his hindlegs, you've seen this before and you know what's coming, and something tells you he won't pull any punches this time...
 *[...]
-- <size=50><i>BANG</i></size> # octopunch
+- <size=50><i>BANG</i></size> # octopunch #track:KindaGuzheng
 You must have blinked and missed it, the Octopus is slumped in the corner passed out, and has turned a pale shade of off white.
 * "You did it!" # player
     The Mantis Shrimp turns to you, "We don't have much time, we need to save them." # mantis

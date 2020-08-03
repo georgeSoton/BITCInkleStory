@@ -30,6 +30,8 @@ The Octopus looks at you sternly, pulls open the drain cover, and gestures towar
     ->swirling_drain
 
 = swirling_drain
+# scene: OceanStart
+#left: player
 #right:
 #track:KindaLonelyHarpLoop
 The water rushes around you, pulling you down into the darkness, where you're suddenly plunged into the sea. It's cold but it's freedom.
