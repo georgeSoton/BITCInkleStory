@@ -5,6 +5,7 @@
 =talk_to_young_ones_start
 #scene: MainTank
 #left:turtle
+#track:KindaClarinetLoop
 A group of young fish excitedly group around you to hear stories of the great ocean.
 #right:angelfish
 * [Approach the group of young fish] #player #action

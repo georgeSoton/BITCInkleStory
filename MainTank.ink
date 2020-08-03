@@ -108,7 +108,9 @@ Diving into the cool waters of the main tank, the sheer amount of life inside th
     -> fish_options
 
 === fish_options
+#left:turtle
 #right:
+#track:KindaBassLoop
 Which fish would you like to approach?
 
     +Speak with the Pufferfish
