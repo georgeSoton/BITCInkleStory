@@ -1,15 +1,18 @@
 // File for the Young Fish interaction.
 // This should be reachable from MainTank.ink
 === talk_to_young_ones
+=talk_to_young_ones_start
 #scene: MainTank
-#left: player
+#left:turtle
 A group of young fish excitedly group around you to hear stories of the great ocean.
 #right:angelfish
 * [Approach the group of young fish] #player #action
+    You swim up to the fish, smiling.
     {!"Ohhhhh we haven't seen one of you before."} #angelfish
     -> young_ones_converse_loop
 * [Talk to someone else] #player #action
     You decide not to interrupt the young excitable fish. You swim back and talk to another fish. 
+    #right:
     -> fish_options
     
 = young_ones_converse_loop
@@ -18,11 +21,11 @@ A group of young fish excitedly group around you to hear stories of the great oc
     **"Thanks...." #player
     -> young_ones_converse_loop
     *"How long have you been here?" #player
-        "We were born here silly!" #angelfish
-        **"Have you ever head of the sea?" #player
+        "We were born here, silly!" #angelfish
+        **"Have you ever heard of the sea?" #player
             "The older fish talk about the sea a lot, sounds like an amazing place!" #angelfish
-    *"I have a plan to get out of here" #player
-        **"We've always wanted to see the world outside of this place. The old ones talk about the big ocean with it's huge playground and lot's of types of friends! We want to make more friends! We are bored of the same rocks here." #angelfish
+    *"What do you think of your tank?" #player
+        **"We've always wanted to see the world outside of this place. The old ones talk about the big ocean with its huge playground and lots of types of friends! We want to make more friends! We are bored of the same rocks here." #angelfish
         
 
 - "What if I told you I could get you out of here? Experience the big wide ocean?" #player
@@ -37,6 +40,7 @@ A group of young fish excitedly group around you to hear stories of the great oc
     -> young_ones_converse_loop_two
 *"Just use your excitable energy to keep up morale and help convince us to get everyone on board!" #player
     "We can do that leave it to us!" #angelfish
+    #right:
     The young fish swim away chatting to each other about what they will get to see and do with their new found freedom. You turn back smiling and head back to the centre of the main tank. 
     ~ convinced_young_fish = true
     -> fish_options
