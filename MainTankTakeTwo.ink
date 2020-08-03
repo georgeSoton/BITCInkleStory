@@ -3,6 +3,7 @@ VAR TimeToEscape = false
 ->main_tank_again_start
 =main_tank_again_start
 #scene: MainTank
+#track:KindaHarp
 ~TimeToEscape = true
 Once more you descend into the waters of the main tank.
 It occurs to you that this may be the last time you ever see it.
@@ -17,6 +18,8 @@ You feel
     It's just another day for an escape turtle.
 * {turtletype=="lucky"} Lucky
     Had things gone differently, this place may have become your prison. You count your blessings.
+* {turtletype=="brave"} Excited
+    This is just another in a long line of adventures. You can't wait to see what comes next.
 -
 
 * Go and see the fish

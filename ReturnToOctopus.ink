@@ -3,6 +3,7 @@ VAR h_and_s = 0
 
 === return_to_octopus
 #scene: HoldingTank
+#track:KindaBassLoop
 //TODO add condition on {im}patiently depending on turtle personality
 You sit patiently in the quarantine tank, waiting for the Octopus to return.
 //(Time passes, add extra detail here)
@@ -29,7 +30,7 @@ You amuse yourself by playing hide-and-seek with your reflection.
 }
     
 =octopus_returns
-Finally, you hear the sound of the Octopus sliding open the hatch above your head.
+Finally, you hear the sound of the Octopus sliding open the hatch above your head. #track:KindaGuitarAcouLoop
 * [Wait]   #player #action
 You wait.
 #right:octopus

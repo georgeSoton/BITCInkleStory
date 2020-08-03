@@ -7,6 +7,7 @@
 #scene: MainTank
 #right:PufferDeflated
 #left: turtle
+#track:KindaHarp
 -> talk_to_pufferfish_start
 =talk_to_pufferfish_start
 As you near the Pufferfish, she ducks behind a rock, eyeing you warily.

@@ -20,7 +20,7 @@ It's time.
         That's weird, it should be open by now, the fish won't last long out there on the aquarium floor...
     You look around for the Octopus, maybe he just got the timing wrong, but there's time to put this right.
     *** [Leave the tank]
-    He's clearly not here in the main tank, and most of the fish are out on the aquarium floor now so you rush to the hatch to try to find him. You throw yourself through the open feeding hatch, grateful for the pooling water on the floor.
+    He's clearly not here in the main tank, and most of the fish are out on the aquarium floor so you rush to the hatch to try to find him. You throw yourself through the open feeding hatch, grateful for the pooling water on the floor.
     -> confront_octopus
     
 = confront_octopus

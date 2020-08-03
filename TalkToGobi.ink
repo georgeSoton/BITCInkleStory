@@ -6,6 +6,7 @@
 #scene: MainTank
 #left: turtle
 #right:goby
+#track:KindaHarp
 The Goby fish digs himself down into the sand a little more{! when he sees you come near. He doesn't seem to like strangers}.
 *"Hi there!" [] You greet him with warmth. #player
     "H.. hello? Who are you?"   #goby

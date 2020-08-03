@@ -5,8 +5,9 @@
 ->talk_to_old_ones_start
 =talk_to_old_ones_start
 #scene: MainTank
-#left: turtle
-A group of elderly wrasse are swimming near the coral. {!They seem wary of your presence.}
+#left: player
+#track:KindaBrassLoop
+You approach the group of older fish. {!They seem wary of your presence.}
 
 * [Approach the group of older fish]
     "We have no interest in talking to outsiders." #oldshoal
