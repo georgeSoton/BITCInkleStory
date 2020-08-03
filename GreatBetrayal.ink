@@ -1,4 +1,4 @@
-VAR convinced_mantis = true
+VAR convinced_mantis = false
 ===great_betrayal
 #scene: AquariumFloor
 #left:turtle
