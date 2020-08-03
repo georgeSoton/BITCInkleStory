@@ -15,4 +15,4 @@ INCLUDE GreatBetrayal.ink
 
 
 
--> into_the_main_tank
+-> main_tank_again

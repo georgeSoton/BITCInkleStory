@@ -1,27 +1,23 @@
+VAR TimeToEscape = false
 === main_tank_again ===
+->main_tank_again_start
+=main_tank_again_start
+#scene: MainTank
+~TimeToEscape = true
+Once more you descend into the waters of the main tank.
+It occurs to you that this may be the last time you ever see it.
+You feel
+* Sad #player #action
+    This place may be a prison but it's extraordinary in its own way, and it stings to know you'll be leaving it behind for good.
+    You'd have liked to explore it more thoroughly, but freedom awaits.
+* Happy #player #action
+    Every moment of captivity is an affront to your very nature.
+    You hope that that you're leaving glass and cages behind for good.
+* {turtletype=="escape"} Nothing
+    It's just another day for an escape turtle.
+* {turtletype=="lucky"} Lucky
+    Had things gone differently, this place may have become your prison. You count your blessings.
+-
 
-You return to the main tank.
-Do you need to talk to anyone else? 
-->fish_options_two
-
-=== fish_options_two
-#right:
-Which fish would you like to approach?
-
-    +[Speak with the Pufferfish]
-    -> talk_to_pufferfish
-
-    +[Speak with the Goby at the base of the tank]
-    -> talk_to_gobi
-
-    +[Speak with the old Wrasse]
-    -> talk_to_old_ones
-    
-    +[Speak with the young fish who are eagerly watching you]
-    -> talk_to_young_ones
-    
-    +[Speak with the Parrotfish]
-    -> questions
-    
-    +[No one]
-    -> tank_exit
+* Go and see the fish
+-> fish_options

@@ -1,39 +1,69 @@
 VAR mantis_trust = 0
 
 === convince_mantis ===
+->approach
 = approach
-You approach the old mantis shrimp's cave tentatively. As you approach the entrance you hear the rustle of movement inside. #track:TrackLoops/KindaGuzheng #right:Mantis
-* ["Excuse me"]
-    "E-e-excuse.. m-me"
-    Your nerves are getting to you, but you stand your ground.
-    The shrimp appears out of the darkness, a glowing shimmering rainbow of colours.
-* [Some other, bolder greeting]
-* [Optional greeting based on turtle personality]
-- The shrimp appears out of the darkness, a glowing shimmering rainbow of colours.
-->first_talk
+#scene:MainTankMantis
+#track:KindaGuzheng
+#left:turtle
+You approach the old Mantis Shrimp's cave tentatively. As you near the entrance you hear the rustle of movement inside.
+* ["Excuse me"] "E-e-excuse.. m-me" #player
+    Your nerves are getting to you.
+* "Mantis Shrimp! I've come to talk to you." #player
+-
+The Mantis Shrimp appears, still cooped within the shade of his cave.
+"What do you want?" he barks. #mantis
+-> first_talk
         
 = first_talk
-{"What do you want?" he barks at you|He doesn't look impressed|He shuffles back into the darkness of his home. This converation is over.-> END}
-* "Sorry to bother you["], I was just wondering-" 
-    "Quit yapping on"
+#right: mantis
+{&|The Mantis Shrimp looks impatient|He shuffles back into the darkness of his home. This converation is over. ->fish_options} #mantis
++ "Sorry to bother you["], I was just wondering-" 
+    {&"Quit yapping and get out."|"Leave, kid."|"I don't want to talk, go away."} #mantis
     -> first_talk
 //How do I make the conditional bits show? HELP!
-* [{"I need your help with something" | "I have a plan, and need your help"}]
-"Get the hell out of here!"
-He clearly has no time for you, and raises up a little, arms poised ready to lash out.
-    ** Run
-        -> END
-    ** [Stay]
-        You know this guy's got a solid punch, and you're no fighter yourself...
-        *** Hide in your shell
-        You tuck your head inside your shell, and just in time, as you're thrown up into the open water. You come back down and come spinning to a stop, and timidly poke your head out. You're halfway across the tank, and the mantis shrimp is back inside his cave and out of sight.
-        ->END
-        *** [Stand your ground]
-        You close your eyes in terror, but refuse to so much as flinch as he prepares his strike. He lashes out at you but all you feel is a small thud on your shell, and you skid across the gravel slightly. The mantis looks at you with a curious expression.
-        ****...
-        You're a tough one, kid. What's your deal?
-        ~ mantis_trust++
-        -> questions1
++ [{"I need your help with something" | "I have a plan, and need your help"}]
+"Leave me alone!" #mantis
+He rears up, arms poised to lash out.
+    ++ Time to run away! #player #action
+        As you scamper back to the middle of the tank, you hear the Mantis Shrimp retreat into his cave.
+        -> fish_options
+    ++ Hold your ground. #player #action
+        You know this guy's got a fearsome punch, and you're no-one's idea of a fighter...
+        
+        +++ Hide in your shell and brace
+        You tuck your head inside your shell, and just in time. The Mantis Shrimp's claw lets out a deafening crack, and you're sent spinning away.
+        
+        But it's not as bad as you expected. Maybe he's lost his touch?
+        
+        "That was a warning shot." #mantis
+        "Leave. Now." #mantis
+        You don't know if you could take another shot at full force.
+        ---
+        
+        +++ Flee #player #action
+            You decide not to test the Mantis Shrimp's strength, and make your way back to the middle of the tank.
+                -> fish_options
+            
+        *** [{visit_mantis: Tell him the pufferfish sent you}]
+            "The pufferfish wanted me to talk to you!"[] you shout, your echo ringing back in your shell. #player
+            He isn't going to hear you while you're hunkered down in here.
+            **** Come out of your shell and tell him #player #action
+                You emerge. The Mantis Shrimp doesn't strike.
+                "The pufferfish wanted me to talk to you." you say, nervously. #player
+                The Mantis Shrimp relaxes, the terrifying tension in his claws disappears.
+                "That old fool. What's he doing sending you my way?" he asks. #mantis
+                ***** "He knows the other fish have the wrong idea about you. He told me the truth." #player
+                    The Mantis Shrimp scoffs. "And what truth is that?" #mantis
+                    "That you're not hurting anyone. That the disappearances are due to disease and I have nothing to be afraid of coming here." #player
+                    Despite your words, you still feel fairly nervous
+                    "He's a paranoid old balloon, but he's right about one thing. I'm not going to hurt anyone." #mantis
+                ***** "We're escaping, and he wants you to come with us. #mantis
+                    The Mantis Shrimp scoffs. "Sentimental balloon."
+            ----
+            "Well you're here now, kid. Might as well get into it." #mantis
+            ~ mantis_trust++
+            -> questions1
 
 
 

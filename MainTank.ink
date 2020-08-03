@@ -6,6 +6,7 @@ VAR convinced_young_fish = false
 VAR young_fish = 0
 
 === into_the_main_tank ===
+#scene:MainTank
 #track:TrackLoop/KindaHarp
 Diving into the cool waters of the main tank, the scope of the amount of life inside the aquarium becomes apparent for the first time.
 
@@ -97,63 +98,72 @@ Diving into the cool waters of the main tank, the scope of the amount of life in
     -> questions
 
 
-+ ["Can I meet some other fish?"]
-    "Can I talk to the other fish? It would be very helpful if we can get everyone on board with the escape plan." #player
++ "Can I talk to the other fish?"[] It would be very helpful if we can get everyone on board with the escape plan." #player
     
     "Yes, of course. I've been trying for a long time, but maybe people can be convinced by a fresh face. This tank is yours too now, you can do whatever you would like, brother." #parrotfish
     #right:
     -> fish_options
     
-* ["That's all"] #player
-
--> tank_exit
+* {fish_options} "That's all, thank you."
+    -> fish_options
 
 === fish_options
 #right:
 Which fish would you like to approach?
 
-    +[Speak with the Pufferfish]
+    +Speak with the Pufferfish
     -> talk_to_pufferfish
 
-    +[Speak with the Goby at the base of the tank]
+    +Speak with the Goby at the base of the tank
     -> talk_to_goby
 
-    +[Speak with the old Wrasse]
+    +Speak with the old Wrasse
     -> talk_to_old_ones
     
-    +[Speak with the young fish who are eagerly watching you]
+    +Speak with the young fish [who are eagerly watching you]
     -> talk_to_young_ones
     
-    +[Speak with the Parrotfish]
+    +Speak with the Parrotfish
     -> questions
     
-    +[No one]
-    -> tank_exit
+    +Seek out the Mantis shrimp
+    -> convince_mantis
+    
+    *{TimeToEscape==false}None of them, there's no place for me with this lot.
+    ->dont_belong
+    
+    +{TimeToEscape==false}None of them, I've done everything I want.
+    -> leave_tank_to_octo
 
+    *{TimeToEscape==true}All of them. It's time.
+    -> start_the_escape
 
-
-=== tank_exit
+=== dont_belong
 #right:parrotfish
-*["I don't feel like I belong here."]
-    "Thank you for your kindness, but you're right - I should be in quarantine. You have a good thing going here, I wouldn't want to interrupt that." #player
-    "Are you sure, brother? You said before that sea creatures should stick together and I think you were right." #parrotfish
-    **"Yes, I'm sure." #player
-    #right:
-        You leave with a heavy heart. It is for their own good.
-        -> lonely_escape
-    **["No, you're right."] #player
-        "I suppose if we're all in the ocean tomorrow, it won't matter if I have been quarantined or not! Let us escape together." #player
-        The Parrotfish beams at you.
-        -> leave_tank
+"Thank you for your kindness, but I've thought it through. I can't remain with you - I should be in quarantine. You have a good thing going, and I'll just ruin it." #player
+"Are you sure, brother? You said before that sea creatures should stick together and I think you were right." #parrotfish
+**"Yes, I'm sure." #player
+#right:
+    You turn away and leave with a heavy heart. It is for their own good.
+    -> lonely_escape
+* * "I did say that..." #player
+    "Doubt comes to all of us" the Parrotfish reassures you "but your arrival here is exactly the break we've been waiting for." #parrotfish
+    "I suppose if we're all in the ocean tomorrow, it won't matter if I have been quarantined or not! Let us escape together." #player
+    The Parrotfish beams at you.
+    -> leave_tank_to_octo
 
 *["I must arrange the escape."] #player
--> leave_tank
+    "Brother Parrotfish, thank you for your hospitality." #player
+-> leave_tank_to_octo
 
-=leave_tank
-    "Brother Parrotfish, thank you for your hospitality. I have to return to my tank now to confer with the octopus, so that we are ready to remove the grate when your tank is flooded. I'll come back tomorrow!" #player
+===leave_tank_to_octo
+    "I have to return to my tank to confer with the octopus, so that we are ready to remove the grate when your tank is flooded. I'll come back tomorrow!" #player
     "Safe travels, friend. We'll be here when you return - it's not like we can go anywhere without you!" #parrotfish
     #right:
     You take another look around the artificial reef and wave goodbye to your new friends. The thought of escape is even more exciting now you are helping these lovely creatures! 
     You swim up to the hatch and clamber out and into the corridor.
+    -> return_to_octopus
 
--> END
+=== start_the_escape
+    -> END
+
