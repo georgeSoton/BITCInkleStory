@@ -12,7 +12,7 @@ VAR young_fish = 0
 #left: turtle
 #track:KindaHarp
 Diving into the cool waters of the main tank, the sheer amount of life inside the aquarium becomes apparent for the first time.
-
+#right: parrotfish
 "Welcome to the tank, brother!" the Parrotfish who you spoke to before greets you. "Please have a look around." #parrotfish
 
 ->main_tank_explore
