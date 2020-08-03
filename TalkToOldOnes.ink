@@ -42,10 +42,9 @@ You approach the group of older fish. {!They seem wary of your presence.}
 = got_them_boys
 "You make a convincing argument. We will help you, but only so they have a better chance than we." #oldshoal
 *"Thank you, I won't let you down." #player
-You swim back more determined than before. 
+You swim back more determined than before. #left: #right:
 ~ convinced_old_fish = true
-        #left:
-        #right:
+
 -> fish_options
 
 =already_convinced
