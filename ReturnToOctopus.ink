@@ -1,6 +1,5 @@
 VAR h_and_s = 0
 
-
 === return_to_octopus
 -> return_to_octopus_start
 = return_to_octopus_start
@@ -10,7 +9,6 @@ VAR h_and_s = 0
 #left:turtle
 //TODO add condition on {im}patiently depending on turtle personality
 You sit patiently in the quarantine tank, waiting for the Octopus to return.
-//(Time passes, add extra detail here)
 You amuse yourself by playing hide-and-seek with your reflection.
 
 -> hide_and_seek
@@ -27,14 +25,14 @@ You amuse yourself by playing hide-and-seek with your reflection.
     #left:turtle
     
 -   ~ h_and_s = h_and_s + 1
-{h_and_s >2:
+{h_and_s >3:
     ->octopus_returns
    - else:
     -> hide_and_seek
 }
     
 =octopus_returns
-Finally, you hear the sound of the Octopus sliding open the hatch above your head. #track:KindaGuitarAcouLoop
+Finally, you hear the sound of the Octopus on the lid above your head. #track:KindaGuitarAcouLoop
 * [Wait]   #player #action
 You wait.
 #right:octopus
@@ -42,7 +40,7 @@ The Octopus appears above your little tank, tentacles draped lazily into the wat
 "How's it going, little friend?"  #octopus
 * "Hey! I did it!" #player
 "Hang on a sec-" 
-The hatch slides back, and the Octopus looms over the tiny tank.
+The lid lifts up and the Octopus looms over the tiny tank.
 "What's going on, little friend?"  #octopus
 
 //TODO, add condition based on who you managed to convince
@@ -91,7 +89,7 @@ He rolls his beady eyes at you. "Of course you want to escape, I mean do you wan
 
 
 =hard_sell
-He sighs, and starts to play the the gravel at the bottom of your tank absent-mindedly.
+He sighs, and starts to play with the gravel at the bottom of your tank absent-mindedly.
   "Oh, little one, if any stage of this little escape goes wrong we'll all be goners. I didn't tell you this before because I didn't want to scare you, but...well I've been here a long time, and I've seen a lot of sea creatures come and go."    #octopus
     * ...
 "Let's just say, you're not the first to try to escape, and I'd hate for things to end up as...messily...as they have done before..." #octopus
@@ -104,7 +102,7 @@ You feel a cold chill as the weight of his words settle on you.
 * [Leave without them]
     "You're right..." you tell the Octopus, "They're better off here, in the aquarium, and I'm better off out there." #player
     The Octopus nods along with you.
-    "Of course, if that's what you want" he says, #octopus
+    "Of course, if that's what you want," he says, #octopus
     guiding you out of the tank towards your escape.
     **[...]
     -> lonely_escape
