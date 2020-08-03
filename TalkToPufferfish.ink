@@ -91,8 +91,6 @@ As you near the Pufferfish, she ducks behind a rock, eyeing you warily.
         * * * "No shrimp left behind." #player
             "Quite right." #pufferfish
 + [Leave] "I'll leave you be." #player
-    For the time being, you part ways with the Pufferfish. You imagine she'll appreciate you keeping your distance.
-    #left:
-    #right:
+    For the time being, you part ways with the Pufferfish. You imagine she'll appreciate you keeping your distance. #left: #right:
     -> fish_options
 - -> pufferfish_converse_loop_3
