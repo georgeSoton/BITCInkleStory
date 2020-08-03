@@ -196,9 +196,8 @@ And then we'll be outside the tank. All that remains is to make it to the sea.
 
 =announce_fish
     * {visit_mantis} "Are you ready to venture out, Pufferfish?"[] you ask. #player
-        She takes a moment. "Yes, I am" she says. "It will be difficult to start again, but we all deserve a chance to be free." #Pufferfish #right:pufferdeflated
-        {convinced_mantis} "All of us." she repeats, casting a look at the Mantis Shrimp. #Pufferfish
-        {!convinced_mantis} "All of us." she repeats, casting a regretful look back at the Mantis Shrimp's corner of the tank. #Pufferfish
+        She takes a moment. "Yes, I am" she says. "It will be difficult to start again, but we all deserve a chance to be free." #pufferfish #right:pufferdeflated
+        {convinced_mantis  "All of us." she repeats, casting a look at the Mantis Shrimp.|All of us." she repeats, casting a regretful look back at the Mantis Shrimp's corner of the tank.} #pufferfish
     * {convinced_young_fish} "What will you do when you're out on the wide ocean, young'uns?"[] you ask. #player
         "We're going to see everything!" #youngshoal #right:youngshoal
         "Everything!"
