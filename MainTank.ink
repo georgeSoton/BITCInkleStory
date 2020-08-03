@@ -6,6 +6,8 @@ VAR convinced_young_fish = false
 VAR young_fish = 0
 
 === into_the_main_tank ===
+->into_the_main_tank_start
+=into_the_main_tank_start
 #track:TrackLoop/KindaHarp
 Diving into the cool waters of the main tank, the scope of the amount of life inside the aquarium becomes apparent for the first time.
 

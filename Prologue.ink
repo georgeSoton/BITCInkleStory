@@ -1,18 +1,40 @@
-
+VAR FoundOutImATurtle = false
 === Prologue
+-> PrologueStarts
 = PrologueStarts
-# scene: OceanStart
-The sun is shining. #track: TrackLoops/KindaBassLoop
+#scene: OceanStart
+#track: KindaBassLoop
+The sun is shining.
  * I like the sun! # player # action
 -
 There is ocean all around you.
  * I like the ocean! # player # action
  * That seems bad. # player # action
     It's fine, you're a turtle. 
+    ~FoundOutImATurtle = true
     * * Oh, neat. # player # action
-        
-- Yeah, this is a turtle story. #left:turtle
--> PrologueSwim
+    - - Yeah, this is a turtle story. #left:turtle
+
+- Your fins cut gracefully through the water, you are at one with the world.
+* Wait, fins? # player
+    {FoundOutImATurtle: ->RememberYoureATurtle}
+    You're a turtle.
+    ~FoundOutImATurtle = true
+    * * Oh, neat. # player # action
+    - - Yeah, this is a turtle story. #left:turtle
+
+* {FoundOutImATurtle} Being a turtle is rad #player
+    That is correct.
+
+- -> PrologueSwim
+
+=RememberYoureATurtle
+We've been through this, you're a turtle.
+    * Right. I'm paying attention.
+        Let's hope.
+    * Can I not be a turtle?
+        You may not.
+    - ->PrologueSwim
 
 =PrologueSwim
 {You gaze, fondly, at the endless water ahead of you. | The ocean extends, beautiful and blue. | A fish swims past! | The coral is lovely. -> Netted}
@@ -70,12 +92,7 @@ You look up at the square of light from the outside world
 \ 
 After a last attempt, your body betrays you. In the dark of the box, your eyes close.  # passout
 
-
--> OctopusFirstVisit
+* [Continue] -> OctopusFirstVisit
 
 -> END
-
-
-
-
 

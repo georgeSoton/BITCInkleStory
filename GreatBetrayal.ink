@@ -1,5 +1,6 @@
 VAR convinced_mantis = true
 ===great_betrayal
+#scene: AquariumFloor
 #left:turtle
 #right:
 It's working! You can't believe it, but everything has come together, the outlet is blocked, the water is rising, and the feeding hatch is open.
@@ -79,7 +80,7 @@ The Octopus towers over the Mantis Shrimp, you shudder to think of what's coming
 "You won't get away with this, murderous scum!" #mantis
 The Mantis Shrimp raises slightly on his hindlegs, you've seen this before and you know what's coming, and something tells you he won't pull any punches this time...
 *[...]
-- BANG # octopunch
+- <size=50><i>BANG</i></size> # octopunch
 You must have blinked and missed it, the Octopus is reeling, and has turned a pale shade of off white.
 * "You did it!" # player
     The Mantis Shrimp turns to you, "We don't have much time, we need to save them." # mantis
@@ -102,7 +103,7 @@ You want to remind him he's much smaller than you are, but you bite your tongue.
     He sends you a warning shot with his arms.
 -You move back away from the hatch and watch the Mantis with baited breath. 
 *[...]
-- BANG
+- <size=50><i>BANG</i></size>
 This time you keep your eyes on the Shrimp no matter what, and see his almighty arms shoot out and blow the drain cover right off. You feel thankful he held back when he hit you with those arms.
 * [Jump down the drain, alone]
     #right:
