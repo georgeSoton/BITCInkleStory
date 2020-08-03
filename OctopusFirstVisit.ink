@@ -113,7 +113,7 @@ You hear a noise from the other side of the tank.
                     ~ octopusplural = "octopuses"
             
     - The Octopus gestures beyond the tank, to the ground below.
-    "There is a drain in the floor here. It case of spillages or water changes in the tanks, it drains straight to the coast. It's latched shut, but we {octopusplural} are awfully dextrous. You'll be free again."    #octopus
+    "There is a drain in the floor here. It case of spillages or water changes in the tanks, it drains straight to the coast. It's latched shut, but we {octopusplural} are awfully dexterous. You'll be free again."    #octopus
     * "I have some questions first." # player
         "That's fine, little friend," the Octopus replies. "But let's be quick. Time is of the essence."    #octopus
         -> FirstOctoQuestions
@@ -131,7 +131,7 @@ You hear a noise from the other side of the tank.
         He laughs.
         "They seemed so important at the time, too. It's funny what you forget."    #octopus
          -> FirstOctoQuestions
-    * "Do we have have to leave now?["] This is all very new to me, I'd like to soak it in before I go." # player
+    * "Do we have to leave now?["] This is all very new to me, I'd like to soak it in before I go." # player
         He raises his octo-eyebrows.
         "There aren't many who want to sightsee in their prison."   #octopus
         "But your odd wishes aside, we do have to move quickly. This is a quarantine tank. They're keeping you here until they can move you into the main tank, and if you end up in there... Well, that's the end for you. You'll never be free."  #octopus
@@ -165,7 +165,7 @@ You hear a noise from the other side of the tank.
     * [I'm excited]
         The excitement is palpable, this is an adventure! # player #action
     * [I'm afraid]
-        The exterior of the tank represents the terrifying unknown, but you know must proceed. # player #action
+        The exterior of the tank represents the terrifying unknown, but you know you must proceed. # player #action
     * [I'm suspicious]
         The kindness of this stranger makes you wary, but his help is nonetheless preferable to being stuck in this cage. # player #action
     -
