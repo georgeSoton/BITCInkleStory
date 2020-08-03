@@ -3,7 +3,7 @@
 
 === talk_to_goby
 #right:goby
-The Goby fish digs himslef down into the sand a little more when he sees you come near. He doesn't seem to like strangers.
+The Goby fish digs himslef down into the sand a little more {!when he sees you come near. He doesn't seem to like strangers}.
 
 * "Hi there!" [] You greet the him with warmth. #player
 
@@ -11,12 +11,13 @@ The Goby fish digs himslef down into the sand a little more when he sees you com
     
     ** "I'm a friend! Parrotfish sent me to talk to you"    #player
     
-    "Oh, okay...    #goby
-    What did you want to talk about?"   #player
+    "Oh, okay... I'm not sure about this." #goby
+    
+    ->talk_to_goby
     
     // TODO options
     
-* [Dig yourself a place to sit nearby] #player #action
+    ** [Dig yourself a place to sit nearby] #player #action
 
     As you start to dig, you can feel him getting excited.
     
@@ -31,10 +32,12 @@ The Goby fish digs himslef down into the sand a little more when he sees you com
     "Do you mind if I ask you a few questions?" #turtle
     
     "Oh, okay! What did you want to talk about?"    goby
+    
+    -> goby_questions
 
--
+= goby_questions 
 
-* "Did you come from the ocean?"    #turtle
+    *"Did you come from the ocean?"    #turtle
 
     "Oh no, I was born here! The ocean sounds scary! So many big hungry fish... And other Captors!"     #goby
     
@@ -42,12 +45,12 @@ The Goby fish digs himslef down into the sand a little more when he sees you com
     
     "Really? Even more sand than here?" #goby
     
-    * [Mention other goby fish]     #player #action
+    **[Mention other goby fish]     #player #action
     
-    * [Ask about the digging]   #player #action
+    ** [Ask about the digging]   #player #action
 
 
-* "Have you heard of the escape plan?"  #player
+    * "Have you heard of the escape plan?"  #player
 
 
 - 
