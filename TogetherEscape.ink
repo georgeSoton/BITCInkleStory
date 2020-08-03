@@ -51,7 +51,7 @@ You pale in shock.
     
     The Octopus grins widely then points down the hallway.
     
- -  "The tank is down there, good luck."    #player
+ -  "The tank is down there, good luck."    #octopus
     
 *   [Follow the way the Octopus points] #player #action
     #right:
