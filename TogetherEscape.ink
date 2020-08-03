@@ -2,7 +2,7 @@
 === together_escape
 // I've added branch names incase we actually want to make this branch off
 ->start
-= start
+=start
 #track:KindaGuitarAcouLoop
 "We can't leave the others behind! This is no life to live!" #player
 
