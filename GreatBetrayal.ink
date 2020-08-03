@@ -73,7 +73,8 @@ The Octopus is up on the wall near the hatch, looking down at the chaos.
 - "Not so fast!"  #mantis
 *[...]
 - You turn and look. You can hardly believe what you're seeing. The mantis shrimp steps forward.
-#right:mantisshinynobubbles
+#left: mantisshinynobubbles
+#right: octopus
 "Get your spineless slimy behind down here, and face me like a crustacean!" #mantis
 *[...]
 - The Octopus slides his way down the wall to the floor, chuckling as he goes.

@@ -10,11 +10,11 @@
 #track:KindaBrassLoop
 You approach the group of older fish. {!They seem wary of your presence.}
 {convinced_old_fish: -> already_convinced}
-* [Approach the group of older fish]
++ [Approach the group of older fish]
     "We have no interest in talking to outsiders." #oldshoal
     #right:oldshoal
     -> old_ones_converse_loop
-* [Talk to someone else]
++ [Talk to someone else]
     You decide not to interrupt the older fish. You swim back and talk to another fish. #right: #left:
 
     -> fish_options
@@ -25,7 +25,7 @@ You approach the group of older fish. {!They seem wary of your presence.}
     **"But I have the Octopus on my side, he can help us! He even offered to help me escape." #player
         "We have never heard of this 'octopus'. Do not give us false hope we are too old." #oldshoal
         -> old_ones_converse_loop
-    *[Leave them alone]
+    +[Leave them alone]
         "If you are going to speak to me like that I will find someone else who will listen." #player
         You swim off to find more agreeable fish. #left: #right:
 

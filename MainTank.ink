@@ -109,7 +109,9 @@ Diving into the cool waters of the main tank, the sheer amount of life inside th
     -> fish_options
 
 === fish_options
+#scene:MainTank
 #track:KindaHarp
+#left:turtle
 #right:
 Which fish would you like to approach?
 
