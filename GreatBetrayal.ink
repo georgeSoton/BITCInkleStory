@@ -118,6 +118,7 @@ You take one last look around the room. This is it, they're all safe now, and it
 *[...]
 - The Octopus is curled up in the corner. Colour is slowly returning to his skin, and he seems to be coming around. Part of you pities this lonely creature, but you remember if it weren't for your tough outer shell you'd have been a midnight snack too, and you hurry to the drain before he can spot you.
 *[Jump in]
+#scene:OceanStart
 #left:turtle
 #right:
 -The water rushes around you, pulling you into the darkness, until you're suddenly plunged into the ocean. When you come to a stand still, you take a look around you, and see all your friends celebrating. Even the mantis shrimp looks happy for once. You breathe a deep sigh of relief, and do a little twirl in the open water.
