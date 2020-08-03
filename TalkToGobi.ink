@@ -5,4 +5,4 @@
 
 The gobi fish digs himslef down into the sand a little more when he sees you come near.
 
--> END
+-> fish_options
