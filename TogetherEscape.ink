@@ -5,7 +5,7 @@
 = start
 #scene:AquariumFloor
 #left:turtle
-#right:Octopus
+#right:octopus
 #track:KindaGuitarAcouLoop
 "We can't leave the others behind! This is no life to live!" #player
 
