@@ -20,7 +20,7 @@ The Mantis Shrimp appears, still cooped within the shade of his cave.
         
 = first_talk
 #right: mantis
-{&|The Mantis Shrimp looks impatient|He shuffles back into the darkness of his home. This converation is over. ->fish_options} #mantis
+{&|The Mantis Shrimp looks impatient|He shuffles back into the darkness of his home. This conversation is over. ->fish_options} #mantis
 + "Sorry to bother you["], I was just wondering-" #player
     {&"Quit yapping and leave me alone."|"Leave, kid."|"I don't want to talk, go away."} #mantis
     -> first_talk
@@ -87,7 +87,7 @@ The Mantis Shrimp stands before you, a dazzling display of colours. # right:mant
 * "I'm serious![] It's simple really, there's a grate on the floor that leads right to the ocean!" #player
     "Not in this tank there isn't" #mantis
 -
-* "But out there there is!"[] You gesture to the floor on the other side of the glass. #player
+* "But there is out there!"[] You gesture to the floor on the other side of the glass. #player
     "That must be lovely for all the creatures on the floor. Why should I care?" #mantis
 -
 * [Explain the plan]"All we need to do is open the feeding hatch, and overflow the tank." #player
@@ -117,7 +117,7 @@ The Mantis Shrimp stands before you, a dazzling display of colours. # right:mant
     He takes a moment.
 -
 "How are you going to get the drain open?" he asks. #mantis
-* "The Octopus has agreed to help us!"[] you reply. "He's super dextrous, he can open it."
+* "The Octopus has agreed to help us!"[] you reply. "He's super dexterous, he can open it."
 -
 The Mantis Shrimp seems taken aback.
 "I see." #mantis

@@ -4,7 +4,7 @@
 #right: octopus
 #left: player
 "Well this is it", the Octopus tells you, gesturing at the drain. "I can open it, and you'll be free to return home." #octopus
-*"Thank[s.]" you so much, you really are a kind octopus."   #player
+*"Thank[s."] you so much, you really are a kind octopus."   #player
 "It really isn't any trouble. You be safe now." #octopus
 His tentacle wraps around the complicated looking contraption, squeezing a button and pulling a lever all at once.
 You look down at your flippers and are thankful to have such a helpful friend on your side.
@@ -31,7 +31,7 @@ The Octopus looks at you sternly, pulls open the drain cover, and gestures towar
 
 = swirling_drain
 #right:
-#track:TrackLoops/KindaLonelyHarpLoop
+#track:KindaLonelyHarpLoop
 The water rushes around you, pulling you down into the darkness, where you're suddenly plunged into the sea. It's cold but it's freedom.
 * [Turn back]
     The aquarium looms over the pier. It's so much bigger than you ever thought possible.
