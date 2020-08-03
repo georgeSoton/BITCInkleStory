@@ -134,7 +134,7 @@ You hear a noise from the other side of the tank.
     * "Do we have have to leave now?["] This is all very new to me, I'd like to soak it in before I go." # player
         He raises his octo-eyebrows.
         "There aren't many who want to sightsee in their prison."   #octopus
-        "But your odd wishes aside, we do have to move quickly. This is an acclimatisation tank. They're keeping you here until they can move you into the main tank, and if you end up in there... Well, that's the end for you. You'll never be free."  #octopus
+        "But your odd wishes aside, we do have to move quickly. This is a quarantine tank. They're keeping you here until they can move you into the main tank, and if you end up in there... Well, that's the end for you. You'll never be free."  #octopus
         * * "I see. Time is of the essence." # player
             "Exactly."  #octopus
             -> FirstOctoQuestions

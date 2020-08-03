@@ -17,7 +17,7 @@ Diving into the cool waters of the main tank, the scope of the amount of life in
 
 =main_tank_explore
 #right:
-{You see many different species swimming around. Many eye you suspiciously and yet the warmth of the community brightens your heart.|The tank is large, but it seems crowded with fish.| The small patch of coral in the centre of the tank reminds you of home.|The fish seem to hang out in groups, chattering as they swim in circles around the tank. -> inside_tank_intro} 
+{!You see many different species swimming around. Many eye you suspiciously and yet the warmth of the community brightens your heart.|The tank is large, but it seems crowded with fish.| The small patch of coral in the centre of the tank reminds you of home.|The fish seem to hang out in groups, chattering as they swim in circles around the tank. -> inside_tank_intro} 
 
 +[Swim forward] # player # action
 +[Look around] # player # action
@@ -73,7 +73,7 @@ Diving into the cool waters of the main tank, the scope of the amount of life in
     **[Look for a hiding place] # player # action
     There's a promising looking hollow at the base of the coral.
     "What about that hollow?" you ask, gesturing towards it. #player
-    "That could work," he says hesitantly, "but the old Wrasse tend to hang out there. You might need to talk to them before diving in there." #parrotfish
+    "That could work," he says hesitantly, "but the old Wrasse tend to hang out there. You might need to talk to them before diving in." #parrotfish
     
     ***[Look for another hiding place] # player # action
     You see a cave-like structure at the back of the tank.
@@ -84,7 +84,7 @@ Diving into the cool waters of the main tank, the scope of the amount of life in
     
     ****[Look around again]
     There's a patch of long seaweed, you're worried that your fins will get tangled if you go in there.
-    "I think that's you're best bet for now, if the captor comes along," says the Parrotfish, following your gaze. #parrotfish
+    "I think that's you best bet for now, if the captor comes along," says the Parrotfish, following your gaze. #parrotfish
     You sigh and nod.
     
     -> questions
@@ -128,9 +128,6 @@ Which fish would you like to approach?
     
     +[Speak with the Parrotfish]
     -> questions
-    
-    + {friends_with_puffer} [Speak with the Mantis Shrimp]
-    ->convince_mantis
     
     +[No one]
     -> tank_exit

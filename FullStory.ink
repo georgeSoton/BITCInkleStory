@@ -15,4 +15,4 @@ INCLUDE GreatBetrayal.ink
 
 
 
--> Prologue
+-> into_the_main_tank
