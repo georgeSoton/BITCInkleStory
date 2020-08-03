@@ -62,7 +62,7 @@ Diving into the cool waters of the main tank, the sheer amount of life inside th
         "The goby is a fanstastic digger and can dig up material for us to use, there is just the matter of convincing him." he says gently. #parrotfish
         *"I will convince him." #player
         -
-    *** "Then we leave through the drain"  #player
+    *** ["Then we leave through the drain"]  #player
         "Then once you can escape, I'll get the Octopus to remove the grate from the top of the drain, and we can all escape!" #player
         You are both excited by the prospect of returning to the sea.
 
