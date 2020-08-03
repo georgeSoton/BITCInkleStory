@@ -74,7 +74,8 @@ He rolls his beady eyes at you. "Of course you want to escape, I mean do you wan
             They seem happy enough here, and if the plan fails then some of them might not make it...
             "Let's go" you tell the Octopus.    #player
             "As you wish" he replies,   #octopus
-            and guides you out of your tank and towards your escape.
+            and he guides you out of your tank and towards your escape.
+            ****[...]
             -> lonely_escape
         *** [Disagree]
             "This isn't home, this is a cage!" you cry out. #player

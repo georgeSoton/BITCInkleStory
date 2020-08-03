@@ -25,6 +25,7 @@ The Octopus looks at you sternly, pulls open the drain cover, and gestures towar
     The Octopus looks down at you.
     "Sorry little friend, you're nothing but trouble."  #octopus
     And he lets go.
+    ****[...]
     ->swirling_drain
     
 **[Climb in]
