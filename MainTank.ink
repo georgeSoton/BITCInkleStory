@@ -3,6 +3,7 @@ VAR friends_with_puffer = false
 VAR convinced_goby = false
 VAR convinced_old_fish = false
 VAR convinced_young_fish = false
+VAR young_fish = 0
 
 === into_the_main_tank ===
 #scene:MainTank
@@ -106,9 +107,7 @@ Diving into the cool waters of the main tank, the sheer amount of life inside th
     -> fish_options
 
 === fish_options
-#left:turtle
 #right:
-#track:KindaBassLoop
 Which fish would you like to approach?
 
     +Speak with the Pufferfish #player #action
@@ -183,6 +182,40 @@ And then we'll be outside the tank. All that remains is to make it to the sea.
 * The Octopus will open the latch! #player #action
     And then we'll be free again!
 -
-* Gather the fish
+* Gather the fish #player #action
     You spread the word, and the fish of the tank gather around you.
+    "I know I've only arrived recently, but we are united in a common struggle." #player
+    "Thanks to your ingenuity" you say, looking at the Parrotfish "and with a little outside assistance, we will all be in the ocean by tomorrow." #player
+    The fish are nervous, but excited.
+    #right:wholetank
+    -> announce_fish
 
+=announce_fish
+    * {visit_mantis} "Are you ready to venture out, Pufferfish?"[] you ask. #player
+        She takes a moment. "Yes, I am" she says. "It will be difficult to start again, but we all deserve a chance to be free." #Pufferfish #right:pufferdeflated
+        {convinced_mantis} "All of us." she repeats, casting a look at the Mantis Shrimp. #Pufferfish
+        {!convinced_mantis} "All of us." she repeats, casting a regretful look back at the Mantis Shrimp's corner of the tank. #Pufferfish
+    * {convinced_young_fish} "What will you do when you're out on the wide ocean, young'uns?"[] you ask. #player
+        "We're going to see everything!" #youngshoal #right:youngshoal
+        "Everything!"
+        "Go everywhere!"
+        "WEEEEE!"
+    * {convinced_old_fish} "Your fry will have the chance to live their lives in open waters. You must be excited." #player
+        The shoal of older fish turn and murmer to each other. #oldshoal #right:oldshoal
+        "Yes, it is exciting." they agree. "The ocean should be afraid of them, not the other way around!" #oldshoal
+    * "Goby, are you prepared do to your part?" #player
+        "You bet!" #Goby #right:goby
+        "You won't believe how fast I can work." 
+    * {convinced_mantis} Acknowledge the Mantis Shrimp #player #action
+        The Mantis Shrimp is some way away from the group. #right:mantisshiny
+        You nod his way.
+        He nods back.
+    * -> announcedfish
+    
+    - ->announce_fish
+= announcedfish
+    With a deep breath, you and the fish{convinced_mantis: - along with a grouchy crustacean -} set to work.
+    The Parrotfish gets the feeder opened up, and Goby sets to work on the outlet.
+    All that remains is to wait.
+    * Wait #player #action
+        -> great_betrayal
