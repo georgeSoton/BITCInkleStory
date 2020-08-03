@@ -32,14 +32,14 @@ You approach the group of older fish. {!They seem wary of your presence.}
         #right:
         -> fish_options
     *{convinced_young_fish==true} "The younger fish seemed so excited about my plans to get you all out of here..." #player
-        "You let the younger fish get there hopes up? They don't even know what is out there." #oldshoal
+        "You let the younger fish get their hopes up? They don't even know what is out there." #oldshoal
         **"Is it truly a bad thing to have something to look forward to?" #player
             -> got_them_boys
         **"I know that fish go missing at night. I couldn't live with myself if one of them became a victim." #player
             -> got_them_boys
 
 = got_them_boys
-"You make a convincing argument. We will help you, but only for so they have a better chance than we." #oldshoal
+"You make a convincing argument. We will help you, but only so they have a better chance than we." #oldshoal
 *"Thank you, I won't let you down." #player
 You swim back more determined than before. 
 ~ convinced_old_fish = true
