@@ -165,5 +165,26 @@ Which fish would you like to approach?
     -> return_to_octopus
 
 === start_the_escape
+#scene: MainTank
+#left: turtle
+#right:
+Let's make sure we have everything in place.
+We need to open up the tank...
+* The Parrotfish can do that! #player #action
+-
+And then we need to raise the water level so the fish can swim out.
+* {convinced_goby} The Goby will help us! #player #action
+* {!convinced_goby} That's true. I need to work that out. #player #action
+    Maybe one of the fish can help.
+    * * Let's go.
+        -> fish_options
+-
+And then we'll be outside the tank. All that remains is to make it to the sea.
+* The Octopus will open the latch! #player #action
+    And then we'll be free again!
+-
+* Gather the fish
+    You spread the word, and the 
+
     -> END
 
