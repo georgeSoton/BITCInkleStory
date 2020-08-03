@@ -3,9 +3,6 @@
 // I've added branch names incase we actually want to make this branch off
 ->start
 = start
-#scene:AquariumFloor
-#left:turtle
-#right:Octopus
 #track:KindaGuitarAcouLoop
 "We can't leave the others behind! This is no life to live!" #player
 
