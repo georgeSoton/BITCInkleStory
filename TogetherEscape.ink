@@ -55,7 +55,6 @@ You pale in shock.
  -  "The tank is down there, good luck."    #octopus
     
 *   [Follow the way the Octopus points] #player #action
-    #right:
        -> FishConversation 
     
 -> END

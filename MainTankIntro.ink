@@ -8,7 +8,7 @@ VAR tank_plan = 0
 =fish_coversation_start
 # scene: MainTank
 # left: turtlenobubbles
-# right: wholetank #track:KindaClarinetLoop
+# right: WholeTank #track:KindaClarinetLoop
 As you approach the tank, the fish gather close to the glass, excitedly watching your progress. There seems to be one member of each fish species you've ever seen, and many more you don't recognise. They swim together forming a kaleidoscopic show of colours and patterns, chattering in one voice made of hundreds.
 "Who are you? Welcome! How did you get out? No one has ever escaped before!" #youngshoal
 * "The Octopus seems to escape all the time."   #player
@@ -27,15 +27,15 @@ You turn around to point out your new friend who had so nicely shown you a way o
     -> MistrustfulFish
     
 * "I only arrived yesterday, he seems to have been here much longer."   #player
-    "Which aquarium were you transferred from?" the fish ask excitedly  #youngshoal.
+    "Which aquarium were you transferred from?" the fish ask excitedly.  #youngshoal
     **You are confused. "Aquarium?"   #player
     "Your previous tank, where was it? Melbourne? Sydney? Where did you live before this?"  #youngshoal
-     ***"This is my first time in a tank. Yesterday I was in the ocean".   #player
+     ***"This is my first time in a tank. Yesterday I was in the ocean."   #player
      You feel wistful as you think of your home.
     
     "The Ocean!? Shouldn't you still be in quarantine?!" #pufferfish
-    This shout came from a worried looking puffer fish.
-    ****["..."]
+    This shout came from a worried looking pufferfish.
+    ****"..."
     -> MistrustfulFish
 
 // You must gain the trust of the fish or your only option will be to leave on your own
