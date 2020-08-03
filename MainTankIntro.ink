@@ -6,7 +6,7 @@ VAR tank_plan = 0
 === FishConversation ===
 # scene: MainTank
 # left: turtle
-# right: wholetank #track:TrackLoops/KindaClarinetLoop
+# right: wholetank #track:KindaClarinetLoop
 As you approach the tank, the fish gather close to the glass, excitedly watching your progress. There seems to be one member of each fish species you've ever seen, and many more you don't recognise. They swim together forming a kaleidoscopic show of colours and patterns, chattering in one voice made of hundreds.
 "Who are you? Welcome! How did you get out? No one has ever escaped before!" #youngshoal
 * "The Octopus seems to escape all the time."   #player

@@ -6,7 +6,7 @@ VAR convinced_young_fish = false
 
 === into_the_main_tank ===
 #scene:MainTank
-#track:TrackLoop/KindaHarp
+#track:KindaHarp
 Diving into the cool waters of the main tank, the sheer amount of life inside the aquarium becomes apparent for the first time.
 
 "Welcome to the tank, brother!" the Parrotfish who you spoke to before greets you. "Please have a look around." #parrotfish

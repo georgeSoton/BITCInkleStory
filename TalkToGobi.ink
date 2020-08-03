@@ -7,6 +7,7 @@
 #left: turtle
 #right:goby
 #track:KindaHarp
+{convinced_goby: -> already_convinced}
 The Goby fish digs himself down into the sand a little more{! when he sees you come near. He doesn't seem to like strangers}.
 *"Hi there!" [] You greet him with warmth. #player
     "H.. hello? Who are you?"   #goby
@@ -91,5 +92,8 @@ The Goby fish digs himself down into the sand a little more{! when he sees you c
     ~ convinced_goby = true
     -> fish_options
         
-
--> DONE
+= already_convinced
+The puffer looks up as you approach.
+"I can't wait to get out! I better keep practicing though..." #goby
+They go back to digging in the sand, and you decide to leave them to it.
+-> fish_options
