@@ -2,6 +2,7 @@ VAR convinced_mantis = true
 ===great_betrayal
 #left:turtle
 #right:
+#track:TrackLoops/KindaHarp
 It's working! You can't believe it, but everything has come together, the outlet is blocked, the water is rising, and the feeding hatch is open.
 Everyone's ready to go, {convinced_mantis: even the Mantis Shrimp, who's come out of his cave. Most of the fish give him a wide berth, but he pays them no mind.| Well, nearly everyone, but not everyone was ready to be saved.}
 It's time.
@@ -23,6 +24,7 @@ It's time.
     -> confront_octopus
     
 = confront_octopus
+#track:TrackLoops/KindaGuitarElecLoop
 "Sorry, my little friend, I really wasn't sure you'd pull this off, but I can't let you get away with it." #octopus
 #right:octopus
 The Octopus is up on the wall near the hatch, looking down at the chaos.
@@ -79,7 +81,7 @@ The Octopus towers over the Mantis Shrimp, you shudder to think of what's coming
 "You won't get away with this, murderous scum!" #mantis
 The Mantis Shrimp raises slightly on his hindlegs, you've seen this before and you know what's coming, and something tells you he won't pull any punches this time...
 *[...]
-- BANG # octopunch
+- BANG # octopunch #track:TrackLoops/KindaHarp
 You must have blinked and missed it, the Octopus is reeling, and has turned a pale shade of off white.
 * "You did it!" # player
     The Mantis Shrimp turns to you, "We don't have much time, we need to save them." # mantis
@@ -113,6 +115,7 @@ This time you keep your eyes on the Shrimp no matter what, and see his almighty 
 -> final_escape
 
 = final_escape
+#track:TrackLoops/KindaAllTogetherLoop
 You take one last look around the room. This is it, they're all safe now, and it's time to go home.
 *[...]
 #right:octopus
