@@ -1,7 +1,7 @@
 VAR convinced_mantis = false
 ===great_betrayal
 #scene: AquariumFloor
-#left:turtle
+#left:turtlenobubbles
 #right:
 #track: KindaHarp
 It's working! You can't believe it, but everything has come together, the outlet is blocked, the water is rising, and the feeding hatch is open.
@@ -26,7 +26,7 @@ It's time.
     
 = confront_octopus
 "Sorry, my little friend, I really wasn't sure you'd pull this off, but I can't let you get away with it." #octopus
-#right:octopus
+#right:octopusnobubbles
 #track:KindaGuitarElecLoop
 The Octopus is up on the wall near the hatch, looking down at the chaos.
 *"What are you doing?! Open the hatch!" #player
@@ -71,7 +71,7 @@ The Octopus is up on the wall near the hatch, looking down at the chaos.
 - "Not so fast!"  #mantis
 *[...]
 - You turn and look. You can hardly believe what you're seeing. The mantis shrimp steps forward.
-#right:mantis
+#right:mantisshinynobubbles
 "Get your spineless slimy behind down here, and face me like a crustacean!" #mantis
 *[...]
 - The Octopus slides his way down the wall to the floor, chuckling as he goes.
@@ -117,11 +117,13 @@ You take one last look around the room. This is it, they're all safe now, and it
 *[...]
 - The Octopus is curled up in the corner. Colour is slowly returning to his skin, and he seems to be coming around. Part of you pities this lonely creature, but you remember if it weren't for your tough outer shell you'd have been a midnight snack too, and you hurry to the drain before he can spot you.
 *[Jump in]
+#left:turtle
 #right:
 -The water rushes around you, pulling you into the darkness, until you're suddenly plunged into the ocean. When you come to a stand still, you take a look around you, and see all your friends celebrating. Even the mantis shrimp looks happy for once. You breathe a deep sigh of relief, and do a little twirl in the open water.
 * [Go to the surface and look back]
  You can't help but take a peek at the prison you found yourself in, and quickly peer out of the water at the shoreline. The aquarium looms over the ocean, it's so much larger than you'd ever imagined.
  After a moment staring at that monstrous place, you turn and swim back to your friends.
+ #left:turtle
  #right:shoal
 * [Keep swimming]
 - Together, you keep swimming into the depths, revelling in the open space. It feels so good to have your freedom back, and even better being able to share it.
