@@ -14,5 +14,5 @@ INCLUDE Mantis.ink
 INCLUDE GreatBetrayal.ink
 
 
-
+-> into_the_main_tank
 -> Prologue

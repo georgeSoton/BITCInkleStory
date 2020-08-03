@@ -57,7 +57,7 @@ As you near the Pufferfish, she ducks behind a rock, eyeing you warily.
     - - "It's because they're infected. Diseased. The Captor knows how delicate our ecosystem is so at the first sign of illness... They get removed." # pufferfish
 
     * * "The Parrotfish told me the disappearances were the Mantis Shrimp's doing."   #player
-        The Parrotfish looks down, saddened.
+        The Pufferfish looks down, saddened.
         "We've all lost fish close to us, and we want something to blame. Something concrete." She sighs. #pufferfish
         "But it's not him, he's a good guy at heart. Unfortunately a Shrimp with a killer punch is easier to lash out at than the terrifying reality of our precarious health." # pufferfish
         -> pufferfish_converse_loop_3

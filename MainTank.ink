@@ -60,13 +60,11 @@ Diving into the cool waters of the main tank, the sheer amount of life inside th
     -- "The issue is, the lid is too far from the surface of the water for us to be able to use it. We think that if we can find a way to block the outlet at the bottom of the tank, we can overfill the tank." #parrotfish
         "How will you block it?" #player
         "The goby is a fanstastic digger and can dig up material for us to use, there is just the matter of convincing him." he says gently. #parrotfish
-        *"I will convince him." #player
-        -
-    *** ["Then we leave through the drain"]  #player
+        ***"I will convince him." #player
+        *** ["Then we leave through the drain"]  #player
         "Then once you can escape, I'll get the Octopus to remove the grate from the top of the drain, and we can all escape!" #player
-        You are both excited by the prospect of returning to the sea.
-
- -> questions
+       --- You are both excited by the prospect of returning to the sea.
+        -> questions
 
 * ["The captor?"] "Will the Captor be a problem?" #player
 
