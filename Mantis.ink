@@ -7,13 +7,15 @@ VAR mantis_overflow_explained = false
 #scene:MainTankMantis
 #track:KindaGuzheng
 #left:turtle
-You approach the old Mantis Shrimp's cave tentatively. As you near the entrance you hear the rustle of movement inside.
-+ ["Excuse me"] "E-e-excuse.. m-me" #player
+You approach the old Mantis Shrimp's cave tentatively. 
+This part of the tank is eerily quiet and still.
+As you near the entrance you hear the rustle of movement inside.
++ ["Excuse me..."] "E-e-excuse.. m-me" #player
     Your nerves are getting to you.
 + "Mantis Shrimp! I've come to talk to you." #player
 -
 #right:mantis
-The Mantis Shrimp appears, still cooped within the shade of his cave.
+The Mantis Shrimp appears, still half-hidden within the shade of his cave.
 {convinced_mantis: -> already_convinced_mantis}
 {mantis_justify_plan: ->mantis_justify_plan}
 "What do you want?" {!he barks.} #mantis
@@ -47,18 +49,18 @@ The Mantis Shrimp appears, still cooped within the shade of his cave.
             You decide not to test the Mantis Shrimp's strength, and make your way back to the middle of the tank.
                 -> fish_options
             
-        *** [{visit_mantis: Tell him the pufferfish sent you}]
-            "The pufferfish wanted me to talk to you!" you shout, your echo ringing back in your shell. #player
+        *** [{visit_mantis: Tell him the Pufferfish sent you}]
+            "The Pufferfish wanted me to talk to you!" you shout, your echo ringing back in your shell. #player
             He isn't going to hear you while you're hunkered down in here.
             **** Come out of your shell and tell him #player #action
                 You emerge. The Mantis Shrimp doesn't strike.
-                "The pufferfish wanted me to talk to you." you say, nervously. #player
-                The Mantis Shrimp relaxes, the terrifying tension in his claws disappears.
+                "The Pufferfish wanted me to talk to you." you say, nervously. #player
+                The Mantis Shrimp relaxes and the terrifying tension in his claws disappears.
                 "That old fool. What's he doing sending you my way?" he asks. #mantis
                 ***** "He knows the other fish have the wrong idea about you. He told me the truth." #player
                     The Mantis Shrimp scoffs. "And what truth is that?" #mantis
                     "That you're not hurting anyone. That the disappearances are due to disease and I have nothing to be afraid of coming here." #player
-                    Despite your words, you still feel fairly nervous
+                    Despite your words, you still feel fairly nervous.
                     "He's a paranoid old balloon, but he's right about one thing. I'm not going to hurt anyone." #mantis
                 ***** "We're escaping, and he wants you to come with us." #mantis
                     The Mantis Shrimp scoffs. "Sentimental balloon."
@@ -81,14 +83,14 @@ The Mantis Shrimp stands before you, a dazzling display of colours. # right:mant
 
 = questions1
 
-* "We have a plan to get out."[] you say, brimming with hope. #player
-    The mantis rolls his eyes. "I've heard this all before, you must be new." #mantis
+* "We have a plan to get out[."]," you say, brimming with hope. #player
+    The Mantis rolls his eyes. "I've heard this all before, you must be new." #mantis
 -
-* "I'm serious![] It's simple really, there's a grate on the floor that leads right to the ocean!" #player
-    "Not in this tank there isn't" #mantis
+* "I'm serious!["] It's simple really, there's a grate on the floor that leads right to the ocean!" #player
+    "Not in this tank there isn't." #mantis
 -
 * "But there is out there!"[] You gesture to the floor on the other side of the glass. #player
-    "That must be lovely for all the creatures on the floor. Why should I care?" #mantis
+    "That must be lovely for all the land creatures on the floor. Why should I care?" #mantis
 -
 * [Explain the plan]"All we need to do is open the feeding hatch, and overflow the tank." #player
     -> mantis_justify_plan
@@ -98,13 +100,13 @@ The Mantis Shrimp stands before you, a dazzling display of colours. # right:mant
     {"How on earth do you plan to achieve any of that." he asks.|"So just how is this great plan of yours going to work?" asks the Mantis Shrimp} #mantis
     "The Parrotfish knows how to get the feeding hatch open, and as for overflowing the tank..." #player
     * {convinced_goby} "The Goby can block the tank's outlet, and the water level will rise up!" #player
-        The Mantis Shrimp looks at you, disbelieving "That... That might just work". #mantis
+        The Mantis Shrimp looks at you, disbelieving. "That... That might just work". #mantis
         "It will work! We're getting out." #player
         -> convince_the_mantis
     + [I don't have a plan for that...]"Well we haven't figured that out just yet. But we will!" #player
-        The Mantis Shrimp scoffs. "Like I thought. Just a load of half baked ideas. Leave me alone" #mantis
+        The Mantis Shrimp scoffs. "Like I thought. Just a load of half baked ideas. Leave me alone." #mantis
         He retreats back into his cave. You'll have to come up with something more impressive #right:
-            + + Go Back to the rest of the fish.
+            + + Go back to the rest of the fish.
                 -> fish_options
             
 =convince_the_mantis
@@ -121,7 +123,7 @@ The Mantis Shrimp stands before you, a dazzling display of colours. # right:mant
 -
 The Mantis Shrimp seems taken aback.
 "I see." #mantis
-"I'll come with you... In case of trouble" #mantis
+"I'll come with you... In case of trouble." #mantis
 ~convinced_mantis = true
 You wonder what that means. Maybe he's just being dramatic.
 * Head back to the other fish. #player #action
