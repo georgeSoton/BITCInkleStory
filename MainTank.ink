@@ -101,14 +101,15 @@ Diving into the cool waters of the main tank, the sheer amount of life inside th
 + "Can I talk to the other fish?"[] It would be very helpful if we can get everyone on board with the escape plan." #player
     
     "Yes, of course. I've been trying for a long time, but maybe people can be convinced by a fresh face. This tank is yours too now, you can do whatever you would like, brother." #parrotfish
-    #right:
     -> fish_options
     
 * {fish_options} "That's all, thank you." #player
     -> fish_options
 
 === fish_options
+#scene:MainTank
 #track:KindaHarp
+#left:turtle
 #right:
 Which fish would you like to approach?
 

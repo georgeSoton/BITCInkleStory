@@ -6,11 +6,13 @@ VAR h_and_s = 0
 = return_to_octopus_start
 #scene: HoldingTank
 #track:KindaBassLoop
+#right:turtle
+#left:turtle
 //TODO add condition on {im}patiently depending on turtle personality
 You sit patiently in the quarantine tank, waiting for the Octopus to return.
 //(Time passes, add extra detail here)
 You amuse yourself by playing hide-and-seek with your reflection.
-#right:turtle
+
 -> hide_and_seek
 = hide_and_seek
 

@@ -73,7 +73,8 @@ The Octopus is up on the wall near the hatch, looking down at the chaos.
 - "Not so fast!"  #mantis
 *[...]
 - You turn and look. You can hardly believe what you're seeing. The mantis shrimp steps forward.
-#right:mantisshinynobubbles
+#left: mantisshinynobubbles
+#right: octopus
 "Get your spineless slimy behind down here, and face me like a crustacean!" #mantis
 *[...]
 - The Octopus slides his way down the wall to the floor, chuckling as he goes.
@@ -111,7 +112,6 @@ You want to remind him he's much smaller than you are, but you bite your tongue.
 This time you keep your eyes on the Shrimp no matter what, and see his almighty arms shoot out and blow the drain cover right off. You feel thankful he held back when he hit you with those arms.
 * [Push your friends to safety]
     You rush around the room, flapping your flippers, pushing your friends to safety.
-    #right:
 -> final_escape
 
 = final_escape
@@ -119,6 +119,7 @@ You take one last look around the room. This is it, they're all safe now, and it
 *[...]
 - The Octopus is curled up in the corner. Colour is slowly returning to his skin, and he seems to be coming around. Part of you pities this lonely creature, but you remember if it weren't for your tough outer shell you'd have been a midnight snack too, and you hurry to the drain before he can spot you.
 *[Jump in]
+#scene:OceanStart
 #left:turtle
 #right:
 -The water rushes around you, pulling you into the darkness, until you're suddenly plunged into the ocean. When you come to a stand still, you take a look around you, and see all your friends celebrating. Even the mantis shrimp looks happy for once. You breathe a deep sigh of relief, and do a little twirl in the open water.

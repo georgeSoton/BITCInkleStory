@@ -6,18 +6,17 @@
 =talk_to_old_ones_start
 #scene: MainTank
 #left: turtle
-#right: wrassefish
+#right: oldshoal
 #track:KindaBrassLoop
 You approach the group of older fish. {!They seem wary of your presence.}
 {convinced_old_fish: -> already_convinced}
-* [Approach the group of older fish]
++ [Approach the group of older fish]
     "We have no interest in talking to outsiders." #oldshoal
-    #right:wrassefish
+    #right:oldshoal
     -> old_ones_converse_loop
-* [Talk to someone else]
-    You decide not to interrupt the older fish. You swim back and talk to another fish. 
-    #right:
-    #left:
++ [Talk to someone else]
+    You decide not to interrupt the older fish. You swim back and talk to another fish. #right: #left:
+
     -> fish_options
     
 = old_ones_converse_loop
@@ -26,11 +25,10 @@ You approach the group of older fish. {!They seem wary of your presence.}
     **"But I have the Octopus on my side, he can help us! He even offered to help me escape." #player
         "We have never heard of this 'octopus'. Do not give us false hope we are too old." #oldshoal
         -> old_ones_converse_loop
-    *[Leave them alone]
+    +[Leave them alone]
         "If you are going to speak to me like that I will find someone else who will listen." #player
-        You swim off to find more agreeable fish. 
-        #left:
-        #right:
+        You swim off to find more agreeable fish. #left: #right:
+
         -> fish_options
     *{convinced_young_fish==true} "The younger fish seemed so excited about my plans to get you all out of here..." #player
         "You let the younger fish get their hopes up? They don't even know what is out there." #oldshoal
@@ -42,10 +40,9 @@ You approach the group of older fish. {!They seem wary of your presence.}
 = got_them_boys
 "You make a convincing argument. We will help you, but only so they have a better chance than we." #oldshoal
 *"Thank you, I won't let you down." #player
-You swim back more determined than before. 
+You swim back more determined than before. #left: #right:
 ~ convinced_old_fish = true
-        #left:
-        #right:
+
 -> fish_options
 
 =already_convinced
