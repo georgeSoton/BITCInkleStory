@@ -17,7 +17,7 @@ As you near the Pufferfish, she ducks behind a rock, eyeing you warily.
 = pufferfish_converse_loop
 
 * Approach the Pufferfish #player #action
-    "Hey! Get away from me, germ bag!" #Pufferfish
+    "Hey! Get away from me, germ bag!" #pufferfish
     The Pufferfish looks panicked, takes a deep breath ...
     * * Uh-oh
     - -
@@ -51,15 +51,15 @@ As you near the Pufferfish, she ducks behind a rock, eyeing you warily.
     "Only at great cost. Most nights fish vanish from the tank, never to be seen again. Do you know why?" #pufferfish
     * * "No, why?" # player
     * * "They broke out!{turtletype == "escape": They're natural-born escape artists, like me.}" # player
-        "No, you fool." #puffer
+        "No, you fool." #pufferfish
     * * "The Mantis Shrimp got them?" # player
-        "The Mantis Shrimp? What? No." #puffer
-    - - "It's because they're infected. Diseased. The Captor knows how delicate our ecosystem is so at the first sign of illness... They get removed." # puffer
+        "The Mantis Shrimp? What? No." #pufferfish
+    - - "It's because they're infected. Diseased. The Captor knows how delicate our ecosystem is so at the first sign of illness... They get removed." # pufferfish
 
     * * "The Parrotfish told me the disappearances were the Mantis Shrimp's doing."   #player
         The Parrotfish looks down, saddened.
-        "We've all lost fish close to us, and we want something to blame. Something concrete." She sighs. #Pufferfish
-        "But it's not him, he's a good guy at heart. Unfortunately a Shrimp with a killer punch is easier to lash out at than the terrifying reality of our precarious health." # Pufferfish
+        "We've all lost fish close to us, and we want something to blame. Something concrete." She sighs. #pufferfish
+        "But it's not him, he's a good guy at heart. Unfortunately a Shrimp with a killer punch is easier to lash out at than the terrifying reality of our precarious health." # pufferfish
         -> pufferfish_converse_loop_3
 
 * -> pufferfish_converse_loop_3
@@ -75,7 +75,7 @@ As you near the Pufferfish, she ducks behind a rock, eyeing you warily.
         She huffs. Her good nature wants to accept your apology, but she knows she's right - You are a danger.
 * "The other fish aren't scared of me[."], aren't they afraid of infection too?" #player
     "That's because they blame the Mantis Shrimp for the disappearing fish, they don't realise how truly great the risk of infection is." # pufferfish
-    "It's like they've never even spoken to him, he's honestly not so bad. But he's spent so long being spurned that he's defensive right off the bat." #Pufferfish
+    "It's like they've never even spoken to him, he's honestly not so bad. But he's spent so long being spurned that he's defensive right off the bat." #pufferfish
     She glowers at you. "If they knew the threat you posed, you'd have been thrown out the way you came in. You're probably carrying a reefload of lethal friends under that shell of yours right now. We're doomed." #pufferfish
 
 * "We didn't have quarantine in the ocean!" #player
@@ -89,7 +89,7 @@ As you near the Pufferfish, she ducks behind a rock, eyeing you warily.
         
         ~ visit_mantis = true  // allow go to mantis shrimp from main tank
         * * * "No shrimp left behind." #player
-            "Quite right." #Pufferfish
+            "Quite right." #pufferfish
 + [Leave] "I'll leave you be." #player
     For the time being, you part ways with the Pufferfish. You imagine she'll appreciate you keeping your distance.
     #left:
