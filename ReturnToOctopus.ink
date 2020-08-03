@@ -73,7 +73,7 @@ He rolls his beady eyes at you. "Of course you want to escape, I mean do you wan
             "Let's go" you tell the Octopus.    #player
             "As you wish" he replies,   #octopus
             and guides you out of your tank and towards your escape.
-            ->DONE
+            -> lonely_escape
         *** [Disagree]
             "This isn't home, this is a cage!" you cry out. #player
             As homesick as you may feel, you know that all sea creatures have a longing for the ocean, you don't want to leave them behind.
@@ -101,7 +101,7 @@ You feel a cold chill as the weight of his words settle on you.
     The Octopus nods along with you.
     "Of course, if that's what you want" he says, #octopus
     guiding you out of the tank towards your escape.
-    ->DONE
+    -> lonely_escape
 * [Escape together]
     "No!"   #player
     The thought of leaving them all behind in this prison where fish go missing scares you more than the alternative. They're your friends!
@@ -113,9 +113,9 @@ You feel a cold chill as the weight of his words settle on you.
     *** "Maybe you're right[."], you've been around so much longer than I have, if you think it's too risky you're probably right...let's go." #player
     "If that's what you want, little one, then let's go" he says softly,    #octopus
     and guides you out of your tank towards your escape.
-    ->DONE
+    -> lonely_escape
     *** "It will be okay[."], I promise I'll be careful. I know you're scared for me, but I have to do this. I have to save them."    #player
     The Octopus looks at you for a moment. He looks defeated.
     "Well, if you insist, then I'll do whatever I can to help you. You don't have to do this alone."    #octopus
-->DONE
+-> main_tank_again
     
