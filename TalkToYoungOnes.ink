@@ -15,7 +15,6 @@ A group of young fish excitedly group around you to hear stories of the great oc
     -> young_ones_converse_loop
 * [Talk to someone else] #player #action
     You decide not to interrupt the young excitable fish. You swim back and talk to another fish. 
-    #right:
     -> fish_options
     
 = young_ones_converse_loop

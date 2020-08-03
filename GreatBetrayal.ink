@@ -111,7 +111,6 @@ You want to remind him he's much smaller than you are, but you bite your tongue.
 This time you keep your eyes on the Shrimp no matter what, and see his almighty arms shoot out and blow the drain cover right off. You feel thankful he held back when he hit you with those arms.
 * [Push your friends to safety]
     You rush around the room, flapping your flippers, pushing your friends to safety.
-    #right:
 -> final_escape
 
 = final_escape
