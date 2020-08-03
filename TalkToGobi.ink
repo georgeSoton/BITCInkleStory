@@ -13,7 +13,6 @@ The Goby fish digs himslef down into the sand a little more {!when he sees you c
     
     "Oh, okay... I'm not sure about this." #goby
     
-    ->talk_to_goby
     
     // TODO options
     
@@ -45,14 +44,39 @@ The Goby fish digs himslef down into the sand a little more {!when he sees you c
     
     "Really? Even more sand than here?" #goby
     
-    **[Mention other goby fish]     #player #action
+    **"Yes! Loads for you to dig into and explore. You know...I know another goby who'd love to dig with you"     #player #action
     
-    ** [Ask about the digging]   #player #action
+    "I've never met another goby before, what if they don't like me?"   #goby
+    
+    "Well I like you goby so I think they will like you too.Besides, it will be nice for you to have a more professional digger than me with you!"   #player
+    
+    You can see goby relaxing more and he swims towards you. 
+    
+    "Don't worry turtle, if you want I can teach you how to dig like me."   #goby
+    
+    ** "Yeah there is! So, why do you love digging so much goby?"   #player #action
 
+    "Digging is...wait, will you laugh at me?"  #Goby
+    
+    You dig down a little more into the sand to show him you like digging too. 
+    
+    "Only if you'll laugh at me for liking digging too!"    #player
+    
+    "Okay then, I like digging because it's the only place I feel safe. No one ever finds me when I dig down here"  #goby
+
+    "I can't wait to show you the places you can go in the ocean goby. It's beautiful with so many more places for hiding and digging."   #player
 
     * "Have you heard of the escape plan?"  #player
 
+    "I'm not sure that you'd need me. What about the bigger and stronger fish?" #goby
 
+    **"Of course I need you goby!"  #player #action
+    
+    Goby gazes up from his small freshly dug hole, he is worried but interested.
+    
+    "Well if you need me...okay, what's the plan?"  #goby
+    
+    **"Don't worry about them, you have me." #player #action
 - 
 
--> fish_options
+-> DONE
