@@ -119,7 +119,7 @@ You take one last look around the room. This is it, they're all safe now, and it
 -The water rushes around you, pulling you into the darkness, until you're suddenly plunged into the ocean. When you come to a stand still, you take a look around you, and see all your friends celebrating. Even the mantis shrimp looks happy for once. You breathe a deep sigh of relief, and do a little twirl in the open water.
 * [Go to the surface and look back]
  You can't help but take a peek at the prison you found yourself in, and quickly peer out of the water at the shoreline. The aquarium looms over the ocean, it's so much larger than you'd ever imagined.
- After a moment staring at that monstous place, you turn and swim back to your friends.
+ After a moment staring at that monstrous place, you turn and swim back to your friends.
  #right:shoal
 * [Keep swimming]
 - Together, you keep swimming into the depths, revelling in the open space. It feels so good to have your freedom back, and even better being able to share it.

@@ -8,7 +8,7 @@ VAR young_fish = 0
 === into_the_main_tank ===
 #scene:MainTank
 #track:TrackLoop/KindaHarp
-Diving into the cool waters of the main tank, the scope of the amount of life inside the aquarium becomes apparent for the first time.
+Diving into the cool waters of the main tank, the sheer amount of life inside the aquarium becomes apparent for the first time.
 
 "Welcome to the tank, brother!" the Parrotfish who you spoke to before greets you. "Please have a look around." #parrotfish
 
@@ -38,9 +38,9 @@ Diving into the cool waters of the main tank, the scope of the amount of life in
 //    {turtletype == "charisma": You are, indeed, the most charismatic of the turtles.}
 
     
-    ** "Sounds tricky[."], maybe we should leave people who don't want to come?" #player
+    ** "Sounds tricky[."], maybe we should leave the creatures who don't want to come?" #player
 
-    He frowns. "The fish are all family, even if they look and think differently. I believe we should stick together, but maybe you're right. We can't force people to go." #parrotfish
+    He frowns. "We are all family, even if they look and think differently. I believe we should stick together, but maybe you're right. We can't force everyone to go." #parrotfish
 
     -- ->questions
 

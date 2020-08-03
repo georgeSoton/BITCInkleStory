@@ -5,29 +5,29 @@ VAR tank_plan = 0
 
 === FishConversation ===
 # scene: MainTank
-# left: player
-# right:shoal #track:TrackLoops/KindaClarinetLoop
+# left: turtle
+# right: wholetank #track:TrackLoops/KindaClarinetLoop
 As you approach the tank, the fish gather close to the glass, excitedly watching your progress. There seems to be one member of each fish species you've ever seen, and many more you don't recognise. They swim together forming a kaleidoscopic show of colours and patterns, chattering in one voice made of hundreds.
-"Who are you? Welcome! How did you get out? No one has ever escaped before!" #shoal
+"Who are you? Welcome! How did you get out? No one has ever escaped before!" #youngshoal
 * "The Octopus seems to escape all the time."   #player
     
 * "I had help[."]," you say.    #player
-    The fish are shocked. "Who helped you? How? The captor is the only one who can move fish."  #shoal
+    The fish are shocked. "Who helped you? How? The captor is the only one who can move fish."  #youngshoal
     "The Octopus lifted the lid off my tank," you reply. "He was very kind."    #player
     
-- "Who is the Octopus? We know everyone in this room, except newcomers like you. Were you caught together?"   #shoal
+- "Who is the Octopus? We know everyone in this room, except newcomers like you. Were you caught together?"   #youngshoal
 You turn around to point out your new friend who had so nicely shown you a way out. He is no longer in the room. You are confused why he left, but choose to carry on the conversation.
 
 * "You must have seen him.["] Slimy fella, too many legs, he can climb anything and hop between the tanks."     #player
     The fish stare blankly at you, not recognising the creature you're describing.
-    "Maybe he can't get into this tank. It's difficult to get in here, but we think there's a way out!"     #shoal
+    "Maybe he can't get into this tank. It's difficult to get in here, but we think there's a way out!"     #youngshoal
     ~tank_plan = 1
     -> MistrustfulFish
     
 * "I only arrived yesterday, he seems to have been here much longer."   #player
-    "Which aquarium were you transferred from?" the fish ask excitedly  #shoal.
+    "Which aquarium were you transferred from?" the fish ask excitedly  #youngshoal.
     **You are confused. "Aquarium?"   #player
-    "Your previous tank, where was it? Melbourne? Sydney? Where did you live before this?"  #shoal
+    "Your previous tank, where was it? Melbourne? Sydney? Where did you live before this?"  #youngshoal
      ***"This is my first time in a tank. Yesterday I was in the ocean".   #player
      You feel wistful as you think of your home.
     
@@ -45,29 +45,29 @@ The fish {|still} seem mistrustful of you.
 
     
     * "Are none of you from the ocean?["] I have seen many fish who look just like you out on the reef."   #player
-      "A few fish in this tank are from the reef, and all they can talk about is how great the sea is. Most of us were born here though, and we don't reckon this so called 'sea' is all that."    #shoal
+      "A few fish in this tank are from the reef, and all they can talk about is how great the sea is. Most of us were born here though, and we don't reckon this so called 'sea' is all that."    #youngshoal
       "The ocean is great!" you reply. "All your families are out there - clownfish, you all live in the anemonaes, and there is so much room for everyone to swim."   #player
         A few of the fish are excited, and turn back to face you {fish_trust<2: but most of them aren't convinced}.
         ~ fish_trust +=1
         -> MistrustfulFish
     
     * "I refused to leave here without you!["] The Octupus told me how to escape, but I saw that you were still trapped and couldn't just leave."   #player
-        The fish look suspicious. "You can leave?"  #shoal
+        The fish look suspicious. "You can leave?"  #youngshoal
         ** "Why should I tell you, if you don't trust me?"  #player
             The shoal seems to pause for a moment, indecisive.
             You sigh, and tell them. "We can leave through the pipe over there. Now we just need to get you out of this tank!" #player
         ** "Yes!["] The drain over there leads back out to the ocean, we just need to remove the grill, which the Octopus can do."    #player
             The shoal seems to pause for a moment, indecisive.
-            "So if we can leave the tank, we can escape to the ocean?"  #shoal
+            "So if we can leave the tank, we can escape to the ocean?"  #youngshoal
             *** [Nod]   #player #action
         --
         ~ fish_trust +=1
         -> MistrustfulFish
     
     *["We have to stick together"] "Exactly! We have to stick together, all the sea creatures." #player
-        The Fish seem unimpressed. "All of us, stick together? What about the mantis shrimp!? He doesn't exactly want to help us. Us fish have to stick together."   #shoal
+        The Fish seem unimpressed. "All of us, stick together? What about the mantis shrimp!? He doesn't exactly want to help us. Us fish have to stick together."   #youngshoal
             ** "Who is the mantis shrimp?"  #player
-            The fish are nervous. "You said that all sea creatures need to stick together, but there is a shrimp in this tank who attacks other creatures."  #shoal
+            The fish are nervous. "You said that all sea creatures need to stick together, but there is a shrimp in this tank who attacks other creatures."  #youngshoal
             "That's terrible! Why would the Captor put you in a tank with a predator? I would not hurt you, I want to help you."    #player
             ** "If we help each other, we can escape together.["] We all deserve to live in freedom!"    #player
             --
