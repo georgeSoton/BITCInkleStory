@@ -15,9 +15,8 @@ You approach the group of older fish. {!They seem wary of your presence.}
     #right:wrassefish
     -> old_ones_converse_loop
 * [Talk to someone else]
-    You decide not to interrupt the older fish. You swim back and talk to another fish. 
-    #right:
-    #left:
+    You decide not to interrupt the older fish. You swim back and talk to another fish. #right: #left:
+
     -> fish_options
     
 = old_ones_converse_loop
@@ -28,9 +27,8 @@ You approach the group of older fish. {!They seem wary of your presence.}
         -> old_ones_converse_loop
     *[Leave them alone]
         "If you are going to speak to me like that I will find someone else who will listen." #player
-        You swim off to find more agreeable fish. 
-        #left:
-        #right:
+        You swim off to find more agreeable fish. #left: #right:
+
         -> fish_options
     *{convinced_young_fish==true} "The younger fish seemed so excited about my plans to get you all out of here..." #player
         "You let the younger fish get their hopes up? They don't even know what is out there." #oldshoal
