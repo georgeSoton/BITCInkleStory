@@ -3,6 +3,7 @@ VAR turtletype = ""
 
 
 === OctopusFirstVisit === 
+->Entry
 = Entry
 # scene: HoldingTank
 * [Open your eyes] #left:Turtle #track:KindaHarp
@@ -113,7 +114,7 @@ You hear a noise from the other side of the tank.
                     ~ octopusplural = "octopuses"
             
     - The Octopus gestures beyond the tank, to the ground below.
-    "There is a drain in the floor here. It case of spillages or water changes in the tanks, it drains straight to the coast. It's latched shut, but we {octopusplural} are awfully dexterous. You'll be free again."    #octopus
+    "There is a drain in the floor here. In case of spillages or water changes in the tanks, it drains straight to the coast. It's latched shut, but we {octopusplural} are awfully dexterous. You'll be free again."    #octopus
     * "I have some questions first." # player
         "That's fine, little friend," the Octopus replies. "But let's be quick. Time is of the essence."    #octopus
         -> FirstOctoQuestions
@@ -161,7 +162,7 @@ You hear a noise from the other side of the tank.
     -> FirstExit
     
 =FirstExit
-    The Octopus opens the lid further, large enough for you to leave with him.
+    The Octopus opens the lid further, until the gap large enough for you to leave with him.
     "It is time, little friend. You'll breathe free air again soon."    #octopus
     * [I'm excited]
         The excitement is palpable, this is an adventure! # player #action
@@ -184,7 +185,7 @@ As you get closer you see further down the corridor a huge tank filled with beau
      -> together_escape
     ** [Ask about them.] "Are they happy here?" you ask. #player
     You look back at the tank curiously. You wonder what they're like, and when they got caught, and if they miss their friends in the sea.
-    The Octopus sighs, "Of course they are, now lets go."
+    The Octopus sighs, "Of course they are, now let's go."  #octopus
     ****[Follow him]
     -> lonely_escape
     ****[Turn back]
