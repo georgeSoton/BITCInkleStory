@@ -178,7 +178,17 @@ As you get closer you see further down the corridor a huge tank filled with beau
 * "Is that the main tank?" # player
 - "Yes, now do you see why we must leave quickly." #octopus
 * Nod # player # action
+    You shuffle closer to the drain, but the thought of all those fish in that huge glass box sends shivers over your shell.
+    ** [Suggest saving them] You suggest saving them. #player #action
+     -> together_escape
+    ** [Ask about them.] "Are they happy here?" you ask. #player
+    You look back at the tank curiously. You wonder what they're like, and when they got caught, and if they miss their friends in the sea.
+    The Octopus sighs, "Of course they are, now lets go."
+    ****[Follow him]
     -> lonely_escape
+    ****[Turn back]
+    "No way, I'm going to save them all."
+    -> together_escape
     
 * Suggest saving them # player # action
     -> together_escape
