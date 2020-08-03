@@ -5,7 +5,7 @@
 =talk_to_goby_start
 #scene: MainTank
 #left: turtle
-#right:goby
+#right: goby
 #track:KindaHarp
 {convinced_goby: -> already_convinced}
 The Goby fish digs himself down into the sand a little more{! when he sees you come near. He doesn't seem to like strangers}.
