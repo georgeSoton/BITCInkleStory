@@ -178,7 +178,7 @@ You hear a noise from the other side of the tank.
 = start_first_drain
 #scene:AquariumFloor
 #left:turtlenobubbles
-#right:octopus
+#right:octopusnobubbles
 The Octopus leads you to the drain on the ground below.
 
 As you get closer you see further down the corridor a huge tank filled with beautiful and varied sea life, all swimming around a central artificial coral reef. 
