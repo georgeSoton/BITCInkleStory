@@ -6,13 +6,13 @@
 =talk_to_old_ones_start
 #scene: MainTank
 #left: turtle
-#right: wrassefish
+#right: oldshoal
 #track:KindaBrassLoop
 You approach the group of older fish. {!They seem wary of your presence.}
 {convinced_old_fish: -> already_convinced}
 * [Approach the group of older fish]
     "We have no interest in talking to outsiders." #oldshoal
-    #right:wrassefish
+    #right:oldshoal
     -> old_ones_converse_loop
 * [Talk to someone else]
     You decide not to interrupt the older fish. You swim back and talk to another fish. #right: #left:
