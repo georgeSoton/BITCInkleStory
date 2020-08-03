@@ -12,7 +12,7 @@ Which fish would you like to approach?
     -> talk_to_pufferfish
 
     +[Speak with the Goby at the base of the tank]
-    -> talk_to_gobi
+    -> talk_to_goby
 
     +[Speak with the old Wrasse]
     -> talk_to_old_ones

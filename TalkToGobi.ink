@@ -3,7 +3,7 @@
 
 === talk_to_goby
 #right:goby
-The Goby fish digs himslef down into the sand a little more {!when he sees you come near. He doesn't seem to like strangers}.
+The Goby fish digs himself down into the sand a little more {!when he sees you come near. He doesn't seem to like strangers}.
 
 * "Hi there!" [] You greet the him with warmth. #player
 
@@ -11,8 +11,8 @@ The Goby fish digs himslef down into the sand a little more {!when he sees you c
     
     ** "I'm a friend! Parrotfish sent me to talk to you"    #player
     
-    "Oh, okay... I'm not sure about this." #goby
-    
+   "Oh, okay... I'm not sure about this." #goby
+    -> talk_to_goby
     
     // TODO options
     
