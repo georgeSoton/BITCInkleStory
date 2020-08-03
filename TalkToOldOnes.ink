@@ -2,7 +2,8 @@
 // This should be reachable from MainTank.ink
 
 === talk_to_old_ones
-
+#scene: MainTank
+#left: player
 You approach the group of older fish. {!They seem wary of your presence.}
 
 #right:wrassefish

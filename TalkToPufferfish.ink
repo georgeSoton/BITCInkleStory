@@ -4,6 +4,7 @@
 // You approach the pufferfish cave / home / ?
 // They hide behind a rock, refuse to see you. They could get infected!
 === talk_to_pufferfish
+#scene: MainTank
 -> talk_to_pufferfish_start
 =talk_to_pufferfish_start
 As you near the pufferfish, she ducks behind a rock, eyeing you warily.

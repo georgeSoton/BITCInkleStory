@@ -1,5 +1,8 @@
 === lonely_escape
 = approach_the_drain
+#scene: AquariumFloor
+#right: octopus
+#left: player
 "Well this is it", the Octopus tells you, gesturing at the drain. "I can open it, and you'll be free to return home." #octopus
 *"Thank[s.]" you so much, you really are a kind octopus."   #player
 "It really isn't any trouble. You be safe now." #octopus

@@ -1,8 +1,8 @@
 // File for the Gobi interaction.
 // This should be reachable from MainTank.ink
-
--> talk_to_goby
 === talk_to_goby
+#scene: MainTank
+#left: player
 #right:goby
 The Goby fish digs himself down into the sand a little more{! when he sees you come near. He doesn't seem to like strangers}.
 *"Hi there!" [] You greet him with warmth. #player

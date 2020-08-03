@@ -2,6 +2,7 @@ VAR h_and_s = 0
 
 
 === return_to_octopus
+#scene: HoldingTank
 //TODO add condition on {im}patiently depending on turtle personality
 You sit patiently in the quarantine tank, waiting for the Octopus to return.
 //(Time passes, add extra detail here)
