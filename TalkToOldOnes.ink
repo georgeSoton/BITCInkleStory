@@ -5,7 +5,7 @@
 ->talk_to_old_ones_start
 =talk_to_old_ones_start
 #scene: MainTank
-#left: player
+#left: turtle
 #track:KindaBrassLoop
 You approach the group of older fish. {!They seem wary of your presence.}
 {convinced_old_fish: -> already_convinced}

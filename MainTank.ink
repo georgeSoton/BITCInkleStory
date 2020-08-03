@@ -7,7 +7,7 @@ VAR young_fish = 0
 
 === into_the_main_tank ===
 #scene:MainTank
-#left: player
+#left: turtle
 #track:KindaHarp
 Diving into the cool waters of the main tank, the sheer amount of life inside the aquarium becomes apparent for the first time.
 
