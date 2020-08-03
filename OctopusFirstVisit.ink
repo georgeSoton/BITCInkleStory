@@ -5,7 +5,7 @@ VAR turtletype = ""
 === OctopusFirstVisit === 
 = Entry
 # scene: HoldingTank
-* [Open your eyes] #left:Turtle #track:TrackLoops/KindaHarp
+* [Open your eyes] #left:Turtle #track:KindaHarp
     As you open your eyes, you see the oceans around you.
 - There are rocks and plants. And another turtle! #right:Turtle
 * [Swim towards the rocks] You head for the rocks <> # player # action
@@ -60,7 +60,7 @@ You hear a noise from the other side of the tank.
     -> OctopusAppears
 
 =OctopusAppears
-    Before you is an Octopus, leaning into the tank. #right:Octopus #track:TrackLoops/KindaGuitarAcouLoop
+    Before you is an Octopus, leaning into the tank. #right:Octopus #track:KindaGuitarAcouLoop
     
     He looks <>
     
@@ -124,7 +124,8 @@ You hear a noise from the other side of the tank.
     * "Aren't you going to leave too?" # player
         "Ah I wondered if you'd ask, little friend."    #octopus
         He shakes his head.
-        "But I have been here a long time, and I don't think I could go back to the outside. No, your freedom is enough." -> FirstOctoQuestions #octopups
+        "But I have been here a long time, and I don't think I could go back to the outside. No, your freedom is enough." #octopus
+        -> FirstOctoQuestions 
     * "Have you freed other creatures before me?" # player
         He pauses to think.
         "I have. But it's been such a long time, I can hardly even rememeber them." #octopus
