@@ -1,5 +1,7 @@
 VAR convinced_mantis = false
 ===great_betrayal
+-> great_betrayal_start
+= great_betrayal_start
 #scene: AquariumFloor
 #left:turtlenobubbles
 #right:

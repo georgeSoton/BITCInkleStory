@@ -2,6 +2,8 @@ VAR h_and_s = 0
 
 
 === return_to_octopus
+-> return_to_octopus_start
+= return_to_octopus_start
 #scene: HoldingTank
 #track:KindaBassLoop
 //TODO add condition on {im}patiently depending on turtle personality

@@ -6,6 +6,8 @@ VAR convinced_young_fish = false
 VAR young_fish = 0
 
 === into_the_main_tank ===
+-> start_tank
+= start_tank
 #scene:MainTank
 #left: turtle
 #track:KindaHarp
