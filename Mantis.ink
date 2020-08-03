@@ -12,6 +12,7 @@ You approach the old Mantis Shrimp's cave tentatively. As you near the entrance 
     Your nerves are getting to you.
 + "Mantis Shrimp! I've come to talk to you." #player
 -
+#right:mantis
 The Mantis Shrimp appears, still cooped within the shade of his cave.
 {convinced_mantis: -> already_convinced_mantis}
 {mantis_justify_plan: ->mantis_justify_plan}
@@ -19,7 +20,6 @@ The Mantis Shrimp appears, still cooped within the shade of his cave.
 -> first_talk
         
 = first_talk
-#right: mantis
 {&|The Mantis Shrimp looks impatient|He shuffles back into the darkness of his home. This conversation is over. ->fish_options} #mantis
 + "Sorry to bother you["], I was just wondering-" #player
     {&"Quit yapping and leave me alone."|"Leave, kid."|"I don't want to talk, go away."} #mantis
