@@ -1,8 +1,11 @@
 
 === together_escape
 // I've added branch names incase we actually want to make this branch off
-
+->start
 = start
+#scene:AquariumFloor
+#left:turtle
+#right:Octopus
 "We can't leave the others behind! This is no life to live!" #player
 
 "They are only fish. They cannot break out like you, they need water to breathe." #octpous
@@ -35,7 +38,7 @@ You pale in shock.
     The Octopus looks at you with a smile. 
     "If you are brave enough."#octopus
     ~turtletype="Brave"
-*   "I'm sure if we get everyone on board, the mantis shrimp cannot hurt us all."   #player
+*   "I'm sure if we get everyone on board, the Mantis Shrimp cannot hurt us all."   #player
     The Octopus looks at you curiously.
     "If you are sure you can convince everyone."    #octopus
     ~turtletype="Optimistic"
@@ -51,7 +54,7 @@ You pale in shock.
     
     The Octopus grins widely then points down the hallway.
     
- -  "The tank is down there, good luck."    #player
+ -  "The tank is down there, good luck."    #octopus
     
 *   [Follow the way the Octopus points] #player #action
     #right:

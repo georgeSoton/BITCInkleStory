@@ -64,42 +64,37 @@ The fish {|still} seem mistrustful of you.
         ~ fish_trust +=1
         -> MistrustfulFish
     
-    *["We have to stick together"] "Exactly! We have to stick together, all the sea creatures." #player
-        The Fish seem unimpressed. "All of us, stick together? What about the mantis shrimp!? He doesn't exactly want to help us. Us fish have to stick together."   #youngshoal
-            ** "Who is the mantis shrimp?"  #player
-            The fish are nervous. "You said that all sea creatures need to stick together, but there is a shrimp in this tank who attacks other creatures."  #youngshoal
-            "That's terrible! Why would the Captor put you in a tank with a predator? I would not hurt you, I want to help you."    #player
-            ** "If we help each other, we can escape together.["] We all deserve to live in freedom!"    #player
-            --
-            ~ fish_trust +=1
-            -> MistrustfulFish
+    *"We sea creatures have to stick together!"[] you cry. #player
+        The Fish seem unimpressed. "<i>Fish</i> have to stick together. But you hard-shelled lot are a different matter."   #youngshoal
+        There's a lot of worry in those words - you wonder what makes them so wary.
+        "We're all trapped here. That's got to be a worthy common cause, more so than any other worries you might have between us!" #player
+        ~ fish_trust +=1
+        -> MistrustfulFish
     
-    * Turn away and leave.[] Why should you go out of your way to help mean fish like these?
+    * Turn away and leave.
+    Why should you go out of your way to help mean fish like these?
         "How rude! I come all this way to talk to you and you don't trust me?" #player
         You turn away from the tank and propel yourself towards the drain, ready to head back to sea. #right:
         -> lonely_escape
 
 = EnterTank
-The group of fish have visibly calmed, they seem to trust you again.
+The group of fish have visibly calmed, they seem willing to trust you.
 An older fish comes forward out of the crowd. #right:parrotfish
 "You said that there's a way out of this room, if we can leave our tank?" #parrotfish   
 
 * "Yes, see this grate?["] It leads to the ocean! My friend the Octopus can help us open it when we escape." #player
 
-// TODO another option?
-
 - The fish all look at each other with some excitement. This may be more hope than they have felt in years.
-"You should come in the tank, I feel we have much to discuss"   #parrotfish
+"I feel we have much to discuss. Come in."   #parrotfish
 
 * "Can't we keep talking through the glass?"    #player
     "It's too risky, if the Captor comes through here he'll see you!"   #parrotfish
-    The mention of the Captor makes the other fish tense. He was clearly not well liked. The older Parrotfishfish continues talking regardless.
+    The mention of the Captor makes the other fish tense. He's clearly not well liked. The older Parrotfish continues talking regardless.
 
 * "How can I get in?"   #player
 
-- "There is an automated feeder on the side of the tank. We've worked out how to open it, but we can't leave through it yet because it's dry outside."    #parrotfish
-You make your way towards the feeder, and follow the fish's instructions to clamber past the gate and into the tank.
+- "There is an automated feeder on the side of the tank. We've worked out how to open it, and with those flippers of yours you should be able to climb up."    #parrotfish
+You make your way towards the feeder, and follow the fish's instructions to clamber past the gate.
 
-// TODO replace with puzzle?
-*[Crawl through feeder] #player #action
+*Crawl through feeder #player #action
 ->into_the_main_tank

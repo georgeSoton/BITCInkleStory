@@ -3,6 +3,7 @@ VAR friends_with_puffer = false
 VAR convinced_goby = false
 VAR convinced_old_fish = false
 VAR convinced_young_fish = false
+VAR young_fish = 0
 
 === into_the_main_tank ===
 #scene:MainTank
@@ -17,9 +18,9 @@ Diving into the cool waters of the main tank, the sheer amount of life inside th
 #right:
 {!You see many different species swimming around. Many eye you suspiciously and yet the warmth of the community brightens your heart.|The tank is large, but it seems crowded with fish.| The small patch of coral in the centre of the tank reminds you of home.|The fish seem to hang out in groups, chattering as they swim in circles around the tank. -> inside_tank_intro} 
 
-+[Swim forward] # player # action
-+[Look around] # player # action
-+[Head to the bottom] # player # action
++Swim forward # player # action
++Look around # player # action
++Head to the bottom # player # action
 
 - ->main_tank_explore
 
@@ -52,14 +53,13 @@ Diving into the cool waters of the main tank, the sheer amount of life inside th
     ** "Why[?"] would the captor leave a hole in the lid?" you ask, puzzled. #player
         The Parrotfish explains that the tank is fed by an automatic system, which lifts the lid at certain times of day.
         "We're now able to open that section whenever we want." #parrotfish
-    ** [Nod] #player #action
-    You nod, remembering. 
+    ** [Nod] You nod, remembering #player #action
     -- "The issue is, the lid is too far from the surface of the water for us to be able to use it. We think that if we can find a way to block the outlet at the bottom of the tank, we can overfill the tank." #parrotfish
         "How will you block it?" #player
         "The goby is a fanstastic digger and can dig up material for us to use, there is just the matter of convincing him." he says gently. #parrotfish
         *"I will convince him." #player
         -
-    *** ["Then we leave through the drain"]
+    *** "Then we leave through the drain"  #player
         "Then once you can escape, I'll get the Octopus to remove the grate from the top of the drain, and we can all escape!" #player
         You are both excited by the prospect of returning to the sea.
 
@@ -68,26 +68,26 @@ Diving into the cool waters of the main tank, the sheer amount of life inside th
 * ["The captor?"] "Will the Captor be a problem?" #player
 
     "The Captor rarely comes in here, but you should hide if they do." #parrotfish
-    **[Look for a hiding place] # player # action
+    **Look for a hiding place # player # action
     There's a promising looking hollow at the base of the coral.
     "What about that hollow?" you ask, gesturing towards it. #player
     "That could work," he says hesitantly, "but the old Wrasse tend to hang out there. You might need to talk to them before diving in." #parrotfish
     
-    ***[Look for another hiding place] # player # action
+    ***Look for another hiding place # player # action
     You see a cave-like structure at the back of the tank.
     "There's a cave over there, would I fit in there?" #player
     "Ah." You can tell that the Parrotfish is uncomfortable. "The Mantis Shrimp lives there, I wouldn't go that way if I were you." #parrotfish
     You notice that there are no fish swimming in that area of the tank.
     "Right, I'll keep to this side of the tank!" #player
     
-    ****[Look around again]
+    ****Look around again  #player #action
     There's a patch of long seaweed, you're worried that your fins will get tangled if you go in there.
     "I think that's you best bet for now, if the captor comes along," says the Parrotfish, following your gaze. #parrotfish
     You sigh and nod.
     
     -> questions
 
-* ["Quarantine?"]
+* "Quarantine?"  #player
     "Why was I in a tiny tank?" You are disappointed not to have been included in this community. #player
     "You were just brought in from the ocean, the captor doesn't know what diseases or parasites you may be carrying." The Parrotfish looks a little wary. #parrotfish
     "Don't worry, I'm fit as a fiddle. I have loads of fish friends on the reef and I've never made them ill!" #player
@@ -103,40 +103,38 @@ Diving into the cool waters of the main tank, the sheer amount of life inside th
     #right:
     -> fish_options
     
-* {fish_options} "That's all, thank you."
+* {fish_options} "That's all, thank you." #player
     -> fish_options
 
 === fish_options
-#left:turtle
 #right:
-#track:KindaBassLoop
 Which fish would you like to approach?
 
-    +Speak with the Pufferfish
+    +Speak with the Pufferfish #player #action
     -> talk_to_pufferfish
 
-    +Speak with the Goby at the base of the tank
+    +Speak with the Goby at the base of the tank #player #action
     -> talk_to_goby
 
-    +Speak with the old Wrasse
+    +Speak with the old Wrasse #player #action
     -> talk_to_old_ones
     
-    +Speak with the young fish [who are eagerly watching you]
+    +Speak with the young fish [who are eagerly watching you] #player #action
     -> talk_to_young_ones
     
-    +Speak with the Parrotfish
+    +Speak with the Parrotfish #player #action
     -> questions
     
-    +Seek out the Mantis shrimp
+    +Seek out the Mantis shrimp #player #action
     -> convince_mantis
     
-    *{TimeToEscape==false}None of them, there's no place for me with this lot.
+    *{TimeToEscape==false}None of them, there's no place for me with this lot. #player #action
     ->dont_belong
     
-    +{TimeToEscape==false}None of them, I've done everything I want.
+    +{TimeToEscape==false}None of them, I've done everything I want. #player #action
     -> leave_tank_to_octo
 
-    *{TimeToEscape==true}All of them. It's time.
+    *{TimeToEscape==true}All of them. It's time. #player #action
     -> start_the_escape
 
 === dont_belong
@@ -184,8 +182,40 @@ And then we'll be outside the tank. All that remains is to make it to the sea.
 * The Octopus will open the latch! #player #action
     And then we'll be free again!
 -
-* Gather the fish
-    You spread the word, and the 
+* Gather the fish #player #action
+    You spread the word, and the fish of the tank gather around you.
+    "I know I've only arrived recently, but we are united in a common struggle." #player
+    "Thanks to your ingenuity" you say, looking at the Parrotfish "and with a little outside assistance, we will all be in the ocean by tomorrow." #player
+    The fish are nervous, but excited.
+    #right:wholetank
+    -> announce_fish
 
-    -> END
-
+=announce_fish
+    * {visit_mantis} "Are you ready to venture out, Pufferfish?"[] you ask. #player
+        She takes a moment. "Yes, I am" she says. "It will be difficult to start again, but we all deserve a chance to be free." #Pufferfish #right:pufferdeflated
+        {convinced_mantis} "All of us." she repeats, casting a look at the Mantis Shrimp. #Pufferfish
+        {!convinced_mantis} "All of us." she repeats, casting a regretful look back at the Mantis Shrimp's corner of the tank. #Pufferfish
+    * {convinced_young_fish} "What will you do when you're out on the wide ocean, young'uns?"[] you ask. #player
+        "We're going to see everything!" #youngshoal #right:youngshoal
+        "Everything!"
+        "Go everywhere!"
+        "WEEEEE!"
+    * {convinced_old_fish} "Your fry will have the chance to live their lives in open waters. You must be excited." #player
+        The shoal of older fish turn and murmer to each other. #oldshoal #right:oldshoal
+        "Yes, it is exciting." they agree. "The ocean should be afraid of them, not the other way around!" #oldshoal
+    * "Goby, are you prepared do to your part?" #player
+        "You bet!" #Goby #right:goby
+        "You won't believe how fast I can work." 
+    * {convinced_mantis} Acknowledge the Mantis Shrimp #player #action
+        The Mantis Shrimp is some way away from the group. #right:mantisshiny
+        You nod his way.
+        He nods back.
+    * -> announcedfish
+    
+    - ->announce_fish
+= announcedfish
+    With a deep breath, you and the fish{convinced_mantis: - along with a grouchy crustacean -} set to work.
+    The Parrotfish gets the feeder opened up, and Goby sets to work on the outlet.
+    All that remains is to wait.
+    * Wait #player #action
+        -> great_betrayal
