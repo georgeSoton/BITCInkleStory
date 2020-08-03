@@ -24,7 +24,7 @@ A group of young fish excitedly group around you to hear stories of the great oc
         "We were born here, silly!" #angelfish
         **"Have you ever heard of the sea?" #player
             "The older fish sometimes talk about it, sounds like an amazing place! They're really grumpy though, it's hard to get them to talk about anything." #angelfish
-    *"What do you think of your tank?" #player
+
         **"We've always wanted to see the world outside of this place. The old ones talk about the big ocean with its huge playground and lots of types of friends! We want to make more friends! We are bored of the same rocks here." #angelfish
         
 
