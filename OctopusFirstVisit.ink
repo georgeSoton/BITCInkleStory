@@ -46,12 +46,12 @@ You hear a noise from the other side of the tank.
 = HideFromNoise
     You take comfort in the quiet and dark.
     
-    * [...]
+    * ... # player #action
     
     -
-    * [It occcurs to you that this probably doesn't count as hiding.]
+    * It occcurs to you that this probably doesn't count as hiding. # player #action
     -
-    * [. . .]
+    * . . . # player #action
     
     "Come out little friend, you're safe."  #octopus
     

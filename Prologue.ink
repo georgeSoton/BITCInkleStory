@@ -61,7 +61,7 @@ You look up at the square of light from the outside world
 - -> PassOut
 
 =PassOut
-{!The box is dreafully small}
+{!The box is dreadfully small}
 + Try and breathe # player # action
 {!The pocket of air is hardly large enough for you to get your head clear above water.|The water sloshing in the box makes it hard to stay in any one spot.|The air grows stale.|You barely have the strength to swim up.|You barely have the strength. ->PassedOut}
 - ->PassOut
