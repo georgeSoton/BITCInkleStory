@@ -21,7 +21,7 @@ A group of young fish excitedly group around you to hear stories of the great oc
         **"Have you ever head of the sea?"
             "The older fish talk about the sea a lot, sounds like an amazing place!"
     *"I have a plan to get out of here"
-        **"We've always wanted to see the world outside of this place. The old ones talk about the big ocean with it's huge playground and lot's of types of friends! We want to make more friends! We are bored of the same rocks here."
+        "We've always wanted to see the world outside of this place. The old ones talk about the big ocean with it's huge playground and lot's of types of friends! We want to make more friends! We are bored of the same rocks here."
         
 
 - "What if I told you I could get you out of here? Experience the big wide ocean?"

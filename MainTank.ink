@@ -129,6 +129,9 @@ Which fish would you like to approach?
     +[Speak with the Parrotfish]
     -> questions
     
+    + {friends_with_puffer} [Speak with the Mantis Shrimp]
+    ->convince_mantis
+    
     +[No one]
     -> tank_exit
 
