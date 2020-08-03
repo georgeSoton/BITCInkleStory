@@ -6,6 +6,7 @@
 #scene:AquariumFloor
 #left:turtle
 #right:Octopus
+#track:KindaGuitarAcouLoop
 "We can't leave the others behind! This is no life to live!" #player
 
 "They are only fish. They cannot break out like you, they need water to breathe." #octpous

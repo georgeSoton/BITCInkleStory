@@ -8,7 +8,7 @@
 #left: player
 #track:KindaBrassLoop
 You approach the group of older fish. {!They seem wary of your presence.}
-
+{convinced_old_fish: -> already_convinced}
 * [Approach the group of older fish]
     "We have no interest in talking to outsiders." #oldshoal
     #right:wrassefish
@@ -47,4 +47,6 @@ You swim back more determined than before.
         #right:
 -> fish_options
 
--> END
+=already_convinced
+They don't seem all that interested in chatting to you right now.
+-> fish_options

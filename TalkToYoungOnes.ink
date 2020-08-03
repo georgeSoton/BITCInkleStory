@@ -6,6 +6,7 @@
 #scene: MainTank
 #left:turtle
 #track:KindaClarinetLoop
+{convinced_young_fish: -> already_convinced}
 A group of young fish excitedly group around you to hear stories of the great ocean.
 #right:angelfish
 * [Approach the group of young fish] #player #action
@@ -47,3 +48,6 @@ A group of young fish excitedly group around you to hear stories of the great oc
     The young fish swim away chatting to each other about what they will get to see and do with their new found freedom. You turn back smiling and head back to the centre of the main tank. 
     ~ convinced_young_fish = true
     -> fish_options 
+= already_convinced
+The Young Shoal crowd around you asking when it's time to go. You reassure them is will be soon, and head back to the Parrotfish
+-> fish_options

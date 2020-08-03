@@ -3,6 +3,7 @@
 #scene: AquariumFloor
 #right: octopus
 #left: player
+#track:KindaGuitarAcouLoop
 "Well this is it", the Octopus tells you, gesturing at the drain. "I can open it, and you'll be free to return home." #octopus
 *"Thank[s."] you so much, you really are a kind octopus."   #player
 "It really isn't any trouble. You be safe now." #octopus
@@ -16,7 +17,7 @@ The Octopus looks at you sternly, pulls open the drain cover, and gestures towar
 "This is your chance, get out while you can."   #octopus
 **[Back away]
     You push back with your flippers, but don't move anywhere. You realise you're rising off the ground a little, and that you can't move at all.
-    "Wh-what're you doing?" #player
+    "Wh-what're you doing?" #player #track:KindaGuitarElecLoop
     You look around wildly, realising there's a tentacle wrapped around your shell.
     ***"Put me down!"[] you yell, but it's too late, you're in the drain now. #player
     The Octopus looks down at you.
