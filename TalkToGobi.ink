@@ -52,7 +52,7 @@ The Goby fish digs himself down into the sand a little more{! when he sees you c
     
     "Well I like you goby so I think they will like you too. Besides, it will be nice for you to have a more professional digger than me with you!"   #player
     
-    You can see goby relaxing more and he swims towards you. 
+    You can see Goby relaxing more and he swims towards you. 
     
     "Don't worry Turtle, if you want I can teach you how to dig like me."   #goby
     
@@ -84,10 +84,10 @@ The Goby fish digs himself down into the sand a little more{! when he sees you c
     -- "Well if you need me... okay, what's the plan?"  #goby
     
     **"I need you to dig["] lots of the aquariam floor into a big pile so the other fish can use it to jam the outlet at the bottom of the tank."
-        "If it's lot's of digging you need, I am sure I can manage." #goby
+        "If it's lots of digging you need, I am sure I can manage." #goby
     -- "I knew you could do it." #player
     
-    **You swim back to the others, leaving an excited goby digging his little heart out. #player #action  
+    **You swim back to the others, leaving an excited Goby digging his little heart out. #player #action  
     ~ convinced_goby = true
     -> fish_options
         
