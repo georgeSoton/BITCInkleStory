@@ -177,7 +177,7 @@ You hear a noise from the other side of the tank.
     -> start_first_drain
 = start_first_drain
 #scene:AquariumFloor
-#left:turtle
+#left:turtlenobubbles
 #right:octopus
 The Octopus leads you to the drain on the ground below.
 
