@@ -73,7 +73,7 @@ As you near the Pufferfish, she ducks behind a rock, eyeing you warily.
 
         "Of course not!" she says, outraged. "They're the reason we're all trapped here. But as long as we are, I would rather be healthy. And that is one thing they deserves credit for."    #pufferfish
         
-    * * "I see. Sorry."
+    * * "I see. Sorry." #player
         She huffs. Her good nature wants to accept your apology, but she knows she's right - You are a danger.
 * "The other fish aren't scared of me[."], aren't they afraid of infection too?" #player
     "That's because they blame the Mantis Shrimp for the disappearing fish, they don't realise how truly great the risk of infection is." # pufferfish
