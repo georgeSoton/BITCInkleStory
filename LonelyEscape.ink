@@ -10,7 +10,7 @@
 "It really isn't any trouble. You be safe now." #octopus
 His tentacle wraps around the complicated looking contraption, squeezing a button and pulling a lever all at once.
 You look down at your flippers and are thankful to have such a helpful friend on your side.
-**"I couldn't have done this without you[], you're a real pal," you tell the Octopus, as he pulls open the drain cover and you clamber in.  #octopus
+**"I couldn't have done this without you[."], you're a real pal," you tell the Octopus, as he pulls open the drain cover and you clamber in.  #player
 He smirks at you, "Don't worry about us in here, we'll be just fine. So long kiddo."#octopus
 ***[...]
 -> swirling_drain
