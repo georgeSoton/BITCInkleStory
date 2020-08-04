@@ -15,15 +15,15 @@ There is ocean all around you.
     * * Oh, neat. # player # action
     - - Yeah, this is a turtle story. #left:turtle
 
-- Your fins cut gracefully through the water, you are at one with the world.
-* Wait, fins? # player
+- Your flippers cut gracefully through the water, you are at one with the world.
+* Wait, flippers? # player
     {FoundOutImATurtle: ->RememberYoureATurtle}
     You're a turtle.
     ~FoundOutImATurtle = true
     * * Oh, neat. # player # action
     - - Yeah, this is a turtle story. #left:turtle
 
-* {FoundOutImATurtle} Being a turtle is rad #player
+* {FoundOutImATurtle} Being a turtle is rad! #player
     That is correct.
 
 - -> PrologueSwim
@@ -46,12 +46,12 @@ We've been through this, you're a turtle.
 
 =Netted
 \ 
-This is new. There's something ahead of you.
+This is new. There's something unusual ahead of you.
 * Seems interesting! Take a closer look. # player # action
     You slowly swim closer and examine the structure ahead of you.
     It looks frayed, fibrous. The pieces form a regular pattern too small for you to slip through.
 * Seems worrying. Back away. # player # action
-    You turn around, and begin your retreat. But soon enough the regular pattern is in front of you again.
+    You turn around, and begin your retreat away from the grid which was hanging in the water. But soon enough the regular pattern is in front of you again.
     Wherever you turn, it's on all sides.
 - ->Hauled
 
