@@ -38,6 +38,7 @@ The Octopus looks at you sternly, pulls open the drain cover, and gestures towar
 #left: player
 #right:
 #track:KindaLonelyHarpLoop
+~turtletype="lonely"
 The water rushes around you, pulling you down into the darkness, where you're suddenly plunged into the sea. It's cold but it's freedom.
 * [Turn back]
     The aquarium looms over the pier. It's so much bigger than you ever thought possible.
