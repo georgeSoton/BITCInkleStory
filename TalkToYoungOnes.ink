@@ -48,7 +48,7 @@ A group of young fish excitedly group around you to hear stories of the great oc
     -> fish_options 
 = already_convinced
 The angel fish crowd around you asking when it's time to go. 
-* "Soon! I just have a couple of things to sort out first..." #player
++ "Soon! I just have a couple of things to sort out first..." #player
 * "Have you gotten everyone else as excited about the escape as you are?" #player
     "Yes, of course! {convinced_old_fish: The old wrasse said that we convinced them so well that we didn't have to talk about it any more.}" #youngshoal
     "Then we'll be escaping soon, I'm sure." #player

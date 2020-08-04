@@ -98,6 +98,6 @@ The Goby fish digs himself down into the sand a little more{! when he sees you c
 The Goby looks up as you approach.
 "I can't wait to get out! I better keep practicing though..." #goby
 He goes back to digging in the sand, making a big pile.
-    * [Leave them to it.]
+    + [Leave them to it.]
     You decide to leave them to it.
     -> fish_options

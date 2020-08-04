@@ -132,9 +132,9 @@ You wonder what that means. Maybe he's just being dramatic.
 =already_convinced_mantis
 #right: mantisshiny
 "Kid, you've already got me on board." The Mantis Shrimp seems a little irritated. "I'm glad you convinced me, but that doesn't mean I want to chat. Let's get this show on the road." #mantis
-* ["Okay!"] #player
++ ["Okay!"] #player
  The Mantis Shrimp retreats back into his cave. #right:
 -
-* [Go back to the rest of the fish.] #player #action
++ [Go back to the rest of the fish.] #player #action
     ->fish_options
 
