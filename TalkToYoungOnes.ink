@@ -53,6 +53,6 @@ The angel fish crowd around you asking when it's time to go.
     "Yes, of course! {convinced_old_fish: The old wrasse said that we convinced them so well that we didn't have to talk about it any more.}" #youngshoal
     "Then we'll be escaping soon, I'm sure." #player
     -
-    ** "I'll let you know when it's time!" #player
+    ++ "I'll let you know when it's time!" #player
 You leave them to their chattering.
 -> fish_options
