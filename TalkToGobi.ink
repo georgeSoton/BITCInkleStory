@@ -47,7 +47,7 @@ The Goby fish digs himself down into the sand a little more{! when he sees you c
     
     "Really? Even more sand than here?" #goby
     
-    **"Yes! Loads for you to dig into and explore. You know...I know another goby who'd love to dig with you."     #player 
+    **"Yes! There is loads for you to dig into and explore. You know...I know another goby who'd love to dig with you."     #player 
     
     "I've never met another goby before, what if they don't like me?"   #goby
     
@@ -76,26 +76,28 @@ The Goby fish digs himself down into the sand a little more{! when he sees you c
 
     * "Have you heard of the escape plan?"  #player
 
-    "I'm not sure that you'd need me. What about the bigger and stronger fish?" #goby
+    "I heard Parrotfish talking about it a while ago. I'm not sure that it need me. What about the bigger and stronger fish?" #goby
 
     **"Of course we need you!"  #player
     
-    The Goby gazes up from his small freshly dug hole, he is worried but interested.
+    The Goby gazes up from his small freshly dug hole. He is worried but interested.
     
     -- "Well if you need me... okay, what's the plan?"  #goby
     
-    **"I need you to dig["] lots of the aquariam floor into a big pile so the other fish can use it to jam the outlet at the bottom of the tank."
+    ***"I need you to dig["] lots of the aquarium floor into a big pile over the outlet, so that it jams." #player
+        "Why?" #goby
+        "We need to raise the water level in the tank. If you can block the outlet with your amazing digging skills, then the water won't be able to drain away and we can all leave through the top!" #player
         "If it's lots of digging you need, I am sure I can manage." #goby
-    -- "I knew you could do it." #player
+        "I knew you could do it." #player
     
-    **You swim back to the others, leaving an excited Goby digging his little heart out. #player #action  
+    ****You swim back to the others, leaving an excited Goby digging his little heart out. #player #action  
     ~ convinced_goby = true
     -> fish_options
         
 = already_convinced
 The Goby looks up as you approach.
 "I can't wait to get out! I better keep practicing though..." #goby
-They go back to digging in the sand.
-    * [leave them to it.]
+He goes back to digging in the sand, making a big pile.
+    * [Leave them to it.]
     You decide to leave them to it.
     -> fish_options
