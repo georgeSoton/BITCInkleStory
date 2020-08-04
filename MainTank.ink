@@ -38,7 +38,7 @@ Diving into the cool waters of the main tank, the sheer amount of life inside th
     ** "I'm sure I can manage that." #player
 
     He smiles. "You're quite a charismatic turtle. I'm sure you'll have no problem." #parrotfish
-//    {turtletype == "charisma": You are, indeed, the most charismatic of the turtles.}
+    ~ turtletype = "charismatic"
 
     
     ** "Sounds tricky[."], maybe we should leave the creatures who don't want to come?" #player
@@ -199,15 +199,15 @@ And then we'll be outside the tank. All that remains is to make it to the sea.
         {convinced_mantis  "All of us." she repeats, casting a look at the Mantis Shrimp.|All of us." she repeats, casting a regretful look back at the Mantis Shrimp's corner of the tank.} #pufferfish
     * {convinced_young_fish} "What will you do when you're out on the wide ocean, young'uns?"[] you ask. #player
         "We're going to see everything!" #youngshoal #right:youngshoal
-        "Everything!"
-        "Go everywhere!"
-        "WEEEEE!"
+        "Everything!"   #youngshoal
+        "Go everywhere!"    #youngshoal
+        "WEEEEE!"   #youngshoal
     * {convinced_old_fish} "Your fry will have the chance to live their lives in open waters. You must be excited." #player
         The shoal of older fish turn and murmer to each other. #oldshoal #right:oldshoal
         "Yes, it is exciting." they agree. "The ocean should be afraid of them, not the other way around!" #oldshoal
     * "Goby, are you prepared do to your part?" #player
         "You bet!" #Goby #right:goby
-        "You won't believe how fast I can work." 
+        "You won't believe how fast I can work."    #goby
     * {convinced_mantis} Acknowledge the Mantis Shrimp #player #action
         The Mantis Shrimp is some way away from the group. #right:mantisshiny
         You nod his way.
