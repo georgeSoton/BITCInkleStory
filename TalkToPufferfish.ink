@@ -10,6 +10,7 @@
 #right:PufferDeflated
 #left: turtle
 #track:KindaHarp
+{friends_with_puffer : -> pufferfish_freindly_converse}
 As you near the Pufferfish, she ducks behind a rock, eyeing you warily.
 
 -> pufferfish_converse_loop
@@ -60,6 +61,7 @@ As you near the Pufferfish, she ducks behind a rock, eyeing you warily.
         The Pufferfish looks down, saddened.
         "We've all lost fish close to us, and we want something to blame. Something concrete." She sighs. #pufferfish
         "But it's not him, he's a good guy at heart. Unfortunately a Shrimp with a killer punch is easier to lash out at than the terrifying reality of our precarious health." # pufferfish
+        ~ friends_with_puffer = true //skip this loop in future
         -> pufferfish_converse_loop_3
 
 * -> pufferfish_converse_loop_3
@@ -94,3 +96,8 @@ As you near the Pufferfish, she ducks behind a rock, eyeing you warily.
     For the time being, you part ways with the Pufferfish. You imagine she'll appreciate you keeping your distance. #left: #right:
     -> fish_options
 - -> pufferfish_converse_loop_3
+
+= pufferfish_freindly_converse
+You near the Pufferfish keeping a respectful distance.
+"Just there's close enough thank you!"#pufferfish
+-> pufferfish_converse_loop_3
