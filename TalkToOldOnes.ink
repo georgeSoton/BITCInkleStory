@@ -47,4 +47,6 @@ You swim back more determined than before. #left: #right:
 
 =already_convinced
 They don't seem all that interested in chatting to you right now.
+    * [Leave them be.]
+    You decide to leave them be.
 -> fish_options

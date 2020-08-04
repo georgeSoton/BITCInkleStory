@@ -93,7 +93,9 @@ The Goby fish digs himself down into the sand a little more{! when he sees you c
     -> fish_options
         
 = already_convinced
-The puffer looks up as you approach.
+The Goby looks up as you approach.
 "I can't wait to get out! I better keep practicing though..." #goby
-They go back to digging in the sand, and you decide to leave them to it.
--> fish_options
+They go back to digging in the sand.
+    * [leave them to it.]
+    You decide to leave them to it.
+    -> fish_options

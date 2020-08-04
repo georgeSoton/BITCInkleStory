@@ -48,5 +48,7 @@ A group of young fish excitedly group around you to hear stories of the great oc
     ~ convinced_young_fish = true
     -> fish_options 
 = already_convinced
-The Young Shoal crowd around you asking when it's time to go. You reassure them is will be soon, and head back to the Parrotfish
+The Young Shoal crowd around you asking when it's time to go. 
+* [Reassure them]
+    You reassure them is will be soon, and head back to the Parrotfish.
 -> fish_options
