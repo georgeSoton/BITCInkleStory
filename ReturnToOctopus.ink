@@ -42,38 +42,48 @@ The Octopus appears above your little tank, tentacles draped lazily into the wat
 "Hang on a sec-" 
 The lid lifts up and the Octopus looms over the tiny tank.
 "What's going on, little friend?"  #octopus
+- ->octo_conversation
 
-//TODO, add condition based on who you managed to convince
+=octo_conversation
 * "I did it! I got everyone on board!" #player
 The Octopus looks skeptical.
-    ** "No really["], I did it, even the Mantis Shrimp! He's not so scary really."  #player
+    ** "No really["], I did it! {convinced_mantis: Even the Mantis Shrimp! He's not so scary really.}"  #player
     His features are hard to read, but you can tell he's surprised.
     ** "So when do we make our great escape?"   #player
+    -- "Let's slow down, little turtle. There are things you may not have considered."
+    -> octopus_questions    
 * "The main tank is amazing[!"], why didn't you tell me?!"  #player
 "Sure, I guess it's got its own charm..."  #octopus
 He pauses for a moment.
 ...
 "But it's nothing compared to the ocean, I'm sure you're dying to get back. I was just trying to help."    #octopus
-    **"I guess you're right[..."], I'm glad we'll all be escaping soon. I miss the ocean so much."   #player
-    **[Talk about the fish you met] "Exactly! Some of those fish have never even seen the ocean before, can you believe it?! Poor things, I can't wait to show them all how beautiful it is!"   #player
-    
+    ***"I guess you're right[..."], I'm glad we'll all be escaping soon. I miss the ocean so much."   #player
+    ***[Talk about the fish you met] "Exactly! Some of those fish have never even seen the ocean before, can you believe it?! Poor things, I can't wait to show them all how beautiful it is!"   #player
+        {convinced_goby: "The Goby is so excited to have more room to dig, and other friends who like burrowing!"} #player
+        {convinced_young_fish: "There are some young angel fish who can't wait to see the big wide world."} #player
+    *** [Talk about the disappearing fish] "They will be so much safer in the ocean! It's very worrying, hearing about the disappearances. And everyone seems to have a different theory about why they happen."  #player
+    --- "That is very interesting, little friend. I am sure you have their best interests at heart." #octopus
+    -> octopus_questions
 
-- He tilts his head a little to the side as though in deep thought, and then asks, 
+=octopus_questions
+He tilts his head a little to the side as though in deep thought, and then asks, 
 "Are you sure you want to do this?" #octopus
+
 * "Escape? Of course I do!" #player
-He rolls his beady eyes at you. "Of course you want to escape, I mean do you want to escape like this? <>
+He rolls his beady eyes at you. 
+"Of course you want to escape, I mean do you want to escape like this? <>
 * "What do you mean?"   #player
 "<>
 - This plan of yours to free the whole tank, it's brave, you've got heart...but it's risky, my friend. I'd hate to see you get hurt."    #octopus
 * "How risky?"  #player
-    "Rather, little one. And the large tank really isn't so bad, you're not letting anyone down if you just want to go...nobody would blame you." he says softly.   #octopus
+    "Rather, little one. And as you said, the large tank really is their home, it's all they've ever known. Would they thrive in the ocean, without the skills you learned growing up?" he says softly.   #octopus
     You stop and think for a moment. Is the aquarium so bad? Aren't they happy over there, it's their home...right? And you miss the ocean so deeply, like a physical ache. You realise it has a name, you're homesick.
     ** "I just want to go home."    #player
         "Of course you do, it's okay. The whole ocean is out there waiting for you, it's your home. And this is their home. That's just how it is."  #player
         *** [Agree]
             They seem happy enough here, and if the plan fails then some of them might not make it...
-            "Let's go" you tell the Octopus.    #player
-            "As you wish" he replies,   #octopus
+            "Let's go, without them" you tell the Octopus.    #player
+            "It's for their own good. You have made a sensible choice," he replies,   #octopus
             and he guides you out of your tank and towards your escape.
             ****[...]
             -> lonely_escape
@@ -83,6 +93,7 @@ He rolls his beady eyes at you. "Of course you want to escape, I mean do you wan
             -> hard_sell
     ** "I can't just leave them trapped here."  #player
     -> hard_sell
+    
     
 * "I don't care, I'm going to save my friends!" #player
 ->hard_sell
