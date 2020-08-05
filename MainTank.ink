@@ -196,7 +196,7 @@ And then we'll be outside the tank. All that remains is to make it to the sea.
 =announce_fish
     * {visit_mantis} "Are you ready to venture out, Pufferfish?"[] you ask. #player
         She takes a moment. "Yes, I am" she says. "It will be difficult to start again, but we all deserve a chance to be free." #pufferfish #right:pufferdeflated
-        {convinced_mantis  "All of us." she repeats, casting a look at the Mantis Shrimp.|All of us." she repeats, casting a regretful look back at the Mantis Shrimp's corner of the tank.} #pufferfish
+        {convinced_mantis:  "All of us." she repeats, casting a look at the Mantis Shrimp.|All of us." she repeats, casting a regretful look back at the Mantis Shrimp's corner of the tank.} #pufferfish
     * {convinced_young_fish} "What will you do when you're out on the wide ocean, young'uns?"[] you ask. #player
         "We're going to see everything!" #youngshoal #right:youngshoal
         "Everything!"   #youngshoal
@@ -212,10 +212,12 @@ And then we'll be outside the tank. All that remains is to make it to the sea.
         The Mantis Shrimp is some way away from the group. #right:mantisshiny
         You nod his way.
         He nods back.
-    * -> announcedfish
+    * "Everyone ready?"
+        -> announcedfish
     
     - ->announce_fish
 = announcedfish
+#right:wholetank
     With a deep breath, you and the fish{convinced_mantis: - along with a grouchy crustacean -} set to work.
     The Parrotfish gets the feeder opened up, and Goby sets to work on the outlet.
     All that remains is to wait.
