@@ -6,7 +6,7 @@ VAR turtletype = ""
 ->Entry
 = Entry
 # scene: HoldingTank
-* [Open your eyes] #left:Turtle #track:KindaHarp
+* [Open your eyes] #left:Turtle #track:KindaHarp #player
     As you open your eyes, you see the oceans around you.
 - There are rocks and plants. And another turtle! #right:Turtle
 * [Swim towards the rocks] You head for the rocks <> # player # action
@@ -61,7 +61,7 @@ You hear a noise from the other side of the tank.
     -> OctopusAppears
 
 =OctopusAppears
-    Before you is an Octopus, leaning into the tank. #right:Octopus #track:KindaGuitarAcouLoop
+    Before you is an octopus, leaning into the tank. #right:Octopus #track:KindaGuitarAcouLoop
     
     He looks <>
     
@@ -116,7 +116,7 @@ You hear a noise from the other side of the tank.
     - The Octopus gestures beyond the tank, to the ground below.
     "There is a drain in the floor here. In case of spillages or water changes in the tanks, it drains straight to the coast. It's latched shut, but we {octopusplural} are awfully dexterous. You'll be free again."    #octopus
     * "I have some questions first." # player
-        "That's fine, little friend," the Octopus replies. "But let's be quick. Time is of the essence."    #octopus
+        "That's fine, little turtle," the Octopus replies. "But let's be quick. Time is of the essence."    #octopus
         -> FirstOctoQuestions
     * "I'm ready, let's go!"[] you say, brimming with excitement. # player
         -> FirstExit
@@ -194,7 +194,7 @@ As you get closer you see further down the corridor a huge tank filled with beau
     ****[Follow him]
     -> lonely_escape
     ****[Turn back]
-    "No way, I'm going to save them all."
+    "No way, I'm going to save them all." #player
     -> together_escape
     
 * Suggest saving them # player # action
