@@ -80,12 +80,12 @@ He rolls his beady eyes at you.
     You stop and think for a moment. Is the aquarium so bad? Aren't they happy over there, it's their home...right? And you miss the ocean so deeply, like a physical ache. You realise it has a name, you're homesick.
     ** "I just want to go home."    #player
         "Of course you do, it's okay. The whole ocean is out there waiting for you, it's your home. And this is their home. That's just how it is."  #player
-        *** [Agree]
+        *** [Agree] #player
             They seem happy enough here, and if the plan fails then some of them might not make it...
             "Let's go, without them" you tell the Octopus.    #player
             "It's for their own good. You have made a sensible choice," he replies,   #octopus
             and he guides you out of your tank and towards your escape.
-            ****[...]
+            ****... #player
             -> lonely_escape
         *** [Disagree]
             "This isn't home, this is a cage!" you cry out. #player
@@ -115,7 +115,7 @@ You feel a cold chill as the weight of his words settle on you.
     The Octopus nods along with you.
     "Of course, if that's what you want," he says, #octopus
     guiding you out of the tank towards your escape.
-    **[...]
+    **...   #player
     -> lonely_escape
 * [Escape together]
     "No!"   #player
@@ -128,7 +128,7 @@ You feel a cold chill as the weight of his words settle on you.
     *** "Maybe you're right[."], you've been around so much longer than I have, if you think it's too risky you're probably right...let's go." #player
     "If that's what you want, little one, then let's go" he says softly,    #octopus
     and guides you out of your tank towards your escape.
-    ****[...]
+    ****... #player
     -> lonely_escape
     *** "It will be okay[."], I promise I'll be careful. I know you're scared for me, but I have to do this. I have to save them."    #player
     The Octopus looks at you for a moment. He looks defeated.
