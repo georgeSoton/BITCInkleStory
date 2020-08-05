@@ -48,7 +48,7 @@ Diving into the cool waters of the main tank, the sheer amount of life inside th
     -- ->questions
 
 === questions
-{"Are there any questions I can help you with?" he asks kindly. | "Anything else I can tell you about?" | He smiles and awaits your next question | "Any more questions?"}
+{"Are there any questions I can help you with?" he asks kindly. | "Anything else I can tell you about?" | He smiles and awaits your next question | "Any more questions?"} #parrotfish
 
 *["The plan?"]
     "So what is your plan to get out of this tank?" you ask. #player
