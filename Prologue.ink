@@ -30,17 +30,17 @@ There is ocean all around you.
 
 =RememberYoureATurtle
 We've been through this, you're a turtle.
-    * Right. I'm paying attention.
+    * Right. I'm paying attention. #player #action
         Let's hope.
-    * Can I not be a turtle?
+    * Can I not be a turtle? #player #action
         You may not.
     - ->PrologueSwim
 
 =PrologueSwim
 {You gaze, fondly, at the endless water ahead of you. | The ocean extends, beautiful and blue. | A fish swims past! | The coral is lovely. -> Netted}
-+ [Swim left]
-+ [Swim right]
-+ [Swim dead ahead]
++ Swim left #player #action
++ Swim right #player #action
++ Swim dead ahead #player #action
 
 - -> PrologueSwim
 

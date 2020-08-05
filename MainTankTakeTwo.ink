@@ -22,5 +22,5 @@ You feel
     This is just another in a long line of adventures. You can't wait to see what comes next.
 -
 
-* Go and see the fish
+* Go and see the fish #player #action
 -> fish_options

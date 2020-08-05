@@ -73,7 +73,7 @@ The fish {|still} seem mistrustful of you.
         ~ fish_trust +=1
         -> MistrustfulFish
     
-    * Turn away and leave.
+    * Turn away and leave. #player #action
     Why should you go out of your way to help mean fish like these?
         "How rude! I come all this way to talk to you and you don't trust me?" #player
         You turn away from the tank and propel yourself towards the drain, ready to head back to sea. #right:

@@ -178,7 +178,7 @@ And then we need to raise the water level so the fish can swim out.
 * {convinced_goby} The Goby will help us! #player #action
 * {!convinced_goby} That's true. I need to work that out. #player #action
     Maybe one of the fish can help.
-    * * Let's go.
+    * * Let's go. #player #action
         -> fish_options
 -
 And then we'll be outside the tank. All that remains is to make it to the sea.
@@ -212,7 +212,7 @@ And then we'll be outside the tank. All that remains is to make it to the sea.
         The Mantis Shrimp is some way away from the group. #right:mantisshiny
         You nod his way.
         He nods back.
-    * "Everyone ready?"
+    * "Everyone ready?" #player
         -> announcedfish
     
     - ->announce_fish

@@ -102,7 +102,7 @@ You hear a noise from the other side of the tank.
             "Excuse me?"   #octopus
             "You said thousands of creatures like me. But you're trapped as well, aren't you? Creatures like us."    #player
             "Ah well of course," he replies, a little nervous. "But as you can see I'm freer than most. Hard to keep us octopi locked away you know!"  #octopus
-            * * *  [Say nothing]
+            * * *  Say nothing #player #action
             * * * "You know 'octopi' is the wrong plural, right? It's a popular misconception." # player
                 "I really don't think it ma-"   #octopus
             * * * * "Plurals ending in 'i' are only for words with Latin roots. But octopus comes from the Greek 'oktṓ' meaning eight, and 'poús' meaning foot. # player
@@ -173,7 +173,7 @@ You hear a noise from the other side of the tank.
     -
     {turtletype == "escape": You are, indeed, the escapiest of the escape turtles.}
     {turtletype == "lucky": You are, indeed, the luckiest of the lucky turtles.}
-* [...]
+* ... #player #action
     -> start_first_drain
 = start_first_drain
 #scene:AquariumFloor
@@ -191,9 +191,9 @@ As you get closer you see further down the corridor a huge tank filled with beau
     ** [Ask about them.] "Are they happy here?" you ask. #player
     You look back at the tank curiously. You wonder what they're like, and when they got caught, and if they miss their friends in the sea.
     The Octopus sighs, "Of course they are, now let's go."  #octopus
-    ****[Follow him]
+    ****Follow him #player #action
     -> lonely_escape
-    ****[Turn back]
+    ****Turn back #player #action
     "No way, I'm going to save them all." #player
     -> together_escape
     

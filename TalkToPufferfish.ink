@@ -20,11 +20,11 @@ As you near the Pufferfish, she ducks behind a rock, eyeing you warily.
 * Approach the Pufferfish #player #action
     "Hey! Get away from me, germ bag!" #pufferfish
     The Pufferfish looks panicked, takes a deep breath ...
-    * * Uh-oh
+    * * Uh-oh #player #action
     - -
     ... and suddenly blows up like a big balloon. You take a hasty flap back. #right:PufferInflated
     "Idiot! You could kill us all!"    #pufferfish
-    **[...]
+    **... #player #action
     You're not sure that she wants to keep talking.
     
     ***Talk to someone else #player #action

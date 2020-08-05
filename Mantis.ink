@@ -35,7 +35,7 @@ The Mantis Shrimp appears, still half-hidden within the shade of his cave.
     ++ Hold your ground. #player #action
         You know this guy's got a fearsome punch, and you're no-one's idea of a fighter...
         
-        +++ Hide in your shell and brace 
+        +++ Hide in your shell and brace #player #action
         You tuck your head inside your shell, and just in time. The Mantis Shrimp's claw lets out a deafening crack, and you're sent spinning away.
         
         But it's not as bad as you expected. Maybe he's lost his touch?
@@ -106,7 +106,7 @@ The Mantis Shrimp stands before you, a dazzling display of colours. # right:mant
     + [I don't have a plan for that...]"Well we haven't figured that out just yet. But we will!" #player
         The Mantis Shrimp scoffs. "Like I thought. Just a load of half baked ideas. Leave me alone." #mantis
         He retreats back into his cave. You'll have to come up with something more impressive #right:
-            + + Go back to the rest of the fish.
+            + + Go back to the rest of the fish. #player #action
                 -> fish_options
             
 =convince_the_mantis
@@ -119,7 +119,7 @@ The Mantis Shrimp stands before you, a dazzling display of colours. # right:mant
     He takes a moment.
 -
 "How are you going to get the drain open?" he asks. #mantis
-* "The Octopus has agreed to help us!"[] you reply. "He's super dexterous, he can open it."
+* "The Octopus has agreed to help us!"[] you reply. "He's super dexterous, he can open it." #player
 -
 The Mantis Shrimp seems taken aback.
 "I see." #mantis
