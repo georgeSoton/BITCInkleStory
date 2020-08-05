@@ -65,8 +65,22 @@ The Octopus is up on the wall near the hatch, looking down at the chaos.
         
 = all_the_fish_die
     You can't watch. You didn't know them long, but you feel like you knew them well. There's nothing you can do now. 
-        {convinced_mantis: -> mantis_saves_us |->END}
-    -> END
+        {convinced_mantis: -> mantis_saves_us}
+        #right:octopus
+        "Well, little "friend", hasn't this all worked out perfectly? I warned you, you know. I told you not to try."    #octopus
+        * "This is all your fault!" #player
+        * "This is all my fault..." #player
+        - "This was all my plan, but you did make it rather easy for me." #Octopus
+        You clench your bill shut as you hear your friends splashing feebly in the puddles on the ground.
+        "Thanks for the snack," says the Octopus, descending from the wall. #Octopus
+        ** "NO!"[] you cry. #player
+            You lurch forward and place yourself between the Octopus and your dying friends.
+        ** [Hide] You hide in your shell, unable to watch.
+        -- "Come now, it's nothing to be upset about. They're done for anyway, it's for the best that they die for a reason. I will be sure to savour them." #Octopus
+        The Octopus 
+        
+        ~turtletype = "lonely"
+        ->END
     
 = mantis_saves_us
 *[...]
