@@ -63,7 +63,7 @@ The Mantis Shrimp appears, still half-hidden within the shade of his cave.
                     Despite your words, you still feel fairly nervous.
                     "He's a paranoid old balloon, but he's right about one thing. I'm not going to hurt anyone." #mantis
                 ***** "We're escaping, and he wants you to come with us." #mantis
-                    The Mantis Shrimp scoffs. "Sentimental balloon." #mantis
+                    The Mantis Shrimp scoffs. "Sentimental balloon."
             ----
             "Well you're here now, kid. Might as well get into it." #mantis
             -> ShrimpEmerge
@@ -119,7 +119,7 @@ The Mantis Shrimp stands before you, a dazzling display of colours. # right:mant
     He takes a moment.
 -
 "How are you going to get the drain open?" he asks. #mantis
-* "The Octopus has agreed to help us!"[] you reply. "He's super dexterous, he can open it." #player
+* "The Octopus has agreed to help us!"[] you reply. "He's super dexterous, he can open it."
 -
 The Mantis Shrimp seems taken aback.
 "I see." #mantis

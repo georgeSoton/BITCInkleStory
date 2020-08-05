@@ -194,7 +194,7 @@ As you get closer you see further down the corridor a huge tank filled with beau
     ****[Follow him]
     -> lonely_escape
     ****[Turn back]
-    "No way, I'm going to save them all." #player
+    "No way, I'm going to save them all."
     -> together_escape
     
 * Suggest saving them # player # action

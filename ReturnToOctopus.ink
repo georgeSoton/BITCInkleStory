@@ -39,7 +39,7 @@ You wait.
 The Octopus appears above your little tank, tentacles draped lazily into the water.
 "How's it going, little friend?"  #octopus
 * "Hey! I did it!" #player
-"Hang on a sec-" #octopus
+"Hang on a sec-" 
 The lid lifts up and the Octopus looms over the tiny tank.
 "What's going on, little friend?"  #octopus
 - ->octo_conversation
@@ -50,7 +50,7 @@ The Octopus looks skeptical.
     ** "No really["], I did it! {convinced_mantis: Even the Mantis Shrimp! He's not so scary really.}"  #player
     His features are hard to read, but you can tell he's surprised.
     ** "So when do we make our great escape?"   #player
-    -- "Let's slow down, little turtle. There are things you may not have considered." #octopus
+    -- "Let's slow down, little turtle. There are things you may not have considered." #Octopus
     -> octopus_questions    
 * "The main tank is amazing[!"], why didn't you tell me?!"  #player
 "Sure, I guess it's got its own charm..."  #octopus
@@ -71,7 +71,7 @@ He tilts his head a little to the side as though in deep thought, and then asks,
 
 * "Escape? Of course I do!" #player
 He rolls his beady eyes at you. 
-"Of course you want to escape, I mean do you want to escape like this? <> #octopus
+"Of course you want to escape, I mean do you want to escape like this? <>
 * "What do you mean?"   #player
 "<>
 - This plan of yours to free the whole tank, it's brave, you've got heart...but it's risky, my friend. I'd hate to see you get hurt."    #octopus

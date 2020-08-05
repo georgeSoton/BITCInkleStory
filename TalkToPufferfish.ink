@@ -28,9 +28,8 @@ As you near the Pufferfish, she ducks behind a rock, eyeing you warily.
     You're not sure that she wants to keep talking.
     
     ***Talk to someone else #player #action
-        right:
-        You decide it's best not to bother the Pufferfish anymore. You head back and talk to another fish.
-        left:
+        #right:
+        You decide it's best not to bother the Pufferfish anymore. You head back and talk to another fish #left:
         ->fish_options
         
     *** Keep your distance #player #action
