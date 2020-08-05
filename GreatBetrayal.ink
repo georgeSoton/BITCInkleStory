@@ -64,21 +64,36 @@ The Octopus is up on the wall near the hatch, looking down at the chaos.
         -> all_the_fish_die
         
 = all_the_fish_die
-    You can't watch. You didn't know them long, but you feel like you knew them well. There's nothing you can do now. 
-        {convinced_mantis: -> mantis_saves_us}
-        #right:octopus
-        "Well, little "friend", hasn't this all worked out perfectly? I warned you, you know. I told you not to try."    #octopus
-        * "This is all your fault!" #player
-        * "This is all my fault..." #player
-        - "This was all my plan, but you did make it rather easy for me." #Octopus
-        You clench your bill shut as you hear your friends splashing feebly in the puddles on the ground.
-        "Thanks for the snack," says the Octopus, descending from the wall. #Octopus
-        ** "NO!"[] you cry. #player
-            You lurch forward and place yourself between the Octopus and your dying friends.
-        ** [Hide] You hide in your shell, unable to watch.
-        -- "Come now, it's nothing to be upset about. They're done for anyway, it's for the best that they die for a reason. I will be sure to savour them." #Octopus
-        The Octopus 
-        
+    You can't watch. You didn't know them long, but you feel like you knew them well. There's nothing you can do now.
+    {convinced_mantis: -> mantis_saves_us}
+    * Hide from the horror
+        You retreat into your shell and do your best not to hear the Octopus gorging on your friends.
+        After an agonising wait, you hear him slithering back towards you.
+    -
+    #right:octopusnobubbles
+    #left:turtlenobubbles
+    "Well, little "friend", hasn't this all worked out perfectly? I warned you, you know. You could have simply left."    #octopus
+    * "This is all your fault!" #player
+        "This?" The octopus says, gesturing, "Was your doing. If you'd have escaped when I gave you the chance, it would have kept being the odd fish going missing in the night. This carnage? That was all you." #Octopus
+    * "This is all my fault..." #player
+        The octopus grins. "Quite right. And you'll have plenty of time to dwell on it." #Octopus
+    -
+    The Octopus latches onto your shell and lifts you into the air.
+    "While I appreciate the snack, you've interfered quite enough."
+    * "You can't eat me! I have my shell!" #player
+        He laughs. "You fool. I don't need to eat you to be rid of you." #octopus
+    * "Bring me closer and I'll bite you to pieces!" # player  
+        He laughs. "Oh no, I think I'll send you much, much farther away." #Octopus
+    -
+    He flicks open the latch of the drain and holds you over it.
+    * "Everyone, it's open! Escape, quickly!"
+        The octopus looks at the gasping fish. "You'd do well to know when to give up, little friend."
+    * Give In.
+    -
+    "Goodbye. I hope you do enjoy your freedom." The Octopus smirks. "Don't you worry, we'll be just fine."
+    And with that, you are cast down the drain. An ever shrinking circle of light is your last view of the aquarium and those you failed.
+    Eventually, you crash into the sea.
+    * Swim away
         ~turtletype = "lonely"
         ->END
     
