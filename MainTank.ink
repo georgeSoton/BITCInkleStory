@@ -38,7 +38,9 @@ Diving into the cool waters of the main tank, the sheer amount of life inside th
     ** "I'm sure I can manage that." #player
 
     He smiles. "You're quite a charismatic turtle. I'm sure you'll have no problem." #parrotfish
-    ~ turtletype = "charismatic"
+        {turtletype=="": 
+            ~turtletype = "charismatic"
+        }
 
     
     ** "Sounds tricky[."], maybe we should leave the creatures who don't want to come?" #player

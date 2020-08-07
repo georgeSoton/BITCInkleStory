@@ -35,7 +35,9 @@ You pale in shock.
 *   "I could investigate the Mantis Shrimp!"    #player
     The Octopus looks at you with a smile. 
     "If you are brave enough."#octopus
-    {turtletype="":~turtletype="brave"|}
+        {turtletype=="": 
+            ~turtletype = "brave"
+        }
 *   "I'm sure if we get everyone on board, the Mantis Shrimp cannot hurt us all."   #player
     The Octopus looks at you curiously.
     "If you are sure you can convince everyone."    #octopus

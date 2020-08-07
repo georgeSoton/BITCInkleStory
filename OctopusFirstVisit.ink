@@ -153,9 +153,13 @@ You hear a noise from the other side of the tank.
                     The Octopus rolls his eyes.
                     "You are not an escape turtle, little friend. I broke you out of here. You are a lucky turtle."  #octopus
                     * * * * * He's wrong, I'm an escape turtle. # player # action
-                        {turtletype="":~ turtletype = "escape"|}
+                        {turtletype=="": 
+                            ~turtletype = "escape"
+                        }
                     * * * * * He's right, I'm a lucky turtle. # player #action
-                        {turtletype="":~ turtletype = "lucky"|}
+                        {turtletype=="": 
+                            ~turtletype = "lucky"
+                        }
         - - -> FirstOctoQuestions
             
     * "That's all I wanted to ask. Let's go."    #player
