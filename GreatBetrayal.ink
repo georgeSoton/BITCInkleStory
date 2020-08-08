@@ -140,6 +140,7 @@ You take one last look around the room. This is it, they're all safe now, and it
 * Go to the surface and look back #player #action
  You can't help but take a peek at the prison you found yourself in, and quickly peer out of the water at the shoreline. The aquarium looms over the ocean, it's so much larger than you'd ever imagined.
  After a moment staring at that monstrous place, you turn and swim back to your friends.
+ -
  #left:turtle
  #right:shoal
 * Keep swimming #player #action
